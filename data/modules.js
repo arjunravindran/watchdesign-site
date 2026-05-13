@@ -44,6 +44,7 @@ export const modules = [
         type: 'content',
         tag: 'ANATOMY',
         heading: 'External Components',
+        image: '/images/m01/anatomy.png',
         body: 'BEZEL\nCASE\nLUGS\nDIAL\nCRYSTAL\nCROWN\nHANDS\nINDICES\nNot shown: CASEBACK (solid or exhibition) · PUSHER(s) on chronographs · BRACELET or STRAP lugs · SPRINGBAR attachment points',
       },
       {
@@ -86,6 +87,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · THE HEART',
         heading: 'The Escapement',
+        image: '/images/m01/escapement.png',
         body: 'The single most important component in a watch — and the designer\'s constraint\n01\nEscape Wheel\nToothed wheel that releases one tooth per oscillation of the balance wheel. Transmits energy from gear train to balance. Typically 15–20 teeth.\n02\nPallet Fork\nThe lever that controls the escape wheel. Pivots back and forth, catching and releasing the escape wheel teeth in alternation. The defining component of the Swiss lever escapement.\n03\nImpulse Pin\nSmall jewel on the balance roller that engages the pallet fork slot once per oscillation, ensuring the fork swings correctly and the balance receives an impulse of energy.\n04\nBalance Wheel\nThe oscillating wheel — the watch\'s pendulum. Its back-and-forth rotation at a fixed frequency (defined by hairspring tension and inertia) is what gives a watch its accuracy.\nBEATS PER HOUR (BPH) — What it means for design\n→  \n18,000 BPH (5 Hz) — Vintage, languid tick. Lower wear on parts, longer service intervals.\n→  \n21,600 BPH (6 Hz) — Standard for most ETA-based movements. Smooth sweep.\n→  \n28,800 BPH (8 Hz) — Most common today. Smoother seconds hand. ETA 2824, Miyota 9015.\n→  \n36,000 BPH (10 Hz) — High-beat: Grand Seiko, Omega 8500. Exceptional accuracy. More wear.',
       },
       {
@@ -107,6 +109,7 @@ export const modules = [
         type: 'content',
         tag: 'HISTORY · ERA 2',
         heading: '1700 – 1850  —  The Age of Precision',
+        image: '/images/m01/history.png',
         body: 'Abraham-Louis Breguet  (1747–1823)\nThe most cited reference point in watchmaking history. Invented or perfected: the tourbillon (1801), the over-coil hairspring (Breguet overcoil), the perpétuelle self-winding movement, the shock protection system (para-chute), and the guilloché engine-turned dial. His aesthetic — subtle, intellectual, deep — remains the template for high watchmaking.\n1759\nJohn Harrison H4\nMarine chronometer solves longitude problem. Accuracy at sea = national security. Watchmaking funded by the British government.\n1795–1801\nBreguet Tourbillon\nConceived c.1793–1795 during Breguet\'s Swiss exile; patent filed and granted June 26, 1801. The rotating cage counteracts gravity\'s effect on pocket watch accuracy. First commercial sale: 1805.\n1839\nPatek Philippe founded\nGeneva. The future home of the perpetual calendar and the world\'s most valuable auction watches. Founded on the principle of absolute precision.\n1845\nWaltham Mass. production\nAmerican factories begin producing interchangeable parts. Swiss craft vs American industry — a tension that defines the next 130 years.\nDesign legacy: Breguet\'s dial and hand aesthetic (the off-white, guilloché dial; the blued steel Breguet hands) is instantly identifiable 200 years later. This is what design longevity looks like.',
       },
       {

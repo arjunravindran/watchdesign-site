@@ -319,6 +319,11 @@ function SlideContent({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      {s.image && (
+        <div className="mt-4 mb-4 rounded-sm overflow-hidden border border-rule">
+          <img src={s.image} alt={s.heading || 'Slide image'} className="w-full h-auto object-cover" />
+        </div>
+      )}
       <div className="mt-4 space-y-2">
         {bodyLines.map((line, i) => {
           const trimmed = line.trim()

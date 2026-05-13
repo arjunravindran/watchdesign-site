@@ -1,81 +1,47 @@
-'use client'
-
-import { useEffect, useState } from 'react'
+import { getResourcesForModule } from '../../data/resources'
 
 export default function ResourcesPanel({ moduleNumber }) {
-  const [resources, setResources] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const resources = getResourcesForModule(moduleNumber)
 
-  useEffect(() => {
-    const fetchResources = async () => {
-      try {
-        const response = await fetch(`/api/resources?module=${moduleNumber}`)
-        if (!response.ok) throw new Error('Failed to fetch resources')
-        const data = await response.json()
-        setResources(data.resources)
-      } catch (err) {
-        setError(err.message)
-        console.error('Error fetching resources:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchResources()
-  }, [moduleNumber])
-
-  if (loading) {
-    return (
-      <aside className="space-y-4">
-        <div className="slide-card p-4 animate-pulse h-40 bg-rule/20" />
-      </aside>
-    )
-  }
-
-  if (error || !resources || resources.length === 0) {
+  if (!resources || resources.length === 0) {
     return null
   }
 
-  const essential = resources.filter(r => r.priority === 'Essential')
-  const recommended = resources.filter(r => r.priority === 'Recommended')
+  const essential = resources.filter(r => r.tier === 'Essential')
+  const recommended = resources.filter(r => r.tier === 'Recommended')
 
   const getIcon = (type) => {
     const icons = {
       'Book': '📖',
       'Article': '📄',
-      'Video': '▶️',
+      'Video': '▶',
       'Course': '🎓',
-      'Tool': '🛠️',
-      'Podcast': '🎙️',
-      'Paper': '📋',
-      'Community': '👥',
+      'Tool': '⚙',
+      'Podcast': '🎙',
+      'Website': '🔗',
     }
-    return icons[type] || '📌'
+    return icons[type] || '◆'
   }
 
   const ResourceItem = ({ resource }) => (
-    <div className="pb-3 border-b border-rule last:border-b-0">
-      <div className="flex gap-3">
-        <span className="text-lg shrink-0">{getIcon(resource.type)}</span>
+    <div className="pb-2.5 border-b border-rule last:border-b-0 last:pb-0">
+      <div className="flex gap-2">
+        <span className="text-xs text-gold-dim shrink-0 mt-0.5">{getIcon(resource.type)}</span>
         <div className="min-w-0 flex-1">
           {resource.url ? (
             <a
               href={resource.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-mist hover:text-gold transition-colors font-medium text-sm underline"
+              className="text-mist hover:text-gold transition-colors text-xs font-medium leading-snug block"
             >
               {resource.title}
             </a>
           ) : (
-            <div className="text-mist font-medium text-sm">{resource.title}</div>
+            <div className="text-mist text-xs font-medium leading-snug">{resource.title}</div>
           )}
-          {resource.notes && (
-            <p className="text-grey text-xs mt-1 leading-relaxed">{resource.notes}</p>
-          )}
-          {resource.platform && (
-            <p className="text-grey-dim text-[10px] mt-1">{resource.platform}</p>
+          {resource.source && (
+            <p className="text-grey text-[10px] mt-0.5 leading-snug italic">{resource.source}</p>
           )}
         </div>
       </div>
@@ -83,12 +49,11 @@ export default function ResourcesPanel({ moduleNumber }) {
   )
 
   return (
-    <aside className="space-y-4">
-      {/* Essential Resources */}
+    <div className="space-y-4">
       {essential.length > 0 && (
         <div className="slide-card p-4">
           <h3 className="eyebrow mb-3 text-gold">Essential</h3>
-          <div className="space-y-3">
+          <div className="space-y-2.5">
             {essential.map((resource, i) => (
               <ResourceItem key={i} resource={resource} />
             ))}
@@ -96,17 +61,16 @@ export default function ResourcesPanel({ moduleNumber }) {
         </div>
       )}
 
-      {/* Recommended Resources */}
       {recommended.length > 0 && (
         <div className="slide-card p-4">
           <h3 className="eyebrow mb-3 text-gold-dim">Recommended</h3>
-          <div className="space-y-3">
+          <div className="space-y-2.5">
             {recommended.map((resource, i) => (
               <ResourceItem key={i} resource={resource} />
             ))}
           </div>
         </div>
       )}
-    </aside>
+    </div>
   )
 }

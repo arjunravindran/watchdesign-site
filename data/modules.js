@@ -16,6 +16,7 @@ export const modules = [
         type: 'hero',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 01',
+        image: 'https://loremflickr.com/800/500/watch?lock=0',
         body: 'Anatomy &\nHistory of Horology\nFrom the birth of the portable timepiece to the modern watch industry\n2 Sessions  ·  Foundational  ·  Reading: Clutton & Daniels Chs 1–3, Watchfinder & Co. YouTube',
       },
       {
@@ -23,6 +24,7 @@ export const modules = [
         type: 'overview',
         tag: 'MODULE OVERVIEW',
         heading: 'What This Module Covers',
+        image: 'https://loremflickr.com/800/500/watch?lock=1',
         body: 'SESSION 1A\nWatch Anatomy & Designer\'s Role\n◆  \nCase, dial & hand terminology\n◆  \nMovement types & functions\n◆  \nThe escapement explained\n◆  \nComplications overview\nSESSION 1B\nHorology History & Brand Landscape\n◆  \n500 years in 40 minutes\n◆  \nThe Quartz Crisis & its consequences\n◆  \nBrand DNA: Rolex, Patek, Seiko\n◆  \nWhere the market sits today\nAssignment 1 — Deliverable: Deconstruct 3 watch brands in depth. Due end of Module 1.',
       },
       {
@@ -30,6 +32,7 @@ export const modules = [
         type: 'content',
         tag: 'ORIENTATION',
         heading: 'Why History Is a',
+        image: 'https://loremflickr.com/800/500/watch?lock=2',
         body: 'Design Tool\n01\nConventions exist for reasons\nThe crown at 3 o\'clock, the 12/6/9 hierarchy, the swept seconds hand — each emerged from a specific functional or manufacturing constraint. When you break a convention, you must replace it with something better.\n02\nCollectors are your market\nSerious buyers are historically literate. A design that accidentally echoes a celebrated reference gains depth. One that poorly imitates it loses credibility. You cannot navigate this without knowing the references.\n03\nIdeas repeat across eras\nSports-luxury crossover, oversized cases, two-tone metal, integrated bracelets — these have all appeared, disappeared, and returned. Understanding cycles gives you a better read on where design is going.\n"The 1960s and 70s were incredibly creative and daring decades. What have we done since?"\n— Emmanuel Gueit, designer of the Royal Oak Offshore',
       },
       {
@@ -37,6 +40,7 @@ export const modules = [
         type: 'content',
         tag: 'VOCABULARY',
         heading: 'What Is Horology?',
+        image: 'https://loremflickr.com/800/500/watch?lock=3',
         body: 'ho·rol·o·gy\n/hɒˈrɒlədʒi/  noun\nThe science of measuring time and the art of making instruments for this purpose. Encompasses clocks, watches, sundials, water clocks, and all timekeeping devices.\n16th C\nSpring-driven pocket watches\n17th C\nBalance spring escapements\n18th C\nMarine chronometers\n19th C\nIndustrial production\n20th C\nThe wristwatch era\n21st C\nMechanical renaissance\nWhy the Wristwatch?\n→  \nMost personal object most people own\n→  \nWorn against skin — intimate scale\n→  \nCombines mechanics + aesthetics at 40mm\n→  \nHolds cultural & emotional meaning\n→  \nStill purchased when smartphones exist',
       },
       {
@@ -52,6 +56,7 @@ export const modules = [
         type: 'content',
         tag: 'ANATOMY · CASE',
         heading: 'The Case — Architecture of the Shell',
+        image: 'https://loremflickr.com/800/500/watch?lock=4',
         body: 'Case Diameter\nMeasured across the widest point excluding crown. Standard ranges: 36mm (dress) to 47mm (sport). The most quoted spec and a primary design constraint. Affects visual weight and wearability on different wrist sizes.\nCase Height / Thickness\nDetermined largely by movement choice. Ultra-thin movements (&lt; 2mm) enable dress watches under 7mm total height. Diver movements often exceed 13mm. Thickness dramatically affects how a watch wears.\nLug-to-Lug Distance\nThe span from top to bottom lug tip. More important than diameter for wearability — a 42mm watch with short lugs can wear smaller than a 38mm with long lugs. Often the first spec serious collectors check.\nCase Shape\nRound (most common), tonneau (barrel-shaped), rectangular (Cartier Tank DNA), cushion, octagonal (Royal Oak). Shape is the primary design statement of a watch case.\nCase Material\n316L or 904L stainless steel (standard), titanium (lightweight, hypoallergenic), gold (yellow, rose, white), bronze (patinas over time), ceramic. Each has distinct finishing properties.\nCaseback\nScrewdown, snap-in, or exhibition (sapphire crystal revealing movement). Exhibition casebacks are a marketing and design decision — they create desire for finishing quality.',
       },
       {
@@ -59,6 +64,7 @@ export const modules = [
         type: 'content',
         tag: 'ANATOMY · DIAL',
         heading: 'The Dial — Face of the Watch',
+        image: 'https://loremflickr.com/800/500/watch?lock=5',
         body: 'FINISH TYPES\nSunburst\nRadial brushing from centre. Changes appearance with light angle.\nMatte\nUniform textured surface. Legible, modern. Common in field watches.\nLacquered\nDeep, glossy. Dress watches. Shows imperfections readily.\nFumé / Gradient\nGraduated tone from dark centre to lighter edge. Highly fashionable 2020s.\nGuilloché\nEngine-turned geometric pattern. Historical, high craft. Breguet DNA.\nINDEX TYPES\nApplied Indices\n3D metal markers applied to the dial surface. Adds depth and quality perception. Requires precise manufacturing.\nPrinted Indices\nPainted or printed onto dial. More economical. Can achieve very fine detail (Breguet numerals).\nArabic Numerals\n0–12 numerals. Pilots, dress, field watches. Legibility over elegance.\nRoman Numerals\nI–XII. Classic, formal. Cartier, Patek, dress tradition. Occupies more dial space.\nBaton / Stick\nSimple rectangular bars. Versatile. Common in sports and dress contexts.',
       },
       {
@@ -66,6 +72,7 @@ export const modules = [
         type: 'content',
         tag: 'ANATOMY · HANDS',
         heading: 'Hands — Typography in Motion',
+        image: 'https://loremflickr.com/800/500/watch?lock=6',
         body: 'Dauphine\n1940s–present\nDress watches. Elegant taper. Patek, JLC, dress Rolex.\nSword / Baton\n1950s–present\nSports watches. Simple, legible. AP Royal Oak, many sports refs.\nMercedes\n1953–present\nRolex signature since the Explorer. Immediately recognisable.\nLancet / Spade\n1930s–60s\nVintage military and pilot. Strong legibility. Reviving in microbrand design.\nSnowflake\n1969–present\nTudor Snowflake — highly distinctive. The hand is the watch\'s identity.\nCathedral\n1940s–60s\nVintage dress, Omega. Maximally legible opening for lume.',
       },
       {
@@ -73,6 +80,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS',
         heading: 'Inside the Machine',
+        image: 'https://loremflickr.com/800/500/watch?lock=7',
         body: 'MAINSPRING\nEnergy source\n→\nGEAR TRAIN\nEnergy transmission\n→\nESCAPEMENT\nEnergy regulation\n→\nBALANCE WHEEL\nOscillator / timekeeping\nMainspring\nA coiled strip of metal that stores mechanical energy when wound. Its tension is released gradually through the gear train over the movement\'s power reserve (typically 38–80 hours).\nGear Train\nA series of interlocking wheels that transmit and step down the mainspring\'s energy to drive the hands at the correct rate. Wheels are typically made of brass with steel pinions.\nEscapement\nThe most critical component. Controls the release of energy from the gear train in discrete pulses. The lever escapement — invented c.1760 — is still used in 99% of mechanical watches.\nBalance Wheel + Hairspring\nThe watch\'s heart. The balance wheel oscillates back and forth at a fixed frequency (beats per hour, BPH) regulated by the hairspring tension. This frequency directly determines accuracy.',
       },
       {
@@ -80,6 +88,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · MOVEMENT TYPES',
         heading: 'Manual · Automatic · Quartz',
+        image: 'https://loremflickr.com/800/500/watch?lock=8',
         body: 'Manual Wind\nAdvantages\n+ \nThinnest possible movement\n+ \nPurest horological experience\n+ \nDaily ritual of winding\nLimitations\n– \nMust be wound daily\n– \nNo rotor — quieter, thinner\nPatek 5196, Jaeger-LeCoultre Reverso, IWC Portofino Hand-Wound\nAutomatic\nAdvantages\n+ \nSelf-winding via rotor\n+ \nMost versatile — dress to sport\n+ \nWider movement ecosystem\nLimitations\n– \nHeavier (rotor adds weight)\n– \nSlightly thicker than equivalent manual\nETA 2824, Miyota 9015, Rolex 3235, Omega 8500\nQuartz\nAdvantages\n+ \nHighly accurate (±15s/yr)\n+ \nLow cost and maintenance\n+ \nThin possible profiles\nLimitations\n– \nBattery (or solar) required\n– \nNo horological cachet\n– \nNot mechanical\nETA 956, Miyota 2035, Seiko VH31, Grand Seiko 9F86',
       },
       {
@@ -95,6 +104,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · COMPLICATIONS',
         heading: 'Beyond the Time — Complications',
+        image: 'https://loremflickr.com/800/500/watch?lock=9',
         body: 'SIMPLE\n◆  \nDate (instantaneous or retrograde)\n◆  \nPower Reserve Indicator\n◆  \nSmall Seconds\n◆  \n24-Hour Hand\n◆  \nAlarm\nINTERMEDIATE\n◆  \nChronograph (stopwatch)\n◆  \nGMT / Dual Time Zone\n◆  \nAnnual Calendar\n◆  \nMoon Phase\n◆  \nRegulator\nGRAND COMPLICATION\n◆  \nTourbillon (counteracts gravity)\n◆  \nPerpetual Calendar (self-correcting)\n◆  \nMinute Repeater (chimes time)\n◆  \nSplit-seconds chronograph\n◆  \nEquation of Time\n⚠  Designer\'s note: Every complication requires additional apertures, subdials, or pushers — each is a design problem and a manufacturing constraint. Never specify a complication for aesthetics alone.',
       },
       {
@@ -102,6 +112,7 @@ export const modules = [
         type: 'content',
         tag: 'HISTORY · ERA 1',
         heading: '1500 – 1700',
+        image: 'https://loremflickr.com/800/500/watch?lock=10',
         body: 'Birth of the Portable Timepiece\nc.1510\nPeter Henlein, Nuremberg\nFirst spring-driven portable clock. Drum-shaped, worn around the neck. Accuracy: ±30 minutes/day. The concept of wearable timekeeping is born.\n1657\nHuygens — Pendulum Clock\nChristiaan Huygens invents the pendulum clock, reducing daily error from ~15 minutes to ~15 seconds. Stationary timekeeping is transformed. The portable equivalent would come 18 years later.\n1631\nWorshipful Company of Clockmakers\nLondon\'s clockmakers guild established — the first formal professional body in watchmaking. Thomas Tompion (1639–1713) and George Graham (1673–1751) later emerge from this tradition.\n1675\nHuygens — Balance Spring (Hairspring)\nThe invention that made portable accuracy possible. Published January 20, 1675 in the Journal des Sçavans. The coiled spring allows the balance wheel to oscillate at a regulated frequency. Still in use today. This is the fundamental innovation of portable horology.\n1700\nCase design begins to evolve\nEarly watches are purely functional objects in simple cases. As accuracy improves and watches become status symbols, the case begins to receive ornamental attention — enamel, engraving, precious metal.',
       },
       {
@@ -117,6 +128,7 @@ export const modules = [
         type: 'content',
         tag: 'HISTORY · ERAS 3 & 4',
         heading: '1850–1969 — Industry, War & the',
+        image: 'https://loremflickr.com/800/500/watch?lock=11',
         body: 'Golden Age of the Wristwatch\n1868\nFirst wristwatch\nPatek Philippe for Countess Koscowicz\nPocket watch mechanics in bracelet form. A novelty for women, initially mocked by men.\n1904\nSantos Dumont\nCartier for aviator Alberto Santos-Dumont\nFirst men\'s wristwatch of design intention. Square case, exposed screws. Still in production today.\n1916–18\nWWI trench watches\nTiming artillery fire demanded wrist-worn\nThe wristwatch becomes a tool of war. Men adopt it. The pocket watch begins its slow death.\n1926\nRolex Oyster — first waterproof\nHans Wilsdorf, Geneva\nHermetically sealed case. The wristwatch becomes robust. Rolex\'s DNA of waterproof, dustproof reliability begins.\n1953\nThe Sports Watch Era\nRolex Submariner · Blancpain Fifty Fathoms · IWC Big Pilot\nFunction becomes the design brief. Legibility, durability, water resistance. The design language of the modern sports watch is born.\n1963\nOmega Speedmaster\nTested and adopted by NASA, 1965\nThe watch that went to the moon. Defines the chronograph category\'s aspirational peak for the next 60 years.',
       },
       {
@@ -124,6 +136,7 @@ export const modules = [
         type: 'content',
         tag: 'HISTORY · THE TURNING POINT',
         heading: '1969–1983 — The Quartz Crisis',
+        image: 'https://loremflickr.com/800/500/watch?lock=12',
         body: '1969\nSeiko Astron — first quartz watch\nAccurate to ±5 seconds/year. Revolutionary.\n~50%\nSwiss watch exports halved\nFrom 1974 peak to early 1980s. An industry near collapse.\n1,000+\nSwiss watchmakers closed\nEmployment: 90,000 (1970) → 33,000 (1984) → 28,000 (1988).\nWhat Happened\nJapanese manufacturers (Seiko, Citizen) and then Hong Kong/Taiwanese producers offered quartz watches at a fraction of the cost and vastly superior accuracy. Swiss watchmakers, who had invested centuries in mechanical expertise, had no competitive answer. The mid-tier Swiss watch industry — watches priced between $50–$500 — was essentially destroyed.\nThe irony: The CEH (Centre Electronique Horloger) in Neuchâtel, Switzerland had developed quartz watch technology in parallel with Seiko and actually showed a prototype in 1967. But Swiss industry leaders failed to commercialise it aggressively, believing mechanical watches were too culturally embedded to be displaced.\nThe Salvation: Swatch (1983)\n→  \nNicolas Hayek\'s insight: reclaim low-price quartz — but make it fashionable, Swiss, and disposable.\n→  \nSwatch used quartz to protect the Swiss industry\'s volume. Allowed Omega, Longines, IWC to reposition up the value chain.\n→  \nThe mechanical watch became luxury, not commodity. This repositioning saved the industry and defined it for the next 40 years.',
       },
       {
@@ -131,6 +144,7 @@ export const modules = [
         type: 'content',
         tag: 'HISTORY · TODAY',
         heading: '1984–Now — The Mechanical',
+        image: 'https://loremflickr.com/800/500/watch?lock=13',
         body: 'Renaissance & Independent Era\n1984–2000\nLuxury Repositioning\nSwiss brands abandon the mid-market. Rolex, Patek, AP become investment objects. IWC and Jaeger-LeCoultre revive heritage lines. Complications regain prestige.\n2000–2010\nBoom & Complexity\nPre-2008 boom. Ultra-complicated watches become status signifiers. Richard Mille founded 2001. Skeletonised movements, tonneau cases, avant-garde materials. The anti-dress-watch movement.\n2010–2020\nMicrobrand Revolution\nInternet lowers barriers to brand creation. Baltic, Lorier, AnOrdain, Halios, Farer emerge. Design-first brands with no Swiss heritage compete on taste, story, and value.\n2020–Now\nConsolidation & Craft\nPremium segment booms post-COVID. Watch auctions hit new records. Secondary market explodes. But: overproduction in mid-tier, China slowdown 2024. Design quality bifurcates sharply.\nYour opportunity as a designer: The microbrand category is the most open and design-forward segment of the entire watch market.',
       },
       {
@@ -138,6 +152,7 @@ export const modules = [
         type: 'content',
         tag: 'MARKET LANDSCAPE',
         heading: 'The Swiss Watch Market Pyramid',
+        image: 'https://loremflickr.com/800/500/watch?lock=14',
         body: 'Ultra High End / Independent\nPatek Philippe · A. Lange · F.P. Journe · Richard Mille · MB&F\nHigh End / Prestige\nRolex · Audemars Piguet · IWC · Jaeger-LeCoultre · Omega (upper)\nMid Prestige\nTAG Heuer · Longines · Tissot (upper) · Nomos · Microbrands (premium)\nAccessible / Fashion\nSeiko (upper) · Hamilton · Frederique Constant · most Microbrands\nEntry / Volume\nSwatch · Seiko (lower) · Casio · Fashion brands · Chinese OEM\nSource: Federation of the Swiss Watch Industry (FHS) Annual Export Statistics 2024 — CHF 26 billion total, 15.3 million units. Full data: fhs.swiss/eng/statistics.html',
       },
       {
@@ -145,6 +160,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND DNA CASE STUDY  ·  01 / 03',
         heading: 'Rolex',
+        image: 'https://loremflickr.com/800/500/watch?lock=15',
         body: 'Founded 1905 · Geneva · Private · ~1 million watches/year\nDesign Consistency\nThe Submariner dial has not changed fundamentally since 1953. The Datejust since 1945. This is not conservatism — it is brand equity protection. Every Rolex looks immediately like a Rolex. Students: what visual elements make this possible?\nMaterial Innovation\nRolex develops proprietary materials: Oystersteel (904L stainless, harder and more corrosion-resistant than industry standard 316L), Cerachrom (ceramic bezel insert, scratch-proof), Chromalight (blue luminescent material). Innovation is functional, not aesthetic.\nIn-House Everything\nRolex is one of very few brands with end-to-end vertical integration: foundry, spring production, escapement, movement, case, bracelet, dial. This gives absolute control over quality and supply chain — and justifies the premium.\nBrand as Investment\nRolex is the only watch brand with significant secondary market price support at retail price or above. The \'Rolex premium\' is real and documented. This is the product of decades of supply control, quality consistency, and brand storytelling.\nKey references to study: Submariner 124060 · Datejust 36 · GMT-Master II \'Pepsi\' 126710 · Day-Date 40 · Explorer II 226570',
       },
       {
@@ -152,6 +168,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND DNA CASE STUDIES  ·  02 / 03  &  03 / 03',
         heading: 'Patek Philippe  ·  Seiko',
+        image: 'https://loremflickr.com/800/500/watch?lock=16',
         body: 'Patek Philippe\nFounded 1839  ·  Geneva  ·  Family owned\nPositioning\nThe pinnacle of Swiss watchmaking. No marketing; word of mouth. Every purchase requires relationship with an AD.\nDesign language\nElegance through restraint. Calatrava: round, no-date, dome crystal. Nautilus: Genta\'s integrated bracelet, horizontal embossed dial. Both are icons of their category.\nComplications\nThe perpetual calendar is Patek\'s signature complication. The 5711/5712 Nautilus are the most discussed modern pieces. The 5016A pocket watch: $7.3M at auction.\nBrand positioning\n"You never actually own a Patek Philippe. You merely look after it for the next generation." — This line is brand strategy, not tagline. It repositions the watch as patrimony.\nSeiko\nFounded 1881  ·  Tokyo  ·  Seiko Epson Group\nPhilosophy\nContext-appropriate design. Functional beauty. The watch should be exactly what it claims to be — no more, no less.\nDesign language\nZaratsu-polished cases with hairline/mirror contrast. Snowflake hands (SKX/Presage). Grand Seiko Shizukuishi dials reflecting Japanese landscapes.\nInnovation\nQuartz (1969, Astron), Spring Drive (1999: quartz-regulated mechanical), Hi-Beat (36,000 BPH for accuracy). Led every major watch technology shift in 60 years.\nDiversity\nFive sub-brands: Grand Seiko (luxury), Seiko (mid), Seiko 5 (entry), Prospex (sport), Presage (craft). Each has distinct DNA and audience.',
       },
       {
@@ -159,6 +176,7 @@ export const modules = [
         type: 'assignment',
         tag: 'ASSIGNMENT 1',
         heading: 'Brand Deconstruction',
+        image: 'https://loremflickr.com/800/500/watch?lock=17',
         body: 'The Brief\nChoose three watch brands from different market tiers (one luxury/Swiss, one mid-tier, one microbrand or Japanese). For each brand, produce a written analysis of 400–600 words covering the points opposite.\nFor each brand, analyse:\n1.  \nFounding year, origin, current ownership\n2.  \nMarket tier and target consumer profile\n3.  \nCore design signatures (case shape, dial, hands, colour language)\n4.  \nMovement strategy (in-house vs ebauche, key caliber)\n5.  \n3 key reference models and what each says about brand DNA\n6.  \nBrand narrative — what story are they telling?\n7.  \nYour evaluation: strengths and weaknesses as a design object\nEvaluation Criteria\n30%\nAccuracy\nAre facts about history, ownership, and specifications correct?\n40%\nDepth of Analysis\nDoes the analysis go beyond surface description? Does it explain why?\n30%\nDesign Eye\nDo you identify specific visual elements with precision? Can you name components?\nFormat: Written doc or Notion  ·  ~1,500 words total  ·  Due: End of Module 1',
       },
       {
@@ -166,6 +184,7 @@ export const modules = [
         type: 'summary',
         tag: 'MODULE SUMMARY',
         heading: 'What You Should Now Know',
+        image: 'https://loremflickr.com/800/500/watch?lock=18',
         body: '01\nVocabulary\nYou can name every external component of a watch, explain the difference between dial finish types and index styles, and identify hand profiles by name.\n02\nMechanics\nYou understand the power flow from mainspring through gear train, escapement, and balance wheel. You can explain the difference between manual, automatic, and quartz movements.\n03\nHistory\nYou can trace watchmaking from Henlein through Breguet, the wristwatch revolution, the Quartz Crisis, and the mechanical renaissance. You understand why mechanical watches have cultural value.\n04\nBrand DNA\nYou have studied three brands at depth and can articulate what makes each distinct at a design level — not just commercially, but visually and technically.\n05\nMarket awareness\nYou understand where the Swiss watch market sits, how it is segmented, and where your future work as a designer will most likely enter the conversation.',
       },
       {
@@ -173,6 +192,7 @@ export const modules = [
         type: 'resources',
         tag: 'MODULE 1 · RESOURCES',
         heading: 'Further Study',
+        image: 'https://loremflickr.com/800/500/watch?lock=19',
         body: 'ESSENTIAL READING\n◆  \nWatches: A Complete History — Clutton & Daniels (Borrow: archive.org) — Chapters 1–4\n◆  \nThe Art of Breguet — George Daniels — Any chapter, visual study\n◆  \nGérald Genta: Beyond the Royal Oak — A Collected Man (acollectedman.com)\nESSENTIAL WATCHING\n◆  \nWatchfinder & Co. YouTube — Watch any 5 brand history videos. Take notes.\n◆  \nHodinkee — Read any 3 \'In Depth\' articles on specific references\n◆  \nFHH Encyclopedia (hautehorlogerie.org) — Look up every component from Slide 5\nLISTENING (while sketching / commuting)\n◆  \nThe Watches Of Podcast — Collective Horology (Apple / Spotify) — 1 episode/brand\n◆  \nThe Watch Files Podcast — Europa Star & Grail Watch (Apple / Spotify)\nCOMMUNITY & PRACTICE\n◆  \nWatchUSeek Forums (watchuseek.com) — Technical subforum for component questions\n◆  \nr/WatchHorology (reddit.com) — Post your Assignment 1 draft for feedback\n◆  \nPatek Philippe Museum Online (patek.com) — Visual study of case evolution 1580–2024',
       },
       {
@@ -180,6 +200,7 @@ export const modules = [
         type: 'endcard',
         tag: 'MODULE 01  COMPLETE',
         heading: 'Anatomy &',
+        image: 'https://loremflickr.com/800/500/watch?lock=20',
         body: 'History of Horology\nNext: Module 2 — Brand Strategy & Market Landscape',
       },
     ],
@@ -201,6 +222,7 @@ export const modules = [
         type: 'hero',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 02',
+        image: 'https://loremflickr.com/800/500/watch?lock=21',
         body: 'Brand Strategy &\nMarket Landscape\nFrom consumer psychology to the brand brief that drives every design decision\n2 Sessions  ·  Intermediate  ·  Reading: Neumeier ZAG, The Brand Gap  ·  Assignment 2: Full Brand Brief',
       },
       {
@@ -208,6 +230,7 @@ export const modules = [
         type: 'overview',
         tag: 'MODULE OVERVIEW',
         heading: 'What This Module Covers',
+        image: 'https://loremflickr.com/800/500/watch?lock=22',
         body: 'SESSION 2A\nBrand Strategy Fundamentals\n◆  \nWhat a brand actually is\n◆  \nThe five disciplines of brand-building\n◆  \nDesign as competitive strategy\n◆  \nConsumer psychology & luxury goods\nSESSION 2B\nMarket Landscape & The Brand Brief\n◆  \nReading the FHS market data\n◆  \nPositioning maps & white space\n◆  \nMicrobrand case studies: Baltic, AnOrdain, CW\n◆  \nWriting your own brand brief\nAssignment 2 — Deliverable: Full Brand Brief. The document that drives Modules 4–9. Due end of Module 2.',
       },
       {
@@ -215,6 +238,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · FOUNDATIONS',
         heading: 'What a Brand Actually Is',
+        image: 'https://loremflickr.com/800/500/watch?lock=23',
         body: 'A brand is NOT a logo\nA logo is a symbol. A brand is the total perception someone has when they encounter that symbol. Rolex\'s crown logo has no intrinsic value — the associations accumulated over 100 years give it value.\nA brand is NOT a product\nProducts are manufactured. Brands are felt. Two watches can share identical movements, cases, and dials — and be perceived entirely differently based on their brand context. The Omega Seamaster and a rebranded ETA 2824 watch are functionally similar. The perception gap is enormous.\nA brand is NOT advertising\nAdvertising is what you say. Brand is what people believe. Patek Philippe spends almost nothing on advertising. They spend everything on product quality, distribution control, and reputation management. The result: the most desired watch brand on earth.\n"A brand is a person\'s gut feeling about a product, service, or organisation."\n— Marty Neumeier, The Brand Gap (2003)  ·  Free PDF: martyneumeier.com/the-brand-gap\nImplication: You cannot control your brand. You can only influence it through consistent product quality, design, and communication over time.',
       },
       {
@@ -222,6 +246,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · NEUMEIER',
         heading: 'The Five Disciplines of Brand-Building',
+        image: 'https://loremflickr.com/800/500/watch?lock=24',
         body: '01  Differentiate\nFind the one thing that makes your brand unique and impossible to confuse with anyone else. In watches: this might be a design language, a complication focus, a material, a heritage narrative, or a consumer segment. Without differentiation, you are competing on price.\nWatch: \nBaltic: vintage-inspired French design language at accessible price.\n02  Collaborate\nBrands are built by ecosystems. For a watch brand: your movement supplier, case manufacturer, retailer, press, and community all contribute to what your brand means. Choose collaborators who add to the brand\'s credibility.\nWatch: \nAnOrdain collaborating with Scottish craftspeople for enamel dials.\n03  Innovate\nDifferentiation must be actively maintained. As competitors catch up, you must evolve. In watches: new materials, new complications, new design directions — always in service of the core positioning.\nWatch: \nGrand Seiko\'s Spring Drive caliber: a genuine mechanical innovation.\n04  Validate\nTest your ideas with real audiences before investing in production. For watches: early renders, community engagement (Reddit, forums), collaborations with reviewers. The watch community is vocal — use this.\nWatch: \nFratello\'s \'Building a Watch Brand\' series validating VPC designs publicly.\n05  Cultivate\nBrand-building is a long-term activity. Consistency compounds. Every watch released, every Instagram post, every customer interaction is an investment — or a withdrawal — from brand equity.\nWatch: \nRolex\'s 70-year design consistency as the ultimate brand equity investment.',
       },
       {
@@ -229,6 +254,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · DESIGN',
         heading: 'Design as Competitive Advantage',
+        image: 'https://loremflickr.com/800/500/watch?lock=25',
         body: '"Form follows emotion. Function follows form. And everything follows culture."\n— Hartmut Esslinger, founder of Frog Design. Designed Apple\'s Snow White design language (1980s) that defined personal computing aesthetics for a decade.\nDesign as Differentiation\nWhen products are functionally similar, design becomes the primary basis for choice. In the CHF 500–2,000 microbrand segment, almost every watch uses similar Swiss or Japanese movements. The watch that sells is the one whose design language most precisely addresses its target consumer.\nTwo watches, both ETA 2824, both 40mm. One sells at retail. One sits in inventory. The only difference is design quality and brand consistency.\nDesign as Communication\nEvery design decision communicates a value. Polished bevels say \'craft matters.\' A matte titanium case says \'function matters.\' A guilloché dial says \'heritage matters.\' These are not arbitrary choices — they are conversations with your target consumer. Understand what they value before you design.\nAnOrdain\'s enamel dials communicate: I am made by hand, I am one-of-a-kind, I reward attention. This justifies £1,200+ from collectors.\nDesign as Protection\nStrong design creates barriers to imitation. If your watch looks like everything else, anyone can copy it. If your watch has a distinctive, coherent design language — Snowflake hands, Aquaracer-specific case proportions, AnOrdain enamel — copying it requires obvious plagiarism that damages the imitator\'s credibility.\nTudor\'s Snowflake hand is trademarked. The Grand Seiko Style is copyrighted. Design as IP protection is underexplored in the microbrand space.',
       },
       {
@@ -236,6 +262,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · CONSUMER',
         heading: 'Why People Buy Mechanical Watches',
+        image: 'https://loremflickr.com/800/500/watch?lock=26',
         body: '— when a £10 quartz is more accurate\nMechanical Fascination\nThe movement is visible proof of human ingenuity — 200 components achieving one function, entirely without electronics. This appeals to a specific type of analytical mind. It is not nostalgia; it is respect for craft.\nStrong in engineering/technical professions\nStatus Signal\nA visible watch communicates wealth, taste, and belonging to a social group. Different watches signal membership in different communities (Rolex = established success; independent watches = serious collector; Grand Seiko = connoisseur).\nLuxury segment, gift market\nHeritage & Narrative\nWatches carry history in a way few objects do. The Speedmaster went to the moon. The Submariner designed for diving. The Pilot designed for cockpits. The narrative of a watch\'s origin legitimises its form and justifies its price.\nCollector market, enthusiast community\nAesthetic Pleasure\nThe watch as wearable sculpture. Collector communities genuinely treat watches as art objects — the guilloche dial, the anglage finishing, the hand-engraved balance cock. This is the collector who reads Hodinkee and attends watch fairs.\nIndependent and haute horlogerie segment\nInvestment & Store of Value\nRolex, Patek, AP: documented secondary market appreciation. The buyer who spends CHF 10,000 on a Submariner knows it can be sold for CHF 10,000 in 10 years. This converts luxury spending into perceived saving.\nUpper market; Rolex, Patek Philippe\nMilestone & Memory\nWatch purchases are disproportionately tied to major life events: graduation, promotion, retirement, inheritance. The watch becomes a physical anchor for memory. This is the most universal watch purchase motivation.\nAll price points, gift market',
       },
       {
@@ -243,6 +270,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · PRICING',
         heading: 'Price Psychology in the Watch Market',
+        image: 'https://loremflickr.com/800/500/watch?lock=27',
         body: '&lt; £150\nFunctional\nSeiko 5, Casio, Orient\nFirst watch, everyday utility, gift. No perceived status.\nLegibility, robustness, simple maintenance. No room for premium finishing.\n£150–500\nEnthusiast Entry\nSeiko Presage, Hamilton, Baltic, Lorier\nWatch-aware consumer. Values quality and story. First \'intentional\' purchase.\nDesign language matters. Community credibility crucial. Movement choice visible.\n£500–2,000\nConsidered Luxury\nNomos, AnOrdain, CW, Farer, Tudor (lower)\nResearch-led buyer. Reads Hodinkee. Values design over brand name.\nThis is where most microbrands compete. Design quality = primary differentiator.\n£2,000–8,000\nAspirational Luxury\nRolex (entry), Omega (upper), IWC, JLC\nInvested buyer. Considers resale value. Brand heritage matters enormously.\nIn-house credentials begin to matter. Finishing must be immaculate.\n£8,000+\nStatus & Collectible\nRolex (sport), AP, Patek, Grand Seiko premium\nLong-term collector or status buyer. Waitlists, relationships, provenance.\nDesign almost irrelevant vs. brand cachet. In-house movement = table stakes.\nPrice\nTier\nKey Brands\nConsumer Profile\nDesign Priority',
       },
       {
@@ -250,6 +278,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · POSITIONING',
         heading: 'Positioning Maps & White Space',
+        image: 'https://loremflickr.com/800/500/watch?lock=28',
         body: 'Traditional ←\n→ Avant-garde\n↑ Premium\nAccessible ↓\nPatek\nAP\nRolex\nGrand Seiko\nIWC\nNomos\nBaltic\nAnOrdain\nSeiko 5\nMB&F\n?\nWhite Space\n→  \nThe green oval marks an underserved position: avant-garde design at accessible price.\n→  \nBaltic holds this space partially. Room exists for more brands.\n→  \nYour brand brief should identify a specific white space — a position that is not owned.\n→  \nNeumeier\'s ZAG: when everyone zigs, zag. Find the uncrowded position.',
       },
       {
@@ -257,6 +286,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · CONSUMER DEFINITION',
         heading: 'Defining Your Target Consumer',
+        image: 'https://loremflickr.com/800/500/watch?lock=29',
         body: 'Consumer Profile Template\nAge range\nThe decade that defines their taste and references (e.g. 30–45 means they grew up with 1990s watch culture)\nProfession / income\nNot to be reductive — but this determines realistic price sensitivity and the contexts where the watch is worn\nWatch knowledge\nNovice, enthusiast, collector? A collector knows what ETA 2824 means. A novice doesn\'t — and that\'s fine\nPrimary motivation\nFrom the six motivations on the previous slide: which one resonates most strongly with this person?\nCurrent watches worn\nWhat do they already own? What gap does your watch fill? (Never compete with a watch they already own)\nWhere they discover watches\nHodinkee, Reddit, Instagram, word of mouth? This determines your communication strategy\nWhat they reject\nAs important as what they want. If they reject ostentatious logos, plain sportswatches, or cheap movements — your brief must address this\nExample: Baltic\'s Consumer\nAge\n28–40\nProfession\nCreative, architect, graphic designer\nWatch knowledge\nEnthusiast. Reads Hodinkee.\nPrimary motivation\nAesthetic pleasure + mechanical fascination\nCurrent watches\nSeiko 5, possibly a Tudor\nDiscovers via\nInstagram, Worn & Wound, Reddit\nRejects\nOvertly sports or luxury watches. Logo-heavy brands.',
       },
       {
@@ -264,6 +294,7 @@ export const modules = [
         type: 'content',
         tag: 'CASE STUDY  ·  MICROBRAND',
         heading: 'Baltic Watches — Design-First Brand Building',
+        image: 'https://loremflickr.com/800/500/watch?lock=30',
         body: 'Founded 2016 (launched April 2017)  ·  Etienne Malec  ·  Assembled in Besançon, France  ·  CHF 350–700 positioning\nThe Positioning\n◆  \nVintage-inspired design at accessible price — a clear white space in 2017\n◆  \nFrench design sensibility: restraint, proportion, typographic sophistication\n◆  \nSwiss and Japanese movements specified for quality-to-price integrity\n◆  \nNo Swiss heritage, no celebrity endorsement — design and community only\nThe Design Language\n◆  \nSpecific typography system carried across all references (Bicompax, MR01)\n◆  \nConsistent use of applied indices and Breguet-influenced hand profiles\n◆  \nDial colours drawn from a coherent palette — no arbitrary choices\n◆  \nCase finishing mix: brushed flanks + polished chamfers, always specified intentionally\nThe Go-to-Market\n◆  \nInstagram-first launch: renders before physical product drove pre-orders\n◆  \nWorn & Wound and Fratello reviews built credibility with target audience\n◆  \nNo traditional advertising — community-driven entirely\n◆  \nFirst batch sold out in days. Waiting list built before stock existed.\nLesson: Clear positioning + coherent design language + community-first launch = brand equity without heritage or advertising spend.',
       },
       {
@@ -271,6 +302,7 @@ export const modules = [
         type: 'content',
         tag: 'CASE STUDY  ·  CRAFT AS STRATEGY',
         heading: 'AnOrdain — When Craft Is the Brand',
+        image: 'https://loremflickr.com/800/500/watch?lock=31',
         body: 'The AnOrdain Model\nOrigin (Glasgow, 2015)\nNo Swiss heritage, no advertising, no distributor. The brand was built on one specific craft: hand-made enamel dials, a technique almost lost to the industry.\nThe dial is the brand\nAnOrdain\'s enamel dials — made by their own artisans in Glasgow — are the entire differentiator. No two are identical. This creates scarcity, emotional connection, and a story impossible to copy at scale.\nPrice as integrity signal\nModel 1 starts at £1,000. This is not arbitrary. At this price, the enamel craft is credible as a luxury statement. At £300, it would seem incongruous. Price communicates the seriousness of the craft.\nProvenance and geography\nScottish-made watches carry no historical watch prestige — yet AnOrdain uses their Glasgow origin as a positive differentiator: independent, non-Swiss, authentically crafted in a specific place by identifiable people.\nCritical recognition\nConsistently featured by Hodinkee, Worn & Wound, and Fratello as a benchmark craft microbrand. AnOrdain\'s fumé enamel dials are cited industry-wide as proof that hand-craft and independent spirit can generate genuine collector desire without Swiss heritage or marketing spend.\nWhat AnOrdain Teaches\n→  \nCraft can be a complete brand strategy without Swiss heritage\n→  \nScarcity through genuine craft = desirability\n→  \nGeography as brand asset: \'Made in Glasgow\' is a story\n→  \nA single component (the dial) can be a brand\'s entire identity\n→  \nSustained quality compounds: critical recognition by Hodinkee and the collector community builds over time\n→  \nCustomer relationship &gt; marketing spend — every AnOrdain buyer knows the makers by name',
       },
       {
@@ -278,6 +310,7 @@ export const modules = [
         type: 'content',
         tag: 'MARKET LANDSCAPE · DATA',
         heading: 'Reading the Market — FHS 2024 Data',
+        image: 'https://loremflickr.com/800/500/watch?lock=32',
         body: 'CHF 26bn\nTotal Swiss watch exports 2024\nDown 2.8% vs 2023. First decline since COVID.\n15.3M\nUnits exported\nDown 9.4% in volume. Value held while volume fell sharply.\n&gt;80%\nOf export value: mechanical watches\nQuartz dominates volume. Mechanical watches generate the vast majority of value — exact share not published by FHS.\nCHF 1,700\nAverage export price per watch\nUp sharply from decade ago. Luxury polarisation accelerating.\nGeographic Insight\nUSA overtook China as #1 market in 2024 (CHF 4.4bn, +5%). China collapsed -25.8% due to economic slowdown. Japan surged +7.8%, driven by tourists buying duty-free. Europe stable.\nDesign implication: American market rewards heritage and legibility. Japanese market rewards craft and finishing quality. These consumer differences should inform your brand\'s design language if you\'re targeting these markets.\nPrice Polarisation\nMid-tier (CHF 200–3,000) is under structural pressure. The segment most hurt in 2024. Volume-only brands without luxury positioning are struggling.\nDesign implication: There is no safe middle. Either compete on design excellence at accessible price (Baltic model) or position clearly in the premium tier. Average design at average price is the most vulnerable position in 2025.\nFor Microbrand Designers\nThe FHS data measures Swiss industry exports. It does NOT include:\n• Japanese microbrands (Seiko, Citizen, Minase)\n• Hong Kong assembly\n• Online-first brands with Swiss components\nThe addressable market for a well-designed microbrand is larger than the FHS numbers suggest. Digital-native brands bypass the distribution challenges that constrain established Swiss brands.',
       },
       {
@@ -285,6 +318,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND BRIEF · STRUCTURE',
         heading: 'Anatomy of a Watch Brand Brief',
+        image: 'https://loremflickr.com/800/500/watch?lock=33',
         body: '01\nBrand Name & Origin\nName, rationale, geographical or cultural anchor. What does the name communicate? What language, tradition, or aesthetic does it invoke? Names carry brand connotations before any watch is shown.\n02\nMission Statement\nOne sentence that states what your brand does and for whom. Not aspirational fluff. Specific and exclusive: \'Watches for architects who need precision without ostentation.\'\n03\nConsumer Profile\nAge, profession, watch knowledge, primary purchase motivation, current watches owned. Use the template from Slide 9. Be specific enough to be exclusionary.\n04\nMarket Positioning\nPrice band, Swiss/Japanese/independent category, design philosophy (traditional/avant-garde), competitive landscape. Include a positioning map. Name your 5 nearest competitors.\n05\nDesign Direction\nCase shape and size range. Dial philosophy. Material and finish strategy. Movement specification. Visual references (not copies — references). The design language in words.\n06\nThree Non-Negotiables\nThe three design principles you will never violate, regardless of market pressure. For example: \'No date window. Swiss movement only. Case diameter never exceeds 39mm.\' These become your brand integrity tests.',
       },
       {
@@ -292,6 +326,7 @@ export const modules = [
         type: 'assignment',
         tag: 'ASSIGNMENT 2',
         heading: 'The Brand Brief',
+        image: 'https://loremflickr.com/800/500/watch?lock=34',
         body: 'The Brief\nCreate a brand brief for the watch brand you will carry through Modules 4–9. This is not a mood board or a marketing concept. It is a strategic document that will constrain and enable every design decision you make for the rest of this curriculum.\nChoose a concept you are genuinely invested in. Changing your brief after Module 4 is possible but expensive in terms of rework. Choose boldly.\nThe brief must include:\n1.  \nBrand name and origin story (why this name, what does it communicate?)\n2.  \nOne-sentence mission statement (specific and exclusionary)\n3.  \nDetailed consumer profile (using the template from this module)\n4.  \nPositioning map (your brand vs 5–8 competitors on 2 axes)\n5.  \nMarket tier and price band justification with reference to FHS data\n6.  \nDesign direction in words (case, dial, hands, materials, movement)\n7.  \nThree inviolable design non-negotiables\n8.  \nWhy this brand? What specific white space does it occupy?\nEvaluation\n35%\nStrategic Clarity\nIs the positioning specific and defensible? Does the brand have a clear reason to exist?\n35%\nDesign Direction\nDoes the design direction flow logically from the strategy? Are material/movement choices justified?\n30%\nConsumer Insight\nIs the consumer profile specific and realistic? Does it match the design direction?\nFormat: Notion page or PDF  ·  2–3 pages  ·  Due: End of Module 2',
       },
       {
@@ -299,6 +334,7 @@ export const modules = [
         type: 'summary',
         tag: 'MODULE SUMMARY',
         heading: 'What You Should Now Know',
+        image: 'https://loremflickr.com/800/500/watch?lock=35',
         body: '01\nBrand definition\nA brand is a gut feeling — it exists in people\'s minds, not company documents. You cannot control it; you can only create conditions for it through consistent design, quality, and communication.\n02\nDifferentiation as survival\nIn a market of 500+ microbrands, design quality is not a differentiator — it is a minimum requirement. Differentiation is the specific, defensible reason someone would choose your brand over a functionally equivalent alternative.\n03\nConsumer-first thinking\nEvery design decision is communication. Before you decide on a case diameter, a dial colour, or a hand profile, you must know who you are communicating with and what motivates their purchase.\n04\nMarket literacy\nYou understand the Swiss watch market\'s structure (FHS data), its geographic dynamics, and the price-band psychology that determines what is expected at each tier.\n05\nThe brand brief\nYou have written a document that will constrain and enable every design decision in Modules 4–9. It is specific, strategic, and genuinely exclusionary.',
       },
       {
@@ -306,6 +342,7 @@ export const modules = [
         type: 'resources',
         tag: 'MODULE 2 · RESOURCES',
         heading: 'Further Study',
+        image: 'https://loremflickr.com/800/500/watch?lock=36',
         body: 'ESSENTIAL READING\n◆  \nThe Brand Gap — Marty Neumeier. FREE PDF: martyneumeier.com  |  Archive: archive.org/details/brandgaphowtobri00neum\n◆  \nZAG — Marty Neumeier. The follow-up: deeper treatment of differentiation strategy. Used copies ~£5.\n◆  \nFHS World Watch Industry Statistics 2024 — FREE PDF: fhs.swiss/file/59/Horlogerie_mondiale_2024_en.pdf\nESSENTIAL RESEARCH\n◆  \nFratello: \'Building a Watch Brand\' — All 14 episodes. Thomas van Straaten + designer Max Resnick: fratellowatches.com\n◆  \nHodinkee: Watches & Wonders coverage — Read as brand strategist, not consumer. Focus on positioning choices.\n◆  \nWorn & Wound microbrand coverage — wornandwound.com/category/microbrand/\nESSENTIAL LISTENING\n◆  \nOpenwork: Inside the Watch Industry (Collective Horology) — Episodes on Rolex CPO strategy, AP 2025 performance, luxury market dynamics\n◆  \nThe Watch Files — Europa Star & Grail Watch. Industry history and commercial context.\nMARKET INTELLIGENCE\n◆  \nWatchPro (watchpro.com) — Trade publication: read Market Reports and brand profiles\n◆  \nRevolution Watch (revolutionwatch.com) — Trend analysis, high-end segment, Asia market insight\n◆  \nFederation of the Swiss Watch Industry Annual Report 2024 — FREE: fhs.swiss/file/6/RA_2024_en_web.pdf',
       },
       {
@@ -313,6 +350,7 @@ export const modules = [
         type: 'content',
         tag: 'MODULE 02  COMPLETE',
         heading: 'Brand Strategy &',
+        image: 'https://loremflickr.com/800/500/watch?lock=37',
         body: 'Market Landscape\nNext: Module 3 — Mechanical Movements & Engineering',
       },
       {
@@ -320,6 +358,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · LEGAL',
         heading: 'Swissness — What You Can and Cannot Claim',
+        image: 'https://loremflickr.com/800/500/watch?lock=38',
         body: 'The Swissness Act (in force since 2017) legally defines when a watch may use \'Swiss Made\'. This is a brand positioning constraint, not optional knowledge.\nSWISS MADE ✓\nMovement assembled and inspected in Switzerland · At least 60% of production value from Switzerland · Technical development in Switzerland\nRolex, Omega, Patek, IWC, Nomos (German, cannot use this) — requires genuine Swiss manufacturing infrastructure.\nSWISS MOVEMENT ✓\nMovement is Swiss-made but assembly, casing, or other production occurs outside Switzerland · Cannot claim \'Swiss Made\' on dial\nSome microbrand models using Sellita or ETA movements but assembled in Hong Kong or China. Honest and legal.\nNO SWISS CLAIM ✗\nJapanese movement (Miyota, Seagull) or movement with under 60% Swiss value content · No Swiss manufacturing or development\nBaltic (Miyota, Seagull), Lorier, most affordable microbrands. No Swiss claim can be made — even if the watch is well-designed.\n⚠  Brand brief implication: If you cannot legally claim \'Swiss Made\', do not position your brand as Swiss. The watch media and collector community will check.',
       },
       {
@@ -327,6 +366,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND BRIEF PREP · MOVEMENT CHOICE',
         heading: 'Choosing a Movement for Your Brand Brief',
+        image: 'https://loremflickr.com/800/500/watch?lock=39',
         body: 'Assignment 2 requires a movement specification. Module 3 covers movements in depth — but you need to make an initial choice here. Use this table as your starting point.\nIf: \nTime-only, slim, affordable microbrand\n→ \nMiyota 9015\nAutomatic, 3.9mm thin, reliable, widely available, Japanese. Most popular microbrand movement.\n~$15–25/unit\nIf: \nTime-only, Swiss movement claim needed\n→ \nSellita SW200\nSwiss-made ETA 2824 alternative. Compatible dimensions. Available to independents.\n~$60–100/unit\nIf: \nChronograph, affordable route\n→ \nSeagull ST1901\nHand-wound, column-wheel, Venus 175 clone. Used in Baltic Bicompax. Impressive at the price.\n~$40–80/unit\nIf: \nChronograph, Swiss movement needed\n→ \nSellita SW510-M\nBicompax layout (3/9 subdials). Swiss-made. Used in Baltic Tricompax, Nivada Grenchen.\n~$120–160/unit\nIf: \nGMT / dual-timezone complication\n→ \nMiyota 6T33\nAutomatic GMT, affordable, widely used by microbrands entering travel/aviation positioning.\n~$25–40/unit\nIf: \nDress watch, in-house feel, large case (46mm+)\n→ \nUnitas 6497\nPocket-watch-derived manual movement. Large diameter = large case. Seagull ST36 is the clone version used in Assignment 3.\n~$20–60/unit',
       },
       {
@@ -334,6 +374,7 @@ export const modules = [
         type: 'content',
         tag: 'MOVEMENT AWARENESS · BRAND BRIEF',
         heading: 'Choosing a Movement for Your Brand Brief',
+        image: 'https://loremflickr.com/800/500/watch?lock=40',
         body: 'Assignment 2 requires a movement choice. Module 3 teaches spec sheets in depth — this gives you enough to make a defensible initial decision now.\nMiyota 9015  —  Automatic\nØ26.1mm · H3.9mm · 42hrs  \n($)\nBest default for microbrands. Thin, reliable, widely available. Baltic, Halios, many serious brands. Closed caseback typical.\nSellita SW200  —  Automatic\nØ25.6mm · H4.6mm · 38hrs  \n($$)\nSwiss-made alternative to ETA 2824. Slightly thicker than Miyota. More finishing options. Christopher Ward\'s default.\nETA 7750  —  Auto Chronograph\nØ30.0mm · H7.9mm · 42hrs  \n($$$)\nThe standard auto chrono. 7.9mm height forces 14mm+ total case height. Subdials at 3/6/9. Requires complex case design.\nSeagull ST1901  —  Manual Chronograph\nØ31.3mm · H6.25mm · 42hrs  \n($)\nHand-wound column-wheel chrono (Venus 175 clone). Used in Baltic Bicompax. More affordable, slightly thinner than 7750.\nMiyota 6T33  —  Automatic GMT\nØ27.4mm · H4.97mm · 42hrs  \n($$)\nGMT movement: extra hand shows 24-hour cycle. Case must accommodate additional complication and 24-hr disc.\nUnitas 6497 / Seagull ST36  —  Manual\nØ36.6mm · H4.5mm · 46hrs  \n($)\nPocket watch movement in wrist case. Requires 46mm+ case. Exhibition caseback standard. High visual impact, artisanal position.\nModule 3 teaches full spec sheet reading — confirm or revise your movement choice after completing it, before starting Module 4 sketching.',
       },
     ],
@@ -355,6 +396,7 @@ export const modules = [
         type: 'hero',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 03',
+        image: 'https://loremflickr.com/800/500/watch?lock=41',
         body: 'Mechanical Movements\n& Engineering\nHow calibers constrain and enable every dimension of watch design\n2 Sessions  ·  Advanced  ·  Reading: George Daniels Watchmaking  ·  Assignment: Movement disassembly + spec analysis',
       },
       {
@@ -362,6 +404,7 @@ export const modules = [
         type: 'overview',
         tag: 'MODULE OVERVIEW',
         heading: 'Two Sessions, One Imperative',
+        image: 'https://loremflickr.com/800/500/watch?lock=42',
         body: 'SESSION 3A\nMovement Architecture\n◆  \nPower flow from mainspring to seconds hand\n◆  \nKey caliber families: ETA, Miyota, Sellita\n◆  \nReading a movement spec sheet\n◆  \nHow movement height dictates case thickness\nSESSION 3B\nMovement as Design Constraint\n◆  \nDiameter → minimum case size\n◆  \nCrown position → case design\n◆  \nSubdial layouts → dial architecture\n◆  \nComplication layers → case depth\n⚠  Hands-on Assignment: Buy a Seagull ST36 movement (~£25, eBay). Disassemble and reassemble following Mark Lovick\'s video. This is mandatory.',
       },
       {
@@ -369,6 +412,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · CALIBER FAMILIES',
         heading: 'The Movements Behind Most Watches',
+        image: 'https://loremflickr.com/800/500/watch?lock=43',
         body: 'ETA 2824-2\nAutomatic\nØ 25.6mm  ·  H 4.6mm  ·  28,800 BPH  ·  38hrs  ·  25J\nIndustry workhorse. Used by Tissot, TAG, Breitling (lower). Robust, reliable, well-documented. Swatch Group restricts supply — availability tight for microbrands.\nMiyota 9015\nAutomatic\nØ 26.1mm  ·  H 3.9mm  ·  28,800 BPH  ·  42hrs  ·  24J\nBest movement for microbrands at this spec level. Thinner than ETA 2824. Closed caseback typical. Baltic, Halios, many serious microbrands specify this.\nSellita SW200\nAutomatic\nØ 25.6mm  ·  H 4.6mm  ·  28,800 BPH  ·  38hrs  ·  26J\nSwiss-made ETA 2824 alternative. Similar dimensions — cases are interchangeable. More widely available to independent brands. Christopher Ward default choice.\nUnitas 6497\nManual\nØ 36.6mm  ·  H 4.5mm  ·  18,000 BPH  ·  46hrs  ·  17J\nPocket watch movement in a wristwatch case. Large diameter means large case (46mm+). Highly visible, hand-wound, exhibition caseback standard. Seagull ST36 is the clone used for the assignment.\nETA 7750\nAuto Chrono\nØ 30.0mm  ·  H 7.9mm  ·  28,800 BPH  ·  42hrs  ·  25J\nThe standard automatic chronograph caliber. 7.9mm height forces a thick case (typically 14mm+). Subdials at 3, 6, 9 positions. Breitling, IWC, TAG chronographs use this or derivatives.\nMiyota 6T33\nAuto GMT\nØ 27.4mm  ·  H 4.97mm  ·  21,600 BPH  ·  42hrs  ·  21J\nGMT movement: additional hand showing 24-hour cycle. Affordable GMT for microbrands. Case must accommodate 24-hour disc or bezel — design implication significant.',
       },
       {
@@ -376,6 +420,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · SPEC SHEETS',
         heading: 'Reading a Movement Specification',
+        image: 'https://loremflickr.com/800/500/watch?lock=44',
         body: 'Movement diameter\nSets minimum case diameter. Add ~4mm for case walls. Miyota 9015 (Ø26.1mm) → minimum ~38mm case.\nMovement height\nDirectly determines case height when added to case back depth + dial + crystal. Most mid-range watches: movement + 5–7mm overhead = total height.\nCrown stem position (12h distance)\nThe stem exits at a fixed radial and axial position. This sets the ONLY possible crown location. Case design cannot move the crown.\nStem height from caseback\nDetermines crown height on case side. If stem is 0.8mm from caseback, crown must centre at ~0.8mm from caseback face — sets the crown\'s vertical position.\nDate aperture position\nFixed by movement. If specifying a date, the date window location is determined — not chosen. Many designers specify no-date to escape this constraint.\nBeats per hour\nDetermines seconds hand sweep character. 28,800 BPH = smoother sweep. 18,000 BPH = more pronounced \'tick-tick\'. Aesthetic and mechanical choice.\nPower reserve\nAffects usage pattern. 38hrs means daily wear. 72hrs+ means weekday wear possible without winding. Brand positioning implication.\nJewel count\nQuality indicator. 17 jewels = basic. 25+ jewels = quality grade. Visible in marketing and exhibition casebacks. Signals craft tier.',
       },
       {
@@ -383,6 +428,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · CONSTRAINTS',
         heading: 'Movement → Case: The Dimensional Chain',
+        image: 'https://loremflickr.com/800/500/watch?lock=45',
         body: 'CASEBACK  (0.6–0.8mm)\nMOVEMENT\ne.g. Miyota 9015: 3.9mm\nDIAL  (0.3–0.5mm)\nCRYSTAL  (1.0–2.5mm)\nCrystal dome\nAdds up to 2.5mm above case top. Domed sapphire adds visual height.\nDial-to-crystal gap\nMust clear hands. Min 0.4mm. Affects total height.\nMovement\nThe constraint. 3.9mm (Miyota 9015) to 7.9mm (ETA 7750).\nCaseback\nScrewdown adds 0.6–0.8mm. Exhibition back adds 1.0–1.5mm.\nTotal case height calculation: Crystal + gap + dial + movement + caseback = total  ·  Example: 1.5 + 0.4 + 0.4 + 3.9 + 0.7 = 6.9mm (very thin!)  vs  1.5 + 0.4 + 0.4 + 7.9 + 0.8 = 11.0mm (sports chrono)',
       },
       {
@@ -390,6 +436,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · CROWN',
         heading: 'Crown Position — The Fixed Point',
+        image: 'https://loremflickr.com/800/500/watch?lock=46',
         body: 'The crown location is determined by the movement stem — it cannot be moved\n3 O\'Clock\nBy far the most common. Ergonomic — right hand winds while watching left wrist. The standard for almost all watches.\nBrands: \nRolex, Omega, Patek, virtually everyone\nDesign: \nOften protected by crown guards on sports watches. Integrated into lug design in integrated bracelet watches.\n4 O\'Clock\nSlightly below 3. Reduces accidental crown pushing when wearing. Seen in diving watches where crown protection is critical.\nBrands: \nTudor Pelagos, some IWC divers\nDesign: \nRequires angled stem in movement or offset case architecture. Less common, more expensive.\n12 O\'Clock\nRare. Eliminates crown from the side of the case — creates a perfectly clean case profile. Requires movement designed for this position.\nBrands: \nCartier Rotonde, some dress watches\nDesign: \nCrown pushes directly down on wrist — awkward winding. Used almost exclusively for aesthetics.\nIntegrated / Hidden\nCrown recessed deeply into case or moved to caseback winding. Maximally clean case but often sacrifices ergonomics severely.\nBrands: \nParmigiani Bugatti Type 370, some concept watches\nDesign: \nTypically requires complete custom movement or significant modification. Not viable for microbrands.',
       },
       {
@@ -397,6 +444,7 @@ export const modules = [
         type: 'content',
         tag: 'MECHANICS · COMPLICATIONS',
         heading: 'Complication Layouts & Dial Architecture',
+        image: 'https://loremflickr.com/800/500/watch?lock=47',
         body: 'The movement determines subdial positions. The designer works within — not around — these constraints.\nETA 7750 Chronograph\nLayout: \nSubdials at 3 (30min), 6 (12hr), 9 (small seconds). Date at 4.\nChallenge: \nCreates a 3/6/9 subdial arrangement. Dial must be designed around these fixed positions. Many brands mask the 9 position.\nBrands: \nBreitling Navitimer, TAG Carrera, IWC Pilot Chronograph\nValjoux 7750 \'Tri-Compax\'\nLayout: \n3 small seconds, 6 date, 9 30min counter. Same movement, different subdial configuration option.\nChallenge: \nBrand and hand fitter can reconfigure somewhat. Still anchored to movement geometry.\nBrands: \nSome vintage Heuer, modified 7750 derivatives\nSeagull ST1901 / Bicompax layout\nLayout: \nSubdials at 3 and 9 only. Hand-wound column-wheel chronograph.\nChallenge: \nTwo-counter bicompax layout — no running seconds. Clean, balanced, visually elegant. The Baltic Bicompax uses the ST1901 (Chinese-made clone of the Swiss Venus 175 from the 1940s), not a Swiss movement. The Sellita SW510-M also creates a bicompax layout and is used in Baltic\'s Tricompax and other Swiss chronographs.\nBrands: \nBaltic Bicompax (ST1901) · Baltic Tricompax (SW510-M) · Nivada Grenchen Chronomaster (SW510-M)\nDate-only (3 o\'clock)\nLayout: \nDate aperture at 3, set by movement design.\nChallenge: \nAlmost all date movements place date at 3 or 3-4:30 position. A date at 6 or 12 requires a specifically designed movement (Rolex date at 3, Patek annual cal date at 6).\nBrands: \nNearly universal in the industry',
       },
       {
@@ -404,6 +452,7 @@ export const modules = [
         type: 'assignment',
         tag: 'ASSIGNMENT · HANDS-ON',
         heading: 'Movement Disassembly: Seagull ST36',
+        image: 'https://loremflickr.com/800/500/watch?lock=48',
         body: 'The Assignment\n1.  \nBuy a Seagull ST36 movement on eBay (£20–30, search \'Seagull ST36\' or \'Unitas 6497 clone\')\n2.  \nWatch Mark Lovick\'s disassembly video: @WatchRepairChannel on YouTube — Unitas 6497 disassembly\n3.  \nWith basic tools (screwdrivers, tweezers, movement holder), carefully disassemble to individual components\n4.  \nLay components out on white paper, photograph them, name as many as you can\n5.  \nReassemble. If it runs: you pass. If not: identify what went wrong and note why\n6.  \nDocument: photograph each stage, note the spatial relationships you observe\nWhat You Learn\n→  \nThe precise spatial relationships between components you can only understand by holding them\n→  \nWhy the crown position is fixed — you see the stem\'s path through the movement\n→  \nWhy case height is constrained — you see the actual stack of plates and bridges\n→  \nThe fragility of the components — making you understand why finishing is so expensive\n→  \nThe scale of the engineering — each component at this size is a precision manufacturing achievement\n→  \nWhy watchmakers take years to train — the tolerances are unforgiving',
       },
       {
@@ -411,6 +460,7 @@ export const modules = [
         type: 'assignment',
         tag: 'ASSIGNMENT 3 & MODULE SUMMARY',
         heading: 'Module 3 Deliverables',
+        image: 'https://loremflickr.com/800/500/watch?lock=49',
         body: 'Assignment 3A — Spec Sheet Analysis\nDownload spec sheets for the movement you specified in your brand brief (Assignment 2). For each of the following parameters, state the value and its specific design implication for your watch:\n• Movement diameter → your case\'s minimum internal diameter\n• Movement height → your target total case height calculation\n• Crown stem position → where your crown must sit\n• Any complication subdial positions → where apertures or subdials must be\n• BPH → seconds hand character\nFormat: A table or annotated diagram. Length: 1 page.\nAssignment 3B — Hands-On Disassembly\nDisassemble and reassemble a Seagull ST36 (Unitas 6497 clone). Submit: photographs at each stage + one page on three design insights gained.\nModule 3 Takeaways\n01  \nMovement diameter sets minimum case size — not a design choice\n02  \nMovement height is the primary driver of total case thickness\n03  \nCrown position is fixed by the stem — not aesthetic preference\n04  \nComplication layouts are set by the movement — dial architecture must accommodate them\n05  \nHands-on experience with components changes your perception of scale and precision permanently',
       },
       {
@@ -979,3 +1029,4 @@ export function buildSearchIndex() {
   }
   return items
 }
+

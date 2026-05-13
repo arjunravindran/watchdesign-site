@@ -27,6 +27,9 @@ export default function SlideViewer({ slide, index, total }) {
         {slide.type === 'assignment'&& <SlideAssignment s={slide} />}
         {slide.type === 'overview'  && <SlideOverview s={slide} />}
         {slide.type === 'endcard'   && <SlideEndcard s={slide} />}
+        {slide.type === 'content'   && <SlideContent s={slide} />}
+        {slide.type === 'summary'   && <SlideSummary s={slide} />}
+        {slide.type === 'resources' && <SlideResources s={slide} />}
       </div>
     </div>
   )
@@ -35,14 +38,25 @@ export default function SlideViewer({ slide, index, total }) {
 // ── Slide type components ─────────────────────────────────────
 
 function SlideHero({ s }) {
+  // Support both legacy (module/title/subtitle) and new (tag/heading/body) format
+  const bodyLines = (s.body || '').split('\n').filter(Boolean)
   return (
     <div className="py-6 border-l-2 border-gold pl-5">
-      <div className="eyebrow mb-3">{s.module}</div>
+      <div className="eyebrow mb-3">{s.module || s.tag}</div>
       <h1 className="font-serif text-2xl sm:text-3xl text-mist leading-tight">
-        {s.title} <span className="text-gold italic">{s.subtitle}</span>
+        {s.title || s.heading} {s.subtitle && <span className="text-gold italic">{s.subtitle}</span>}
       </h1>
       {s.tagline && (
         <p className="text-grey text-sm mt-3 italic">{s.tagline}</p>
+      )}
+      {!s.tagline && bodyLines.length > 0 && (
+        <div className="mt-3 space-y-1">
+          {bodyLines.map((line, i) => (
+            <p key={i} className={i === 0 ? "text-grey text-sm italic" : "text-[11px] text-grey tracking-wide"}>
+              {line}
+            </p>
+          ))}
+        </div>
       )}
       {s.meta && (
         <p className="text-[10px] text-grey mt-4 tracking-wide">{s.meta}</p>
@@ -166,6 +180,7 @@ function SlideSequence({ s }) {
 }
 
 function SlideAssignment({ s }) {
+  const bodyLines = (s.body || s.brief || '').split('\n').filter(line => line.trim())
   return (
     <div className="border-t-2 border-gold pt-4">
       <div className="eyebrow mb-2">Assignment</div>
@@ -176,7 +191,26 @@ function SlideAssignment({ s }) {
         </div>
       )}
       <div className="mt-4 bg-rule/40 rounded-sm p-4">
-        <p className="text-grey text-xs leading-relaxed whitespace-pre-line">{s.brief}</p>
+        {s.brief ? (
+          <p className="text-grey text-xs leading-relaxed whitespace-pre-line">{s.brief}</p>
+        ) : (
+          <div className="space-y-2">
+            {bodyLines.map((line, i) => {
+              const trimmed = line.trim()
+              const isLabel = /^[A-Z][A-Z\s%]{2,30}$/.test(trimmed) && trimmed.length < 30
+              if (isLabel) {
+                return (
+                  <h4 key={i} className="text-gold text-xs font-medium tracking-wider mt-3 mb-1">
+                    {trimmed}
+                  </h4>
+                )
+              }
+              return (
+                <p key={i} className="text-grey text-xs leading-relaxed">{trimmed}</p>
+              )
+            })}
+          </div>
+        )}
       </div>
       {s.criteria && (
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -201,37 +235,193 @@ function SlideAssignment({ s }) {
 }
 
 function SlideOverview({ s }) {
+  // Support legacy sessions structure
+  if (s.sessions) {
+    return (
+      <div>
+        <Heading text={s.heading} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+          {s.sessions.map((sess, i) => (
+            <div key={i} className="bg-rule/40 rounded-sm p-4 border-t-2 border-gold-dim">
+              <div className="eyebrow text-[9px] mb-1">{sess.label}</div>
+              <div className="text-mist text-sm font-serif mb-2">{sess.title}</div>
+              <ul className="space-y-1">
+                {sess.points?.map((p, j) => (
+                  <li key={j} className="flex gap-2 text-xs text-grey">
+                    <span className="text-gold shrink-0">◆</span>
+                    <span>{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  // Parse body into sessions automatically
+  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
   return (
     <div>
       <Heading text={s.heading} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
-        {s.sessions?.map((sess, i) => (
-          <div key={i} className="bg-rule/40 rounded-sm p-4 border-t-2 border-gold-dim">
-            <div className="eyebrow text-[9px] mb-1">{sess.label}</div>
-            <div className="text-mist text-sm font-serif mb-2">{sess.title}</div>
-            <ul className="space-y-1">
-              {sess.points?.map((p, j) => (
-                <li key={j} className="flex gap-2 text-xs text-grey">
-                  <span className="text-gold shrink-0">◆</span>
-                  <span>{p}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="mt-4 space-y-2">
+        {bodyLines.map((line, i) => {
+          const trimmed = line.trim()
+          if (trimmed === '◆' || trimmed === '→') return null
+          const isSession = /^SESSION\s+\d/i.test(trimmed)
+          const isLabel = /^[A-Z][A-Z\s&·]{2,40}$/.test(trimmed) && trimmed.length < 50
+          if (isSession || isLabel) {
+            return (
+              <h3 key={i} className="text-gold text-xs font-medium tracking-wider mt-4 mb-1 first:mt-0">
+                {trimmed}
+              </h3>
+            )
+          }
+          if (trimmed.length > 80) {
+            return (
+              <p key={i} className="text-grey text-sm leading-relaxed border-l border-rule pl-3 italic">
+                {trimmed}
+              </p>
+            )
+          }
+          return (
+            <div key={i} className="flex gap-2 text-xs text-grey">
+              <span className="text-gold-dim shrink-0">◆</span>
+              <span>{trimmed}</span>
+            </div>
+          )
+        })}
       </div>
     </div>
   )
 }
 
 function SlideEndcard({ s }) {
+  const bodyLines = (s.body || '').split('\n').filter(Boolean)
   return (
     <div className="text-center py-8 border border-gold-dim rounded-sm">
-      <div className="eyebrow mb-2">Module {s.module} Complete</div>
-      <div className="font-serif text-2xl text-mist italic">{s.title}</div>
+      <div className="eyebrow mb-2">{s.tag || `Module ${s.module} Complete`}</div>
+      <div className="font-serif text-2xl text-mist italic">{s.heading || s.title}</div>
+      {bodyLines.map((line, i) => (
+        <div key={i} className="text-grey text-xs mt-2">{line}</div>
+      ))}
       {s.next && (
         <div className="text-grey text-xs mt-4">Next: {s.next}</div>
       )}
+    </div>
+  )
+}
+
+// Generic content slide — handles most slides from PPTX import
+function SlideContent({ s }) {
+  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
+  return (
+    <div>
+      <Heading text={s.heading} />
+      <div className="mt-4 space-y-2">
+        {bodyLines.map((line, i) => {
+          const trimmed = line.trim()
+          // Detect section labels (all caps, short)
+          const isLabel = /^[A-Z][A-Z\s·&\-\/]{2,40}$/.test(trimmed) && trimmed.length < 50
+          // Detect bullet markers
+          const isBullet = /^[◆→•\-+–]\s*$/.test(trimmed) || trimmed === '◆' || trimmed === '→'
+          // Detect numbered items
+          const isNumber = /^\d{1,2}$/.test(trimmed) || /^0\d$/.test(trimmed)
+          // Detect years/dates
+          const isYear = /^(c\.)?\d{4}/.test(trimmed) && trimmed.length < 30
+
+          if (isBullet) return null // skip standalone bullet markers
+
+          if (isLabel) {
+            return (
+              <h3 key={i} className="text-gold text-xs font-medium tracking-wider mt-4 mb-1 first:mt-0">
+                {trimmed}
+              </h3>
+            )
+          }
+          if (isNumber || isYear) {
+            return (
+              <div key={i} className="text-gold-dim text-xs font-mono mt-3 mb-1">
+                {trimmed}
+              </div>
+            )
+          }
+          // Long descriptive paragraph
+          if (trimmed.length > 80) {
+            return (
+              <p key={i} className="text-grey text-sm leading-relaxed">
+                {trimmed}
+              </p>
+            )
+          }
+          // Short heading/title-like text
+          return (
+            <div key={i} className="text-mist text-sm font-medium">
+              {trimmed}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+function SlideSummary({ s }) {
+  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
+  return (
+    <div className="border-t-2 border-gold-dim pt-4">
+      <div className="eyebrow mb-2">Summary</div>
+      <Heading text={s.heading} />
+      <div className="mt-4 space-y-2">
+        {bodyLines.map((line, i) => {
+          const trimmed = line.trim()
+          const isNumber = /^\d{1,2}$/.test(trimmed) || /^0\d$/.test(trimmed)
+          if (isNumber) {
+            return (
+              <div key={i} className="text-gold text-xs font-mono mt-3">{trimmed}</div>
+            )
+          }
+          if (trimmed.length < 30 && trimmed === trimmed.replace(/[a-z]/g, '').trim() + trimmed.match(/[a-z]+/)?.[0] || trimmed.length < 40) {
+            return (
+              <div key={i} className="text-mist text-sm font-medium mt-1">{trimmed}</div>
+            )
+          }
+          return (
+            <p key={i} className="text-grey text-sm leading-relaxed">{trimmed}</p>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+function SlideResources({ s }) {
+  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
+  return (
+    <div className="border-t-2 border-gold-dim pt-4">
+      <div className="eyebrow mb-2">Further Study</div>
+      <Heading text={s.heading} />
+      <div className="mt-4 space-y-1.5">
+        {bodyLines.map((line, i) => {
+          const trimmed = line.trim()
+          const isLabel = /^[A-Z][A-Z\s&·]{2,40}$/.test(trimmed)
+          if (trimmed === '◆' || trimmed === '→') return null
+          if (isLabel) {
+            return (
+              <h4 key={i} className="text-gold text-xs font-medium tracking-wider mt-4 mb-1">
+                {trimmed}
+              </h4>
+            )
+          }
+          return (
+            <div key={i} className="flex gap-2 text-xs text-grey">
+              <span className="text-gold-dim shrink-0">◆</span>
+              <span className="leading-relaxed">{trimmed}</span>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

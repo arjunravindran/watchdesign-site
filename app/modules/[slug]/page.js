@@ -1,5 +1,6 @@
 import { modules } from '../../../data/modules'
 import SlideViewer from '../../../components/slides/SlideViewer'
+import ResourcesPanel from '../../../components/ui/ResourcesPanel'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -96,7 +97,10 @@ export default function ModulePage({ params }) {
         </div>
 
         {/* ── Sidebar ──────────────────────────────────────── */}
-        <aside className="space-y-4">
+        <div className="space-y-4">
+
+          {/* Resources Panel */}
+          <ResourcesPanel moduleNumber={mod.number} />
 
           {/* Module navigation */}
           <div className="slide-card p-4 sticky top-20">
@@ -121,7 +125,7 @@ export default function ModulePage({ params }) {
             </nav>
           </div>
 
-        </aside>
+        </div>
       </div>
 
       {/* ── Prev / Next navigation ───────────────────────── */}

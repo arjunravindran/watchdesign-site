@@ -1,5 +1,5 @@
 import { modules } from '../../../data/modules'
-import SlideViewer from '../../../components/slides/SlideViewer'
+import SlideDeck from '../../../components/slides/SlideDeck'
 import ResourcesPanel from '../../../components/ui/ResourcesPanel'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -69,15 +69,7 @@ export default function ModulePage({ params }) {
 
           {/* Slides */}
           {hasSlides ? (
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <h2 className="font-serif text-mist text-lg">Module Content</h2>
-                <span className="text-grey text-xs">{mod.slides.length} slides</span>
-              </div>
-              {mod.slides.map((slide, i) => (
-                <SlideViewer key={slide.id} slide={slide} index={i} total={mod.slides.length} />
-              ))}
-            </div>
+            <SlideDeck slides={mod.slides} />
           ) : (
             <div className="slide-card p-8 text-center">
               <div className="text-gold-dim text-4xl mb-4">⌚</div>

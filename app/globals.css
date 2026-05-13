@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  html { @apply bg-bg text-mist; scroll-behavior: smooth; }
+  body { @apply antialiased; }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { @apply bg-bg; }
+  ::-webkit-scrollbar-thumb { @apply bg-rule rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-gold-dim; }
+}
+
+@layer components {
+  /* Gold accent rule */
+  .rule-gold { @apply w-8 h-px bg-gold; }
+
+  /* Eyebrow label style matching slides */
+  .eyebrow {
+    @apply text-gold text-xs tracking-widest2 font-sans uppercase;
+  }
+
+  /* Slide card */
+  .slide-card {
+    @apply bg-card border border-rule rounded-sm;
+  }
+
+  /* Module card hover */
+  .module-card {
+    @apply bg-card border border-rule rounded-sm
+           transition-all duration-300
+           hover:border-gold-dim hover:shadow-lg hover:shadow-gold/5
+           cursor-pointer;
+  }
+
+  /* Search highlight */
+  mark {
+    @apply bg-gold/20 text-gold not-italic rounded-sm px-0.5;
+  }
+}

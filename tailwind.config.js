@@ -23,7 +23,7 @@ module.exports = {
         rust:      '#8A3020',
       },
       fontFamily: {
-        serif:  ['Georgia', 'Cambria', 'serif'],
+        serif:  ['"Playfair Display"', 'Georgia', 'Cambria', 'serif'],
         sans:   ['Inter', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {

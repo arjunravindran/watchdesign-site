@@ -10,7 +10,7 @@ export const resourcesByModule = {
     { title: 'The Art of Breguet', source: 'George Daniels', type: 'Book', tier: 'Essential', url: 'https://www.amazon.com/s?k=The+Art+of+Breguet+George+Daniels' },
     { title: 'The Watchmakers of Switzerland', source: 'Pierre-Yves Donzé', type: 'Book', tier: 'Essential', url: 'https://www.amazon.com/s?k=Watchmakers+of+Switzerland+Donze' },
     { title: 'A Collected Man — Horological Library Reading List', source: 'A Collected Man', type: 'Website', tier: 'Essential', url: 'https://www.acollectedman.com/blogs/journal' },
-    { title: 'The Watch: A Swiss Made Story', source: 'Documentary (YouTube)', type: 'Video', tier: 'Essential', url: 'https://www.youtube.com/results?search_query=The+Watch+A+Swiss+Made+Story+documentary' },
+    { title: 'Talking Watches With John Mayer', source: 'Hodinkee (YouTube)', type: 'Video', tier: 'Essential', url: 'https://www.youtube.com/watch?v=aeu6VGbmEWc' },
     // Recommended
     { title: 'The Watches Of Podcast', source: 'Collective Horology', type: 'Podcast', tier: 'Recommended', url: 'https://www.collectivehorology.com/pages/the-watches-of-podcast' },
     { title: 'The Watch Files Podcast', source: 'Europa Star & Grail Watch', type: 'Podcast', tier: 'Recommended', url: 'https://podcasts.apple.com/us/podcast/the-watch-files/id1644571073' },

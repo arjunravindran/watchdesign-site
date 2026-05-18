@@ -72,7 +72,7 @@ export const modules = [
         type: 'content',
         tag: 'ANATOMY · HANDS',
         heading: 'Hands — Typography in Motion',
-        image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&q=80',
+        image: '/images/generated/m01_s08_hands_typography_in_motion.png',
         body: 'Dauphine\n1940s–present\nDress watches. Elegant taper. Patek, JLC, dress Rolex.\nSword / Baton\n1950s–present\nSports watches. Simple, legible. AP Royal Oak, many sports refs.\nMercedes\n1953–present\nRolex signature since the Explorer. Immediately recognisable.\nLancet / Spade\n1930s–60s\nVintage military and pilot. Strong legibility. Reviving in microbrand design.\nSnowflake\n1969–present\nTudor Snowflake — highly distinctive. The hand is the watch\'s identity.\nCathedral\n1940s–60s\nVintage dress, Omega. Maximally legible opening for lume.',
       },
       {
@@ -152,7 +152,7 @@ export const modules = [
         type: 'content',
         tag: 'MARKET LANDSCAPE',
         heading: 'The Swiss Watch Market Pyramid',
-        image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80',
+        image: '/images/generated/m01_s18_the_swiss_watch_market_pyramid.png',
         body: 'Ultra High End / Independent\nPatek Philippe · A. Lange · F.P. Journe · Richard Mille · MB&F\nHigh End / Prestige\nRolex · Audemars Piguet · IWC · Jaeger-LeCoultre · Omega (upper)\nMid Prestige\nTAG Heuer · Longines · Tissot (upper) · Nomos · Microbrands (premium)\nAccessible / Fashion\nSeiko (upper) · Hamilton · Frederique Constant · most Microbrands\nEntry / Volume\nSwatch · Seiko (lower) · Casio · Fashion brands · Chinese OEM\nSource: Federation of the Swiss Watch Industry (FHS) Annual Export Statistics 2024 — CHF 26 billion total, 15.3 million units. Full data: fhs.swiss/eng/statistics.html',
       },
       {
@@ -222,7 +222,7 @@ export const modules = [
         type: 'hero',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 02',
-        image: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800&q=80',
+        image: '/images/generated/m02_s01_module_02.png',
         body: 'Brand Strategy &\nMarket Landscape\nFrom consumer psychology to the brand brief that drives every design decision\n2 Sessions  ·  Intermediate  ·  Reading: Neumeier ZAG, The Brand Gap  ·  Assignment 2: Full Brand Brief',
       },
       {
@@ -230,7 +230,7 @@ export const modules = [
         type: 'overview',
         tag: 'MODULE OVERVIEW',
         heading: 'What This Module Covers',
-        image: 'https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=800&q=80',
+        image: '/images/generated/m02_s02_what_this_module_covers.png',
         body: 'SESSION 2A\nBrand Strategy Fundamentals\n◆  \nWhat a brand actually is\n◆  \nThe five disciplines of brand-building\n◆  \nDesign as competitive strategy\n◆  \nConsumer psychology & luxury goods\nSESSION 2B\nMarket Landscape & The Brand Brief\n◆  \nReading the FHS market data\n◆  \nPositioning maps & white space\n◆  \nMicrobrand case studies: Baltic, AnOrdain, CW\n◆  \nWriting your own brand brief\nAssignment 2 — Deliverable: Full Brand Brief. The document that drives Modules 4–9. Due end of Module 2.',
       },
       {
@@ -278,7 +278,7 @@ export const modules = [
         type: 'content',
         tag: 'BRAND STRATEGY · POSITIONING',
         heading: 'Positioning Maps & White Space',
-        image: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800&q=80',
+        image: '/images/generated/m02_s08_positioning_maps_white_space.png',
         body: 'Traditional ←\n→ Avant-garde\n↑ Premium\nAccessible ↓\nPatek\nAP\nRolex\nGrand Seiko\nIWC\nNomos\nBaltic\nAnOrdain\nSeiko 5\nMB&F\n?\nWhite Space\n→  \nThe green oval marks an underserved position: avant-garde design at accessible price.\n→  \nBaltic holds this space partially. Room exists for more brands.\n→  \nYour brand brief should identify a specific white space — a position that is not owned.\n→  \nNeumeier\'s ZAG: when everyone zigs, zag. Find the uncrowded position.',
       },
       {
@@ -302,7 +302,7 @@ export const modules = [
         type: 'content',
         tag: 'CASE STUDY  ·  CRAFT AS STRATEGY',
         heading: 'AnOrdain — When Craft Is the Brand',
-        image: 'https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=800&q=80',
+        image: '/images/generated/m02_s11_anordain_when_craft_is_the_brand.png',
         body: 'The AnOrdain Model\nOrigin (Glasgow, 2015)\nNo Swiss heritage, no advertising, no distributor. The brand was built on one specific craft: hand-made enamel dials, a technique almost lost to the industry.\nThe dial is the brand\nAnOrdain\'s enamel dials — made by their own artisans in Glasgow — are the entire differentiator. No two are identical. This creates scarcity, emotional connection, and a story impossible to copy at scale.\nPrice as integrity signal\nModel 1 starts at £1,000. This is not arbitrary. At this price, the enamel craft is credible as a luxury statement. At £300, it would seem incongruous. Price communicates the seriousness of the craft.\nProvenance and geography\nScottish-made watches carry no historical watch prestige — yet AnOrdain uses their Glasgow origin as a positive differentiator: independent, non-Swiss, authentically crafted in a specific place by identifiable people.\nCritical recognition\nConsistently featured by Hodinkee, Worn & Wound, and Fratello as a benchmark craft microbrand. AnOrdain\'s fumé enamel dials are cited industry-wide as proof that hand-craft and independent spirit can generate genuine collector desire without Swiss heritage or marketing spend.\nWhat AnOrdain Teaches\n→  \nCraft can be a complete brand strategy without Swiss heritage\n→  \nScarcity through genuine craft = desirability\n→  \nGeography as brand asset: \'Made in Glasgow\' is a story\n→  \nA single component (the dial) can be a brand\'s entire identity\n→  \nSustained quality compounds: critical recognition by Hodinkee and the collector community builds over time\n→  \nCustomer relationship &gt; marketing spend — every AnOrdain buyer knows the makers by name',
       },
       {
@@ -334,7 +334,7 @@ export const modules = [
         type: 'summary',
         tag: 'MODULE SUMMARY',
         heading: 'What You Should Now Know',
-        image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=800&q=80',
+        image: '/images/generated/m02_s15_what_you_should_now_know.png',
         body: '01\nBrand definition\nA brand is a gut feeling — it exists in people\'s minds, not company documents. You cannot control it; you can only create conditions for it through consistent design, quality, and communication.\n02\nDifferentiation as survival\nIn a market of 500+ microbrands, design quality is not a differentiator — it is a minimum requirement. Differentiation is the specific, defensible reason someone would choose your brand over a functionally equivalent alternative.\n03\nConsumer-first thinking\nEvery design decision is communication. Before you decide on a case diameter, a dial colour, or a hand profile, you must know who you are communicating with and what motivates their purchase.\n04\nMarket literacy\nYou understand the Swiss watch market\'s structure (FHS data), its geographic dynamics, and the price-band psychology that determines what is expected at each tier.\n05\nThe brand brief\nYou have written a document that will constrain and enable every design decision in Modules 4–9. It is specific, strategic, and genuinely exclusionary.',
       },
       {

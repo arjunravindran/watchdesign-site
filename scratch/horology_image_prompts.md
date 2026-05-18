@@ -2,9 +2,9 @@
 
 This document contains a master list of all slides in the Watch Design Self-Study curriculum. For each slide, we provide:
 1. **Slide ID & Target Filename:** The suggested filename to save the generated image as.
-2. **Context-Driven Visual Recommendation:** Highly specific guidance on whether a **Midjourney v6 Photorealistic Render**, a **DALL-E 3 Technical Graphic/Diagram**, or a **Direct Web Search Reference Image** is best suited for this exact lesson.
+2. **Context-Driven Visual Recommendation:** Highly specific guidance on whether a **Nano Banana Photorealistic Render**, a **DALL-E 3 Technical Graphic/Diagram**, or a **Direct Web Search Reference Image** is best suited for this exact lesson.
 3. **Targeted Web Search Query:** To find reference images.
-4. **Midjourney Prompt:** Tailored for ultra-realistic, premium watch editorial v6 styling.
+4. **Nano Banana Prompt:** Tailored for ultra-realistic, premium watch editorial styling using Nano Banana.
 5. **DALL-E 3 Prompt:** Tailored for semantic accuracy, clear detail, and diagrams where appropriate.
 
 > [!NOTE]
@@ -17,10 +17,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s01: MODULE 01
 - **Target Filename:** `m01_s01_module_01.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -31,10 +31,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s02: What This Module Covers
 - **Target Filename:** `m01_s02_what_this_module_covers.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -45,10 +45,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s03: Why History Is a
 - **Target Filename:** `m01_s03_why_history_is_a.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -59,10 +59,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s04: What Is Horology?
 - **Target Filename:** `m01_s04_what_is_horology.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -79,10 +79,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s06: The Case — Architecture of the Shell
 - **Target Filename:** `m01_s06_the_case_architecture_of_the_shell.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -93,10 +93,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s07: The Dial — Face of the Watch
 - **Target Filename:** `m01_s07_the_dial_face_of_the_watch.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -107,10 +107,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s08: Hands — Typography in Motion
 - **Target Filename:** `m01_s08_hands_typography_in_motion.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -121,10 +121,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s09: Inside the Machine
 - **Target Filename:** `m01_s09_inside_the_machine.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -135,10 +135,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s10: Manual · Automatic · Quartz
 - **Target Filename:** `m01_s10_manual_automatic_quartz.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -155,10 +155,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s12: Beyond the Time — Complications
 - **Target Filename:** `m01_s12_beyond_the_time_complications.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -169,10 +169,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s13: 1500 – 1700
 - **Target Filename:** `m01_s13_1500_1700.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -189,10 +189,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s15: 1850–1969 — Industry, War & the
 - **Target Filename:** `m01_s15_1850_1969_industry_war_the.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -203,10 +203,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s16: 1969–1983 — The Quartz Crisis
 - **Target Filename:** `m01_s16_1969_1983_the_quartz_crisis.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -217,10 +217,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s17: 1984–Now — The Mechanical
 - **Target Filename:** `m01_s17_1984_now_the_mechanical.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -231,10 +231,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s18: The Swiss Watch Market Pyramid
 - **Target Filename:** `m01_s18_the_swiss_watch_market_pyramid.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -245,10 +245,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s19: Rolex
 - **Target Filename:** `m01_s19_rolex.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -259,10 +259,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s20: Patek Philippe  ·  Seiko
 - **Target Filename:** `m01_s20_patek_philippe_seiko.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -273,10 +273,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s21: Brand Deconstruction
 - **Target Filename:** `m01_s21_brand_deconstruction.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -287,10 +287,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s22: What You Should Now Know
 - **Target Filename:** `m01_s22_what_you_should_now_know.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -301,10 +301,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s23: Further Study
 - **Target Filename:** `m01_s23_further_study.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -315,10 +315,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m01-s24: Anatomy &
 - **Target Filename:** `m01_s24_anatomy.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -333,10 +333,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s01: MODULE 02
 - **Target Filename:** `m02_s01_module_02.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -347,10 +347,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s02: What This Module Covers
 - **Target Filename:** `m02_s02_what_this_module_covers.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -361,10 +361,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s03: What a Brand Actually Is
 - **Target Filename:** `m02_s03_what_a_brand_actually_is.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -375,10 +375,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s04: The Five Disciplines of Brand-Building
 - **Target Filename:** `m02_s04_the_five_disciplines_of_brand_building.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -389,10 +389,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s05: Design as Competitive Advantage
 - **Target Filename:** `m02_s05_design_as_competitive_advantage.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -403,10 +403,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s06: Why People Buy Mechanical Watches
 - **Target Filename:** `m02_s06_why_people_buy_mechanical_watches.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -417,10 +417,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s07: Price Psychology in the Watch Market
 - **Target Filename:** `m02_s07_price_psychology_in_the_watch_market.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -431,10 +431,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s08: Positioning Maps & White Space
 - **Target Filename:** `m02_s08_positioning_maps_white_space.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -445,10 +445,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s09: Defining Your Target Consumer
 - **Target Filename:** `m02_s09_defining_your_target_consumer.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -459,10 +459,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s10: Baltic Watches — Design-First Brand Building
 - **Target Filename:** `m02_s10_baltic_watches_design_first_brand_building.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -473,10 +473,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s11: AnOrdain — When Craft Is the Brand
 - **Target Filename:** `m02_s11_anordain_when_craft_is_the_brand.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -487,10 +487,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s12: Reading the Market — FHS 2024 Data
 - **Target Filename:** `m02_s12_reading_the_market_fhs_2024_data.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -501,10 +501,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s13: Anatomy of a Watch Brand Brief
 - **Target Filename:** `m02_s13_anatomy_of_a_watch_brand_brief.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -515,10 +515,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s14: The Brand Brief
 - **Target Filename:** `m02_s14_the_brand_brief.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -529,10 +529,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s15: What You Should Now Know
 - **Target Filename:** `m02_s15_what_you_should_now_know.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Nano Banana excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.
 - **Web Search Query:** `minimalist luxury watch brand campaign moodboard`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw
   ```
@@ -543,10 +543,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s16: Further Study
 - **Target Filename:** `m02_s16_further_study.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -557,10 +557,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s17: Brand Strategy &
 - **Target Filename:** `m02_s17_brand_strategy.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -571,10 +571,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s18: Swissness — What You Can and Cannot Claim
 - **Target Filename:** `m02_s18_swissness_what_you_can_and_cannot_claim.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -585,10 +585,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s19: Choosing a Movement for Your Brand Brief
 - **Target Filename:** `m02_s19_choosing_a_movement_for_your_brand_brief.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -599,10 +599,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m02-s20: Choosing a Movement for Your Brand Brief
 - **Target Filename:** `m02_s20_choosing_a_movement_for_your_brand_brief.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -617,10 +617,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s01: MODULE 03
 - **Target Filename:** `m03_s01_module_03.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -631,10 +631,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s02: Two Sessions, One Imperative
 - **Target Filename:** `m03_s02_two_sessions_one_imperative.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -645,10 +645,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s03: The Movements Behind Most Watches
 - **Target Filename:** `m03_s03_the_movements_behind_most_watches.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -659,10 +659,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s04: Reading a Movement Specification
 - **Target Filename:** `m03_s04_reading_a_movement_specification.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -673,10 +673,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s05: Movement → Case: The Dimensional Chain
 - **Target Filename:** `m03_s05_movement_case_the_dimensional_chain.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -687,10 +687,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s06: Crown Position — The Fixed Point
 - **Target Filename:** `m03_s06_crown_position_the_fixed_point.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -701,10 +701,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s07: Complication Layouts & Dial Architecture
 - **Target Filename:** `m03_s07_complication_layouts_dial_architecture.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -715,10 +715,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s08: Movement Disassembly: Seagull ST36
 - **Target Filename:** `m03_s08_movement_disassembly_seagull_st36.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -729,10 +729,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s09: Module 3 Deliverables
 - **Target Filename:** `m03_s09_module_3_deliverables.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -743,10 +743,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s10: Mechanical Movements
 - **Target Filename:** `m03_s10_mechanical_movements.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -757,10 +757,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s11: Water Resistance Standards
 - **Target Filename:** `m03_s11_water_resistance_standards.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -771,10 +771,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s12: Accuracy Certifications — What Claims Mean
 - **Target Filename:** `m03_s12_accuracy_certifications_what_claims_mean.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -785,10 +785,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m03-s13: The Co-Axial Escapement
 - **Target Filename:** `m03_s13_the_co_axial_escapement.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -806,7 +806,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -820,7 +820,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -831,10 +831,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m04-s03: Setting Up to Sketch Watches
 - **Target Filename:** `m04_s03_setting_up_to_sketch_watches.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -848,7 +848,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -859,10 +859,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m04-s05: Case Form Language
 - **Target Filename:** `m04_s05_case_form_language.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -873,10 +873,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m04-s06: Sketching Dial Architecture
 - **Target Filename:** `m04_s06_sketching_dial_architecture.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -890,7 +890,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -901,10 +901,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m04-s08: Three Refined Concept Sketches
 - **Target Filename:** `m04_s08_three_refined_concept_sketches.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -918,7 +918,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -932,7 +932,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -943,10 +943,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m04-s11: Self-Critique Checklist for Assignment 4
 - **Target Filename:** `m04_s11_self_critique_checklist_for_assignment_4.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -964,7 +964,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -978,7 +978,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -992,7 +992,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1006,7 +1006,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1017,10 +1017,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m05-s05: Dial Design & Typography
 - **Target Filename:** `m05_s05_dial_design_typography.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1031,10 +1031,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m05-s06: Orthographic Technical Drawing
 - **Target Filename:** `m05_s06_orthographic_technical_drawing.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1045,10 +1045,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m05-s07: Full 2D Orthographic Render
 - **Target Filename:** `m05_s07_full_2d_orthographic_render.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1062,7 +1062,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1080,7 +1080,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1091,10 +1091,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m06-s02: Module 6 Time Plan — 15 to 25 Hours
 - **Target Filename:** `m06_s02_module_6_time_plan_15_to_25_hours.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1108,7 +1108,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1119,10 +1119,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m06-s04: The Case Modelling Sequence
 - **Target Filename:** `m06_s04_the_case_modelling_sequence.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1133,10 +1133,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m06-s05: Assignment 6: 3D Geometry
 - **Target Filename:** `m06_s05_assignment_6_3d_geometry.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1147,10 +1147,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m06-s06: The Five Errors That Stop Students Cold
 - **Target Filename:** `m06_s06_the_five_errors_that_stop_students_cold.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -1161,10 +1161,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m06-s07: Assignment 6 Quality Checklist
 - **Target Filename:** `m06_s07_assignment_6_quality_checklist.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1178,7 +1178,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* This slide focuses on 3D computer modeling. DALL-E 3 is recommended as it excels at generating structured software UI screenshots and precise CAD metallic wireframes, looking exactly like a modern designer's monitor.
 - **Web Search Query:** `3D CAD model of watch case in Fusion 360 screenshot`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean modern 3D CAD solid model of a watch case geometry, sleek steel material, wireframe overlay, rotating on a professional workstation screen, professional dark UI interface, minimal background --ar 16:9 --style raw
   ```
@@ -1193,10 +1193,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s01: MODULE 07
 - **Target Filename:** `m07_s01_module_07.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Midjourney v6 has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Nano Banana has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
 - **Web Search Query:** `macro of zaratsu polished watch case metal finish chamfer`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro photography of a watch case lug demonstrating immaculate zaratsu mirror polishing, razor-sharp chamfered edge separating brushed and mirror surfaces, reflection of studio light, luxury horology detail --ar 16:9 --style raw
   ```
@@ -1207,10 +1207,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s02: Case Materials
 - **Target Filename:** `m07_s02_case_materials.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Midjourney v6 has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Nano Banana has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
 - **Web Search Query:** `macro of zaratsu polished watch case metal finish chamfer`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro photography of a watch case lug demonstrating immaculate zaratsu mirror polishing, razor-sharp chamfered edge separating brushed and mirror surfaces, reflection of studio light, luxury horology detail --ar 16:9 --style raw
   ```
@@ -1221,10 +1221,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s03: Surface Finishing — The Designer's Vocabulary
 - **Target Filename:** `m07_s03_surface_finishing_the_designer_s_vocabulary.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1235,10 +1235,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s04: Assignment 7: Materials Callout Sheet
 - **Target Filename:** `m07_s04_assignment_7_materials_callout_sheet.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -1252,7 +1252,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1263,10 +1263,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s06: Swissness Act & Crystal Specification
 - **Target Filename:** `m07_s06_swissness_act_crystal_specification.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1280,7 +1280,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1291,10 +1291,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m07-s08: The Watch as a Colour System
 - **Target Filename:** `m07_s08_the_watch_as_a_colour_system.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Midjourney v6 has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Nano Banana has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
 - **Web Search Query:** `macro of zaratsu polished watch case metal finish chamfer`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro photography of a watch case lug demonstrating immaculate zaratsu mirror polishing, razor-sharp chamfered edge separating brushed and mirror surfaces, reflection of studio light, luxury horology detail --ar 16:9 --style raw
   ```
@@ -1308,7 +1308,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1326,7 +1326,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1340,7 +1340,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1354,7 +1354,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* This slide focuses on 3D computer modeling. DALL-E 3 is recommended as it excels at generating structured software UI screenshots and precise CAD metallic wireframes, looking exactly like a modern designer's monitor.
 - **Web Search Query:** `3D CAD model of watch case in Fusion 360 screenshot`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean modern 3D CAD solid model of a watch case geometry, sleek steel material, wireframe overlay, rotating on a professional workstation screen, professional dark UI interface, minimal background --ar 16:9 --style raw
   ```
@@ -1365,10 +1365,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m08-s04: Hero Renders + Spec Page Layout
 - **Target Filename:** `m08_s04_hero_renders_spec_page_layout.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1382,7 +1382,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.
 - **Web Search Query:** `2D vector watch design orthographic blueprint`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw
   ```
@@ -1397,10 +1397,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s01: MODULE 09
 - **Target Filename:** `m09_s01_module_09.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For professional mockups of books, concrete tables, and pitch-deck flatlays, Midjourney creates stunning architectural lighting and elegant shadows that make your presentation slides look extremely clean.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For professional mockups of books, concrete tables, and pitch-deck flatlays, Nano Banana creates stunning architectural lighting and elegant shadows that make your presentation slides look extremely clean.
 - **Web Search Query:** `watch design portfolio presentation pitch deck mockup`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Professional watch design portfolio presentation booklet open on a concrete table, high-resolution rendering pages, technical specs, minimalist editorial design, high-end studio light --ar 16:9 --style raw
   ```
@@ -1414,7 +1414,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1428,7 +1428,7 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 - **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended)**
 - *Reason:* For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.
 - **Web Search Query:** `industrial watch design sketches on desk with pencil`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw
   ```
@@ -1439,10 +1439,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s04: Career Pathways in Watch Design
 - **Target Filename:** `m09_s04_career_pathways_in_watch_design.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1453,10 +1453,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s05: The Final Watch Design Pitch Deck
 - **Target Filename:** `m09_s05_the_final_watch_design_pitch_deck.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1467,10 +1467,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s06: Unit Economics — Building a Believable Price
 - **Target Filename:** `m09_s06_unit_economics_building_a_believable_price.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1481,10 +1481,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s07: Trends, Portfolio
 - **Target Filename:** `m09_s07_trends_portfolio.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For professional mockups of books, concrete tables, and pitch-deck flatlays, Midjourney creates stunning architectural lighting and elegant shadows that make your presentation slides look extremely clean.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For professional mockups of books, concrete tables, and pitch-deck flatlays, Nano Banana creates stunning architectural lighting and elegant shadows that make your presentation slides look extremely clean.
 - **Web Search Query:** `watch design portfolio presentation pitch deck mockup`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Professional watch design portfolio presentation booklet open on a concrete table, high-resolution rendering pages, technical specs, minimalist editorial design, high-end studio light --ar 16:9 --style raw
   ```
@@ -1495,10 +1495,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s08: Unit Economics — Pricing Your Watch
 - **Target Filename:** `m09_s08_unit_economics_pricing_your_watch.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1509,10 +1509,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s09: Intellectual Property — What You Can and Cannot Own
 - **Target Filename:** `m09_s09_intellectual_property_what_you_can_and_cannot_own.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1523,10 +1523,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m09-s10: Watch Photography — Documenting Your Work
 - **Target Filename:** `m09_s10_watch_photography_documenting_your_work.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1541,10 +1541,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s01: MODULE 10
 - **Target Filename:** `m10_s01_module_10.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* This slide requires a premium visual representation of a completed watch concept. Midjourney v6 offers gorgeous, high-end lifestyle photography styling that instantly wows the viewer.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* This slide requires a premium visual representation of a completed watch concept. Nano Banana offers gorgeous, high-end lifestyle photography styling that instantly wows the viewer.
 - **Web Search Query:** `luxury watch photography MODULE 10`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium close-up photography of a luxury wrist watch, highlighting MODULE 10 elements, sophisticated horological aesthetic, elegant studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -1555,10 +1555,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s02: Enamel Dial Techniques
 - **Target Filename:** `m10_s02_enamel_dial_techniques.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -1569,10 +1569,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s03: Independent Watchmaking
 - **Target Filename:** `m10_s03_independent_watchmaking.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1583,10 +1583,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s04: The Microbrand Launch Process
 - **Target Filename:** `m10_s04_the_microbrand_launch_process.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1597,10 +1597,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s05: Continuing Your Education
 - **Target Filename:** `m10_s05_continuing_your_education.png`
-- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY**
-- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
+- **Recommended Approach:** **🎨 DALL-E 3 GENERATED (Recommended) or NANO BANANA**
+- *Reason:* This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Nano Banana is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker's workbench.
 - **Web Search Query:** `disassembled luxury watch movement calibre parts layout macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw
   ```
@@ -1611,10 +1611,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s06: Year One — From Completed Curriculum to First Batch
 - **Target Filename:** `m10_s06_year_one_from_completed_curriculum_to_first_batch.png`
-- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED**
-- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.
+- **Recommended Approach:** **🔍 SEARCH REFERENCE IMAGE (Best) or NANO BANANA GENERATED**
+- *Reason:* Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Nano Banana will create an exquisite vintage watch campaign rendering.
 - **Web Search Query:** `Breguet antique pocket watch 18th century guilloche dial macro`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw
   ```
@@ -1625,10 +1625,10 @@ This document contains a master list of all slides in the Watch Design Self-Stud
 
 ### m10-s07: Watch Design
 - **Target Filename:** `m10_s07_watch_design.png`
-- **Recommended Approach:** **📸 MIDJOURNEY v6 (Recommended)**
-- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Midjourney v6 has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
+- **Recommended Approach:** **📸 NANO BANANA (Recommended)**
+- *Reason:* For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Nano Banana has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.
 - **Web Search Query:** `macro of zaratsu polished watch case metal finish chamfer`
-- **Midjourney v6 Prompt:**
+- **Nano Banana Prompt:**
   ```text
   Macro photography of a watch case lug demonstrating immaculate zaratsu mirror polishing, razor-sharp chamfered edge separating brushed and mirror surfaces, reflection of studio light, luxury horology detail --ar 16:9 --style raw
   ```

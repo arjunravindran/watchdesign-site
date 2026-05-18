@@ -13,38 +13,6 @@ const modules = require('./temp_modules.cjs');
 fs.unlinkSync('scratch/temp_modules.cjs');
 
 // 3. Prompts Database and Logic
-const imagesPool = {
-    vintage: [
-        '1509048191080-d2984bad6ae5', // Vintage pocket watch
-        '1508685096489-7aacd43bd3b1'  // Vintage watch face
-    ],
-    movement: [
-        '1508057198894-247b23fe5ade', // Skeleton gear watch
-        '1600003014755-ba31aa59c4b6'  // Watch movement close up
-    ],
-    design: [
-        '1511556532299-8f662fc26c06', // Minimal chrono flatlay
-        '1639006570490-79c0c53f1080'  // Aesthetic desk watch
-    ],
-    luxury: [
-        '1585123334904-845d60e97b29', // Luxury gold watch
-        '1539874754764-5a96559165b0'  // Luxury close up
-    ],
-    minimalist: [
-        '1523275335684-37898b6baf30', // Minimalist white watch
-        '1526170375885-4d8ecf77b99f'  // Minimalist black watch
-    ],
-    leather: [
-        '1524592094714-0f0654e20314', // Brown leather strap watch
-        '1542496658-e33a6d0d50f6'  // Elegant brown leather strap watch
-    ],
-    sport: [
-        '1619134778706-7015533a6150', // Black dial diver
-        '1604242692760-2f7b0c26856d', // Stainless steel automatic
-        '1614164185128-e4ec99c436d7'  // Omega Speedmaster style
-    ]
-};
-
 const allFlatPool = [
     '1523275335684-37898b6baf30',
     '1585123334904-845d60e97b29',
@@ -75,9 +43,11 @@ function generatePrompts(slide) {
     if (slide.image && slide.image.startsWith('/images/')) {
         return {
             keep: true,
-            search: 'N/A (Local Schematic Asset)',
-            midjourney: 'N/A (Using existing local schematic)',
-            dalle: 'N/A (Using existing local schematic)'
+            recommendation: '🟢 KEEP EXISTING LOCAL ASSET',
+            reason: 'This slide is an informative technical schematic or graphic pre-designed for this curriculum. No AI generation needed.',
+            search: 'N/A',
+            midjourney: 'N/A',
+            dalle: 'N/A'
         };
     }
 
@@ -88,52 +58,72 @@ function generatePrompts(slide) {
     let search_q = 'luxury watchmaking macro photography';
     let mj_prompt = '';
     let de_prompt = '';
+    let recommendation = '';
+    let reason = '';
 
     // Context match
     if (/history|timeline|pocket|origins|ancient|1500|1700|breguet|harrison|marine chronometer/.test(text)) {
         search_q = 'Breguet antique pocket watch 18th century guilloche dial macro';
         mj_prompt = `Macro close-up photography of an authentic 18th-century antique pocket watch, exquisite Breguet hand-guilloche silver dial, blued steel hands, open case revealing intricate golden mechanical gears and balance wheel, historic Swiss watchmaking craftsmanship, dramatic dark studio lighting, shallow depth of field --ar 16:9 --style raw`;
         de_prompt = `A high-detail macro studio photograph of an authentic 18th-century Breguet pocket watch. The silver dial features hand-engraved guilloche patterns and elegant roman numerals with classic blued steel open-tipped hands. The watch casing is slightly open, showing golden hand-finished gears and escapement. Dark dramatic background, highlighting the historical craftsmanship.`;
+        recommendation = '🔍 SEARCH REFERENCE IMAGE (Best) or MIDJOURNEY GENERATED';
+        reason = 'Since this slide covers exact historical watch models (like 18th-century Breguet pocket watches or marine chronometers), a direct web search for genuine museum photos is recommended for academic accuracy. If you prefer a highly stylized visual, Midjourney will create an exquisite vintage watch campaign rendering.';
     }
     else if (/escapement|mechanical|movement|caliber|calibre|co-axial|lever escapement|balance wheel|spring|mainspring|complication|chronograph|rotor|automatic/.test(text)) {
         search_q = 'disassembled luxury watch movement calibre parts layout macro';
         mj_prompt = `Premium horology photography of a disassembled mechanical watch movement caliber, bridges, mainspring, escape wheel, ruby jewels, and balance wheel arranged in a clean technical layout, high-end finishing, watchmakers bench background, pristine studio lighting --ar 16:9 --style raw`;
         de_prompt = `A professional horological studio shot of a disassembled mechanical watch movement. The parts, including polished steel gears, brass wheels, synthetic ruby jewels, and a golden balance wheel, are neatly laid out on a dark leather watchmaker's workbench. Clean spotlighting emphasizes the fine beveling (anglage) and micro-mechanics.`;
+        recommendation = '🎨 DALL-E 3 GENERATED (Recommended) or MIDJOURNEY';
+        reason = 'This slide focuses on micro-mechanics and structural parts. DALL-E 3 is superior at keeping parts distinct and semantically correct (preventing AI from merging gears together). Midjourney is recommended if you want a dark, dramatic, cinematic close-up of a watchmaker\'s workbench.';
     }
     else if (/sketch|sketching|pencil|ideation|drawing|concept|notebook|ergonomics|proportion/.test(text)) {
         search_q = 'industrial watch design sketches on desk with pencil';
         mj_prompt = `High-end industrial design sketch of a luxury watch concept, draft lines, annotations, technical drawings on premium textured paper on a designer's oak wood desk, drafting tools, mechanical pencils, vintage watch parts nearby, cinematic soft natural light --ar 16:9 --style raw`;
         de_prompt = `A beautiful aesthetic photograph of a watch designer's workspace. On a wooden drafting table sits a textured design notebook showing black ink and pencil technical sketches of a modern watch case, complete with proportional grid lines and annotations. A mechanical pencil and steel calipers lie adjacent to the notebook.`;
+        recommendation = '🎨 DALL-E 3 GENERATED (Recommended)';
+        reason = 'For case sketching and design ideation, DALL-E 3 handles drawing elements, sketch textures, grid lines, and mock-technical annotations with much higher semantic consistency, perfectly matching the design studio theme.';
     }
     else if (/2d|rendering|vector|illustrator|orthographic|technical drawing|line weight/.test(text)) {
         search_q = '2D vector watch design orthographic blueprint';
         mj_prompt = `Clean orthographic 2D technical vector illustration of a modern luxury sport watch, front and profile view, sharp lines, subtle gradients, elegant slate grey background, minimal industrial aesthetic --ar 16:9 --style raw`;
         de_prompt = `An orthographic technical drawing of a luxury wristwatch. The design is displayed as a clean vector graphic, showing front and profile views with precise line work, dimension indicators, and subtle flat shading. The background is a professional dark slate color, evoking high-end CAD blueprints.`;
+        recommendation = '🎨 DALL-E 3 GENERATED (Recommended)';
+        reason = 'Orthographic vector line drawings and dimensions are extremely abstract. DALL-E 3 is highly capable of generating clean, flat 2D blueprint aesthetics and crisp industrial design illustrations without typical photographic noise.';
     }
     else if (/3d|cad|fusion 360|modeling|geometry|step file|tolerances|solid modeling/.test(text)) {
         search_q = '3D CAD model of watch case in Fusion 360 screenshot';
         mj_prompt = `Clean modern 3D CAD solid model of a watch case geometry, sleek steel material, wireframe overlay, rotating on a professional workstation screen, professional dark UI interface, minimal background --ar 16:9 --style raw`;
         de_prompt = `A clean screenshot of a high-end watch case 3D solid model in a CAD application. The model is rendered in polished titanium with precise surface chamfers and bevels. A subtle blue wireframe grid overlays the model to show the geometric mesh. The workstation UI is modern and dark-themed.`;
+        recommendation = '🎨 DALL-E 3 GENERATED (Recommended)';
+        reason = 'This slide focuses on 3D computer modeling. DALL-E 3 is recommended as it excels at generating structured software UI screenshots and precise CAD metallic wireframes, looking exactly like a modern designer\'s monitor.';
     }
     else if (/materials|finishes|zaratsu|polishing|titanium|ceramic|luminous|swissness|crystal|sapphire/.test(text)) {
         search_q = 'macro of zaratsu polished watch case metal finish chamfer';
         mj_prompt = `Macro photography of a watch case lug demonstrating immaculate zaratsu mirror polishing, razor-sharp chamfered edge separating brushed and mirror surfaces, reflection of studio light, luxury horology detail --ar 16:9 --style raw`;
         de_prompt = `A high-detail macro photograph of the titanium case lug of a luxury watch. It showcases the contrast between a perfectly brushed top surface and an mirror-polished, sharp beveled edge (Zaratsu finish), reflecting a soft studio softbox light. The texture of the metal is highly defined.`;
+        recommendation = '📸 MIDJOURNEY v6 (Recommended)';
+        reason = 'For material finishes, metallic reflections, micro-textures, and high-end mirror polish details (like Zaratsu), Midjourney v6 has unmatched photorealistic rendering capability, creating highly premium close-ups that feel authentic.';
     }
     else if (/brand|strategy|brief|market|audience|value proposition|identity|competitors|pricing/.test(text)) {
         search_q = 'minimalist luxury watch brand campaign moodboard';
         mj_prompt = `Minimalist luxury watch brand moodboard, swatch samples of premium leather, brushed rose gold, deep navy blue dials, abstract lifestyle photographs, architectural details, high-end editorial layouts, clean aesthetic --ar 16:9 --style raw`;
         de_prompt = `A curated luxury watch brand strategy moodboard. It features physical elements: a swatch of dark brown alligator leather, a sample of brushed gold metal, a deep blue ceramic card, and minimalist editorial typography cards showing branding keywords. Laid out flat on a clean textured stone background.`;
+        recommendation = '📸 MIDJOURNEY v6 (Recommended)';
+        reason = 'Brand moodboards and campaigns require an editorial, high-fashion aesthetic. Midjourney excels at blending elegant colors, soft focus, and luxurious textures into gorgeous composition shots.';
     }
     else if (/portfolio|career|pitch deck|unit economics|pricing|intellectual property|photography/.test(text)) {
         search_q = 'watch design portfolio presentation pitch deck mockup';
         mj_prompt = `Professional watch design portfolio presentation booklet open on a concrete table, high-resolution rendering pages, technical specs, minimalist editorial design, high-end studio light --ar 16:9 --style raw`;
         de_prompt = `A premium mockup of a watch designer's printed portfolio book. The book is open to a page showing a photorealistic render of a modern dive watch alongside an orthographic spec sheet. It lies on a clean minimalist concrete table with long shadows from a large window.`;
+        recommendation = '📸 MIDJOURNEY v6 (Recommended)';
+        reason = 'For professional mockups of books, concrete tables, and pitch-deck flatlays, Midjourney creates stunning architectural lighting and elegant shadows that make your presentation slides look extremely clean.';
     }
     else if (/microbrand|launch|manufacturing|prototype|kickstarter|community|batch/.test(text)) {
         search_q = 'watch prototyping watchmakers workbench prototype parts';
         mj_prompt = `Horological assembly line, CNC milled watch case prototype, watchmakers tweezers holding a stainless steel crown, close up, engineering precision, premium studio lighting --ar 16:9 --style raw`;
         de_prompt = `A high-detail close-up of a watchmaker's workbench during a prototype review. A stainless steel CNC-machined watch case prototype lies in a padded leather tray next to brass calipers, watchmaker's screwdrivers, and a magnifying loupe.`;
+        recommendation = '📸 MIDJOURNEY v6 (Recommended) or DALL-E 3';
+        reason = 'For industrial manufacturing, CNC parts, or a realistic watchmaker\'s workbench under dramatic studio light, Midjourney is highly recommended as it renders premium mechanical textures beautifully.';
     }
     else {
         // Fallback: pick a consistent photo from flat pool
@@ -142,9 +132,11 @@ function generatePrompts(slide) {
         search_q = `luxury watch photography ${heading}`;
         mj_prompt = `Premium close-up photography of a luxury wrist watch, highlighting ${heading} elements, sophisticated horological aesthetic, elegant studio lighting, shallow depth of field --ar 16:9 --style raw`;
         de_prompt = `A professional horological studio shot of a luxury watch, focused on showing the "${heading}" concept in detail. The background is a clean textured slate surface under soft, moody directional studio lighting.`;
+        recommendation = '📸 MIDJOURNEY v6 (Recommended)';
+        reason = 'This slide requires a premium visual representation of a completed watch concept. Midjourney v6 offers gorgeous, high-end lifestyle photography styling that instantly wows the viewer.';
     }
 
-    return { keep: false, search: search_q, midjourney: mj_prompt, dalle: de_prompt };
+    return { keep: false, recommendation, reason, search: search_q, midjourney: mj_prompt, dalle: de_prompt };
 }
 
 // 4. Output Markdown Builder
@@ -152,7 +144,7 @@ let outputMd = `# Horology Image Prompts Directory
 
 This document contains a master list of all slides in the Watch Design Self-Study curriculum. For each slide, we provide:
 1. **Slide ID & Target Filename:** The suggested filename to save the generated image as.
-2. **Technical/Historical Context:** What the slide teaches.
+2. **Context-Driven Visual Recommendation:** Highly specific guidance on whether a **Midjourney v6 Photorealistic Render**, a **DALL-E 3 Technical Graphic/Diagram**, or a **Direct Web Search Reference Image** is best suited for this exact lesson.
 3. **Targeted Web Search Query:** To find reference images.
 4. **Midjourney Prompt:** Tailored for ultra-realistic, premium watch editorial v6 styling.
 5. **DALL-E 3 Prompt:** Tailored for semantic accuracy, clear detail, and diagrams where appropriate.
@@ -174,12 +166,12 @@ modules.forEach(mod => {
 
         outputMd += `### ${slide.id}: ${heading.replace(/\n/g, ' ')}\n`;
         outputMd += `- **Target Filename:** \`${filename}\`\n`;
+        outputMd += `- **Recommended Approach:** **${p.recommendation}**\n`;
+        outputMd += `- *Reason:* ${p.reason}\n`;
         
         if (p.keep) {
-            outputMd += `- **Status:** 🟢 **KEEP EXISTING LOCAL IMAGE** (\`${slide.image}\`)\n`;
-            outputMd += `- *Reason:* This slide is a pre-designed technical schematic or timeline illustration that is already perfect for the content.\n\n`;
+            outputMd += `- **Current Local Image:** \`${slide.image}\`\n\n`;
         } else {
-            outputMd += `- **Status:** 📸 **NEEDS GENERATION**\n`;
             outputMd += `- **Web Search Query:** \`${p.search}\`\n`;
             outputMd += `- **Midjourney v6 Prompt:**\n  \`\`\`text\n  ${p.midjourney}\n  \`\`\`\n`;
             outputMd += `- **DALL-E 3 Prompt:**\n  \`\`\`text\n  ${p.dalle}\n  \`\`\`\n\n`;

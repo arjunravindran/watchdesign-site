@@ -46,6 +46,7 @@ function SlideHero({ s }) {
       <h1 className="font-serif text-2xl sm:text-3xl text-mist leading-tight">
         {s.title || s.heading} {s.subtitle && <span className="text-gold italic">{s.subtitle}</span>}
       </h1>
+      <SlideImage s={s} className="mt-5 mb-5" />
       {s.tagline && (
         <p className="text-grey text-sm mt-3 italic">{s.tagline}</p>
       )}
@@ -75,6 +76,7 @@ function SlideGrid({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className={`grid ${cols} gap-3 mt-4`}>
         {s.items?.map((item, i) => (
           <div key={i} className="bg-rule/40 rounded-sm p-4 border-l-2 border-gold-dim">
@@ -94,6 +96,7 @@ function SlideList({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="mt-4 space-y-2">
         {s.rows?.map((row, i) => (
           <div key={i} className="flex gap-4 p-3 bg-rule/40 rounded-sm border-l border-gold-dim">
@@ -113,6 +116,7 @@ function SlideCallout({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       {s.stats && (
         <div className={`grid grid-cols-1 sm:grid-cols-${Math.min(s.stats.length, 3)} gap-3 mt-4`}>
           {s.stats.map((stat, i) => (
@@ -135,6 +139,7 @@ function SlideCompare({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
         {[s.left, s.right].map((side, i) => side && (
           <div key={i} className="bg-rule/40 rounded-sm p-4 border-t-2 border-gold">
@@ -162,6 +167,7 @@ function SlideSequence({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="mt-4 space-y-2">
         {s.steps?.map((step, i) => (
           <div key={i} className="flex gap-3">
@@ -185,6 +191,7 @@ function SlideAssignment({ s }) {
     <div className="border-t-2 border-gold pt-4">
       <div className="eyebrow mb-2">Assignment</div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       {s.warning && (
         <div className="mt-3 bg-rust/20 border border-rust/40 rounded-sm px-4 py-2 text-xs text-ivory">
           ⚠  {s.warning}
@@ -240,6 +247,7 @@ function SlideOverview({ s }) {
     return (
       <div>
         <Heading text={s.heading} />
+      <SlideImage s={s} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
           {s.sessions.map((sess, i) => (
             <div key={i} className="bg-rule/40 rounded-sm p-4 border-t-2 border-gold-dim">
@@ -265,6 +273,7 @@ function SlideOverview({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="mt-4 space-y-2">
         {bodyLines.map((line, i) => {
           const trimmed = line.trim()
@@ -303,6 +312,7 @@ function SlideEndcard({ s }) {
     <div className="text-center py-8 border border-gold-dim rounded-sm">
       <div className="eyebrow mb-2">{s.tag || `Module ${s.module} Complete`}</div>
       <div className="font-serif text-2xl text-mist italic">{s.heading || s.title}</div>
+      <SlideImage s={s} className="mt-5 mb-5" />
       {bodyLines.map((line, i) => (
         <div key={i} className="text-grey text-xs mt-2">{line}</div>
       ))}
@@ -319,11 +329,8 @@ function SlideContent({ s }) {
   return (
     <div>
       <Heading text={s.heading} />
-      {s.image && (
-        <div className="mt-4 mb-4 rounded-sm overflow-hidden border border-rule">
-          <img src={s.image} alt={s.heading || 'Slide image'} className="w-full h-auto object-cover" />
-        </div>
-      )}
+      <SlideImage s={s} />
+
       <div className="mt-4 space-y-2">
         {bodyLines.map((line, i) => {
           const trimmed = line.trim()
@@ -378,6 +385,7 @@ function SlideSummary({ s }) {
     <div className="border-t-2 border-gold-dim pt-4">
       <div className="eyebrow mb-2">Summary</div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="mt-4 space-y-2">
         {bodyLines.map((line, i) => {
           const trimmed = line.trim()
@@ -407,6 +415,7 @@ function SlideResources({ s }) {
     <div className="border-t-2 border-gold-dim pt-4">
       <div className="eyebrow mb-2">Further Study</div>
       <Heading text={s.heading} />
+      <SlideImage s={s} />
       <div className="mt-4 space-y-1.5">
         {bodyLines.map((line, i) => {
           const trimmed = line.trim()
@@ -432,6 +441,16 @@ function SlideResources({ s }) {
 }
 
 // ── Shared ────────────────────────────────────────────────────
+
+
+function SlideImage({ s, className = "mt-4 mb-4" }) {
+  if (!s.image) return null
+  return (
+    <div className={`${className} rounded-sm overflow-hidden border border-rule`}>
+      <img src={s.image} alt={s.heading || s.title || 'Slide image'} className="w-full h-auto max-h-64 object-cover" />
+    </div>
+  )
+}
 
 function Heading({ text }) {
   if (!text) return null

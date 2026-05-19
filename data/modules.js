@@ -14,6 +14,7 @@ export const modules = [
       {
         id: 'm01-s01',
         type: 'hero',
+        image: '/images/generated/m01_s01_module_01.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 01',
         body: 'Anatomy &\nHistory of Horology\nFrom the birth of the portable timepiece to the modern watch industry\n2 Sessions  ·  Foundational  ·  Reading: Clutton & Daniels Chs 1–3, Watchfinder & Co. YouTube',
@@ -21,6 +22,7 @@ export const modules = [
       {
         id: 'm01-s02',
         type: 'overview',
+        image: '/images/generated/m01_s02_what_this_module_covers.png',
         tag: 'MODULE OVERVIEW',
         heading: 'What This Module Covers',
         body: 'SESSION 1A\nWatch Anatomy & Designer\'s Role\n◆  \nCase, dial & hand terminology\n◆  \nMovement types & functions\n◆  \nThe escapement explained\n◆  \nComplications overview\nSESSION 1B\nHorology History & Brand Landscape\n◆  \n500 years in 40 minutes\n◆  \nThe Quartz Crisis & its consequences\n◆  \nBrand DNA: Rolex, Patek, Seiko\n◆  \nWhere the market sits today\nAssignment 1 — Deliverable: Deconstruct 3 watch brands in depth. Due end of Module 1.',
@@ -28,6 +30,7 @@ export const modules = [
       {
         id: 'm01-s03',
         type: 'content',
+        image: '/images/generated/m01_s03_why_history_is_a_superpower.png',
         tag: 'ORIENTATION',
         heading: 'Why History Is a',
         body: 'Design Tool\n01\nConventions exist for reasons\nThe crown at 3 o\'clock, the 12/6/9 hierarchy, the swept seconds hand — each emerged from a specific functional or manufacturing constraint. When you break a convention, you must replace it with something better.\n02\nCollectors are your market\nSerious buyers are historically literate. A design that accidentally echoes a celebrated reference gains depth. One that poorly imitates it loses credibility. You cannot navigate this without knowing the references.\n03\nIdeas repeat across eras\nSports-luxury crossover, oversized cases, two-tone metal, integrated bracelets — these have all appeared, disappeared, and returned. Understanding cycles gives you a better read on where design is going.\n"The 1960s and 70s were incredibly creative and daring decades. What have we done since?"\n— Emmanuel Gueit, designer of the Royal Oak Offshore',
@@ -35,6 +38,7 @@ export const modules = [
       {
         id: 'm01-s04',
         type: 'content',
+        image: '/images/generated/m01_s04_what_is_horology.png',
         tag: 'VOCABULARY',
         heading: 'What Is Horology?',
         body: 'ho·rol·o·gy\n/hɒˈrɒlədʒi/  noun\nThe science of measuring time and the art of making instruments for this purpose. Encompasses clocks, watches, sundials, water clocks, and all timekeeping devices.\n16th C\nSpring-driven pocket watches\n17th C\nBalance spring escapements\n18th C\nMarine chronometers\n19th C\nIndustrial production\n20th C\nThe wristwatch era\n21st C\nMechanical renaissance\nWhy the Wristwatch?\n→  \nMost personal object most people own\n→  \nWorn against skin — intimate scale\n→  \nCombines mechanics + aesthetics at 40mm\n→  \nHolds cultural & emotional meaning\n→  \nStill purchased when smartphones exist',
@@ -101,6 +105,7 @@ export const modules = [
       {
         id: 'm01-s13',
         type: 'content',
+        image: '/images/generated/m01_s05_a_brief_history.png',
         tag: 'HISTORY · ERA 1',
         heading: '1500 – 1700',
         body: 'Birth of the Portable Timepiece\nc.1510\nPeter Henlein, Nuremberg\nFirst spring-driven portable clock. Drum-shaped, worn around the neck. Accuracy: ±30 minutes/day. The concept of wearable timekeeping is born.\n1657\nHuygens — Pendulum Clock\nChristiaan Huygens invents the pendulum clock, reducing daily error from ~15 minutes to ~15 seconds. Stationary timekeeping is transformed. The portable equivalent would come 18 years later.\n1631\nWorshipful Company of Clockmakers\nLondon\'s clockmakers guild established — the first formal professional body in watchmaking. Thomas Tompion (1639–1713) and George Graham (1673–1751) later emerge from this tradition.\n1675\nHuygens — Balance Spring (Hairspring)\nThe invention that made portable accuracy possible. Published January 20, 1675 in the Journal des Sçavans. The coiled spring allows the balance wheel to oscillate at a regulated frequency. Still in use today. This is the fundamental innovation of portable horology.\n1700\nCase design begins to evolve\nEarly watches are purely functional objects in simple cases. As accuracy improves and watches become status symbols, the case begins to receive ornamental attention — enamel, engraving, precious metal.',
@@ -116,6 +121,7 @@ export const modules = [
       {
         id: 'm01-s15',
         type: 'content',
+        image: '/images/generated/m01_s09_wristwatch_revolution.png',
         tag: 'HISTORY · ERAS 3 & 4',
         heading: '1850–1969 — Industry, War & the',
         body: 'Golden Age of the Wristwatch\n1868\nFirst wristwatch\nPatek Philippe for Countess Koscowicz\nPocket watch mechanics in bracelet form. A novelty for women, initially mocked by men.\n1904\nSantos Dumont\nCartier for aviator Alberto Santos-Dumont\nFirst men\'s wristwatch of design intention. Square case, exposed screws. Still in production today.\n1916–18\nWWI trench watches\nTiming artillery fire demanded wrist-worn\nThe wristwatch becomes a tool of war. Men adopt it. The pocket watch begins its slow death.\n1926\nRolex Oyster — first waterproof\nHans Wilsdorf, Geneva\nHermetically sealed case. The wristwatch becomes robust. Rolex\'s DNA of waterproof, dustproof reliability begins.\n1953\nThe Sports Watch Era\nRolex Submariner · Blancpain Fifty Fathoms · IWC Big Pilot\nFunction becomes the design brief. Legibility, durability, water resistance. The design language of the modern sports watch is born.\n1963\nOmega Speedmaster\nTested and adopted by NASA, 1965\nThe watch that went to the moon. Defines the chronograph category\'s aspirational peak for the next 60 years.',
@@ -123,6 +129,7 @@ export const modules = [
       {
         id: 'm01-s16',
         type: 'content',
+        image: '/images/generated/m01_s11_key_milestones.png',
         tag: 'HISTORY · THE TURNING POINT',
         heading: '1969–1983 — The Quartz Crisis',
         body: '1969\nSeiko Astron — first quartz watch\nAccurate to ±5 seconds/year. Revolutionary.\n~50%\nSwiss watch exports halved\nFrom 1974 peak to early 1980s. An industry near collapse.\n1,000+\nSwiss watchmakers closed\nEmployment: 90,000 (1970) → 33,000 (1984) → 28,000 (1988).\nWhat Happened\nJapanese manufacturers (Seiko, Citizen) and then Hong Kong/Taiwanese producers offered quartz watches at a fraction of the cost and vastly superior accuracy. Swiss watchmakers, who had invested centuries in mechanical expertise, had no competitive answer. The mid-tier Swiss watch industry — watches priced between $50–$500 — was essentially destroyed.\nThe irony: The CEH (Centre Electronique Horloger) in Neuchâtel, Switzerland had developed quartz watch technology in parallel with Seiko and actually showed a prototype in 1967. But Swiss industry leaders failed to commercialise it aggressively, believing mechanical watches were too culturally embedded to be displaced.\nThe Salvation: Swatch (1983)\n→  \nNicolas Hayek\'s insight: reclaim low-price quartz — but make it fashionable, Swiss, and disposable.\n→  \nSwatch used quartz to protect the Swiss industry\'s volume. Allowed Omega, Longines, IWC to reposition up the value chain.\n→  \nThe mechanical watch became luxury, not commodity. This repositioning saved the industry and defined it for the next 40 years.',
@@ -130,6 +137,7 @@ export const modules = [
       {
         id: 'm01-s17',
         type: 'content',
+        image: '/images/generated/m01_s10_evolution_of_watch_design.png',
         tag: 'HISTORY · TODAY',
         heading: '1984–Now — The Mechanical',
         body: 'Renaissance & Independent Era\n1984–2000\nLuxury Repositioning\nSwiss brands abandon the mid-market. Rolex, Patek, AP become investment objects. IWC and Jaeger-LeCoultre revive heritage lines. Complications regain prestige.\n2000–2010\nBoom & Complexity\nPre-2008 boom. Ultra-complicated watches become status signifiers. Richard Mille founded 2001. Skeletonised movements, tonneau cases, avant-garde materials. The anti-dress-watch movement.\n2010–2020\nMicrobrand Revolution\nInternet lowers barriers to brand creation. Baltic, Lorier, AnOrdain, Halios, Farer emerge. Design-first brands with no Swiss heritage compete on taste, story, and value.\n2020–Now\nConsolidation & Craft\nPremium segment booms post-COVID. Watch auctions hit new records. Secondary market explodes. But: overproduction in mid-tier, China slowdown 2024. Design quality bifurcates sharply.\nYour opportunity as a designer: The microbrand category is the most open and design-forward segment of the entire watch market.',
@@ -166,6 +174,7 @@ export const modules = [
       {
         id: 'm01-s22',
         type: 'summary',
+        image: '/images/generated/m01_s12_lesson_summary.png',
         tag: 'MODULE SUMMARY',
         heading: 'What You Should Now Know',
         body: '01\nVocabulary\nYou can name every external component of a watch, explain the difference between dial finish types and index styles, and identify hand profiles by name.\n02\nMechanics\nYou understand the power flow from mainspring through gear train, escapement, and balance wheel. You can explain the difference between manual, automatic, and quartz movements.\n03\nHistory\nYou can trace watchmaking from Henlein through Breguet, the wristwatch revolution, the Quartz Crisis, and the mechanical renaissance. You understand why mechanical watches have cultural value.\n04\nBrand DNA\nYou have studied three brands at depth and can articulate what makes each distinct at a design level — not just commercially, but visually and technically.\n05\nMarket awareness\nYou understand where the Swiss watch market sits, how it is segmented, and where your future work as a designer will most likely enter the conversation.',

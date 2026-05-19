@@ -30,6 +30,8 @@ export default function SlideViewer({ slide, index, total }) {
         {slide.type === 'content'   && <SlideContent s={slide} />}
         {slide.type === 'summary'   && <SlideSummary s={slide} />}
         {slide.type === 'resources' && <SlideResources s={slide} />}
+        {slide.type === 'flow'      && <SlideMechanicsFlow s={slide} />}
+        {slide.type === 'table'     && <SlideMovementTable s={slide} />}
       </div>
     </div>
   )
@@ -484,5 +486,80 @@ function Heading({ text }) {
     <h2 className="font-serif text-mist text-xl sm:text-2xl leading-snug tracking-wide border-b border-rule/30 pb-3 mb-4 font-light">
       {text}
     </h2>
+  )
+}
+
+function SlideMechanicsFlow({ s }) {
+  return (
+    <SlideLayout s={s}>
+      <Heading text={s.heading} />
+      
+      {/* The Horizontal Flow Chart */}
+      <div className="grid grid-cols-2 md:flex md:items-center md:justify-between gap-3 bg-rule/10 p-4 border border-rule/50 rounded-sm mb-6 mt-4">
+        {s.flow?.map((item, i) => (
+          <div key={i} className="flex flex-col md:flex-row items-center w-full md:w-auto gap-2">
+            <div className="text-center bg-card border border-rule/80 px-3 py-2.5 rounded-sm shadow-sm w-full md:w-36 hover:border-gold transition-colors duration-300">
+              <div className="text-[10px] text-gold font-mono tracking-widest font-bold uppercase">{item.label}</div>
+              <div className="text-[9px] text-grey font-sans uppercase font-medium mt-0.5">{item.sub}</div>
+            </div>
+            {i < s.flow.length - 1 && (
+              <div className="hidden md:block text-gold-dim text-lg font-bold px-1 select-none">
+                →
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* Component Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {s.components?.map((comp, i) => (
+          <div key={i} className="bg-rule/10 hover:bg-rule/25 border border-rule/45 p-4 rounded-sm hover:border-gold-dim transition-all duration-300">
+            <h4 className="font-serif text-mist text-sm font-semibold tracking-wide mb-1.5">{comp.name}</h4>
+            <p className="text-grey text-xs leading-relaxed">{comp.desc}</p>
+          </div>
+        ))}
+      </div>
+    </SlideLayout>
+  )
+}
+
+function SlideMovementTable({ s }) {
+  return (
+    <SlideLayout s={s}>
+      <Heading text={s.heading} />
+      
+      <div className="overflow-x-auto mt-5 border border-rule/65 rounded-sm shadow-md bg-card">
+        <table className="w-full text-left border-collapse min-w-[600px]">
+          <thead>
+            <tr className="border-b border-rule bg-rule/20">
+              <th className="p-3 text-[10px] text-gold font-mono tracking-widest uppercase font-bold w-1/4">Movement Type</th>
+              <th className="p-3 text-[10px] text-gold font-mono tracking-widest uppercase font-bold w-1/3">Advantages</th>
+              <th className="p-3 text-[10px] text-gold font-mono tracking-widest uppercase font-bold w-1/4">Limitations</th>
+              <th className="p-3 text-[10px] text-gold font-mono tracking-widest uppercase font-bold w-1/4">Key Examples</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-rule/40">
+            {s.rows?.map((row, i) => (
+              <tr key={i} className="hover:bg-rule/10 transition-colors duration-300">
+                <td className="p-3 align-top border-r border-rule/30">
+                  <div className="font-serif text-mist text-sm font-semibold tracking-wide mb-1">{row.type}</div>
+                  <div className="text-[9px] text-gold-dim font-mono tracking-widest uppercase font-bold">{row.tech || ''}</div>
+                </td>
+                <td className="p-3 align-top border-r border-rule/30 text-grey text-xs leading-relaxed whitespace-pre-line">
+                  {row.advantages}
+                </td>
+                <td className="p-3 align-top border-r border-rule/30 text-grey text-xs leading-relaxed whitespace-pre-line">
+                  {row.limitations}
+                </td>
+                <td className="p-3 align-top text-gold-dim text-[11px] font-sans font-medium leading-relaxed whitespace-pre-line italic">
+                  {row.examples}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </SlideLayout>
   )
 }

@@ -53,39 +53,123 @@ export const modules = [
       },
       {
         id: 'm01-s06',
-        type: 'content',
+        type: 'grid',
         tag: 'ANATOMY · CASE',
         heading: 'The Case — Architecture of the Shell',
-        body: 'Case Diameter\nMeasured across the widest point excluding crown. Standard ranges: 36mm (dress) to 47mm (sport). The most quoted spec and a primary design constraint. Affects visual weight and wearability on different wrist sizes.\nCase Height / Thickness\nDetermined largely by movement choice. Ultra-thin movements (&lt; 2mm) enable dress watches under 7mm total height. Diver movements often exceed 13mm. Thickness dramatically affects how a watch wears.\nLug-to-Lug Distance\nThe span from top to bottom lug tip. More important than diameter for wearability — a 42mm watch with short lugs can wear smaller than a 38mm with long lugs. Often the first spec serious collectors check.\nCase Shape\nRound (most common), tonneau (barrel-shaped), rectangular (Cartier Tank DNA), cushion, octagonal (Royal Oak). Shape is the primary design statement of a watch case.\nCase Material\n316L or 904L stainless steel (standard), titanium (lightweight, hypoallergenic), gold (yellow, rose, white), bronze (patinas over time), ceramic. Each has distinct finishing properties.\nCaseback\nScrewdown, snap-in, or exhibition (sapphire crystal revealing movement). Exhibition casebacks are a marketing and design decision — they create desire for finishing quality.',
+        columns: 2,
+        items: [
+          { title: 'Case Diameter', badge: 'Main Spec', body: 'Measured across the widest point excluding the crown. Standard range: 36mm (dress) to 45mm+ (sport). Affects visual weight and presence on the wrist.' },
+          { title: 'Case Height / Thickness', badge: 'Profile', body: 'Largely determined by the movement. Ultra-thin dress movements can sit under 7mm total, while robust divers exceed 14mm.' },
+          { title: 'Lug-to-Lug Distance', badge: 'Wearability', body: 'The total span from top to bottom lug tip. Crucial for wrist fit — long lugs make small diameters wear large; short lugs make large dials wear compact.' },
+          { title: 'Case Shape', badge: 'Identity', body: 'Round is most common, but shapes like Tonneau (barrel), Cushion (Panerai), Rectangular (Cartier Tank), and Octagonal (Royal Oak) make powerful design statements.' },
+          { title: 'Case Material', badge: 'Structure', body: 'Standard steel (316L/904L), lightweight titanium, yellow or rose gold, bronze (develops a unique patina), or scratch-resistant ceramic.' },
+          { title: 'Caseback', badge: 'Exhibition', body: 'Solid caseback for tool watches, or sapphire exhibition casebacks showing the mechanical movement finishing — a major luxury selling point.' }
+        ]
       },
       {
         id: 'm01-s07',
-        type: 'content',
+        type: 'grid',
         tag: 'ANATOMY · DIAL',
-        heading: 'The Dial — Face of the Watch',
-        body: 'FINISH TYPES\nSunburst\nRadial brushing from centre. Changes appearance with light angle.\nMatte\nUniform textured surface. Legible, modern. Common in field watches.\nLacquered\nDeep, glossy. Dress watches. Shows imperfections readily.\nFumé / Gradient\nGraduated tone from dark centre to lighter edge. Highly fashionable 2020s.\nGuilloché\nEngine-turned geometric pattern. Historical, high craft. Breguet DNA.\nINDEX TYPES\nApplied Indices\n3D metal markers applied to the dial surface. Adds depth and quality perception. Requires precise manufacturing.\nPrinted Indices\nPainted or printed onto dial. More economical. Can achieve very fine detail (Breguet numerals).\nArabic Numerals\n0–12 numerals. Pilots, dress, field watches. Legibility over elegance.\nRoman Numerals\nI–XII. Classic, formal. Cartier, Patek, dress tradition. Occupies more dial space.\nBaton / Stick\nSimple rectangular bars. Versatile. Common in sports and dress contexts.',
+        heading: 'The Dial — Finish Types',
+        image: '/images/generated/m01_s07_advent_of_mechanical_clocks.png',
+        columns: 2,
+        items: [
+          { title: 'Sunburst', badge: 'Radial Polish', body: 'Fine radial brushing emanating from the center. Captures light at changing angles, creating dynamic, shifting highlights.' },
+          { title: 'Matte', badge: 'Utilitarian', body: 'Uniformly textured, non-reflective surface. Offers maximum legibility, making it the industry standard for field and military watches.' },
+          { title: 'Lacquered', badge: 'Glossy Finish', body: 'Deep, ultra-smooth, glossy paint layer. Classic dress watches. Shows dial depth but requires extreme dust-free production.' },
+          { title: 'Fumé / Gradient', badge: 'Vibrant & Modern', body: 'Graduated color tone fading from a lighter, vibrant center to a deep, near-black outer rim. Highly popular modern dress aesthetic.' },
+          { title: 'Guilloché', badge: 'Historic Engine-Turning', body: 'Intricate geometric patterns engraved into metal plates via manual engine-turning machines. Represented in Breguet DNA.' }
+        ]
+      },
+      {
+        id: 'm01-s07b',
+        type: 'grid',
+        tag: 'ANATOMY · DIAL',
+        heading: 'The Dial — Index Styles',
+        image: '/images/generated/m01_s08_birth_of_pocket_watches.png',
+        columns: 2,
+        items: [
+          { title: 'Applied Indices', badge: 'Three-Dimensional', body: 'Polished metal markers manufactured separately and physically applied to the dial plate. Adds incredible depth and high quality perception.' },
+          { title: 'Printed Indices', badge: 'Minimalist & Precise', body: 'Flat index markers pad-printed directly onto the dial. Offers maximum accuracy for fine markers like tachymeters or Breguet numerals.' },
+          { title: 'Arabic Numerals', badge: '0–12 markers', body: 'Highly legible numerals. Standard for aviation, military, and field watches where quick and clear time reading is paramount.' },
+          { title: 'Roman Numerals', badge: 'I–XII markers', body: 'Formal, classic, and historic. Favored in traditional Swiss dress watches (such as Cartier and Patek Philippe Calatrava).' },
+          { title: 'Baton / Stick', badge: 'Versatile', body: 'Simple, linear bars. The most versatile index type in horological history, adapting seamlessly to both sports and dress watch contexts.' }
+        ]
       },
       {
         id: 'm01-s08',
-        type: 'content',
+        type: 'grid',
         tag: 'ANATOMY · HANDS',
         heading: 'Hands — Typography in Motion',
         image: '/images/generated/m01_s08_hands_typography_in_motion.png',
-        body: 'Dauphine\n1940s–present\nDress watches. Elegant taper. Patek, JLC, dress Rolex.\nSword / Baton\n1950s–present\nSports watches. Simple, legible. AP Royal Oak, many sports refs.\nMercedes\n1953–present\nRolex signature since the Explorer. Immediately recognisable.\nLancet / Spade\n1930s–60s\nVintage military and pilot. Strong legibility. Reviving in microbrand design.\nSnowflake\n1969–present\nTudor Snowflake — highly distinctive. The hand is the watch\'s identity.\nCathedral\n1940s–60s\nVintage dress, Omega. Maximally legible opening for lume.',
+        columns: 2,
+        items: [
+          { title: 'Dauphine', badge: '1940s–present', body: 'Dress watches. Elegant faceted taper. Signature look for Patek Philippe Calatrava, JLC, and classic Rolex dress watches.' },
+          { title: 'Sword / Baton', badge: '1950s–present', body: 'Sports watches. Simple, starkly legible. Famous on Audemars Piguet Royal Oak and modern sports watches.' },
+          { title: 'Mercedes', badge: '1953–present', body: 'Rolex signature style since the original Explorer. The iconic Mercedes logo division provides structural support for luminescent paint.' },
+          { title: 'Lancet / Spade', badge: '1930s–1960s', body: 'Vintage military and pocket watch styles. Elegant spade outline, recently reviving in high-taste microbrand designs.' },
+          { title: 'Snowflake', badge: '1969–present', body: 'Tudor Snowflake signature. Highly distinctive geometric shape designed for high legibility underwater.' },
+          { title: 'Cathedral', badge: '1940s–1960s', body: 'Vintage dress and field watches (like Seiko Alpinist). Maximally stylized opening inspired by stained-glass window arches.' }
+        ]
       },
       {
         id: 'm01-s09',
-        type: 'content',
+        type: 'flow',
         tag: 'MECHANICS',
         heading: 'Inside the Machine',
-        body: 'MAINSPRING\nEnergy source\n→\nGEAR TRAIN\nEnergy transmission\n→\nESCAPEMENT\nEnergy regulation\n→\nBALANCE WHEEL\nOscillator / timekeeping\nMainspring\nA coiled strip of metal that stores mechanical energy when wound. Its tension is released gradually through the gear train over the movement\'s power reserve (typically 38–80 hours).\nGear Train\nA series of interlocking wheels that transmit and step down the mainspring\'s energy to drive the hands at the correct rate. Wheels are typically made of brass with steel pinions.\nEscapement\nThe most critical component. Controls the release of energy from the gear train in discrete pulses. The lever escapement — invented c.1760 — is still used in 99% of mechanical watches.\nBalance Wheel + Hairspring\nThe watch\'s heart. The balance wheel oscillates back and forth at a fixed frequency (beats per hour, BPH) regulated by the hairspring tension. This frequency directly determines accuracy.',
+        flow: [
+          { label: 'MAINSPRING', sub: 'Energy Source' },
+          { label: 'GEAR TRAIN', sub: 'Energy Transmission' },
+          { label: 'ESCAPEMENT', sub: 'Energy Regulation' },
+          { label: 'BALANCE WHEEL', sub: 'Oscillation' }
+        ],
+        components: [
+          {
+            name: 'Mainspring',
+            desc: 'A coiled spring storing mechanical power. Tension is released gradually through the gear train over the movement\'s power reserve (typically 38–80 hours).'
+          },
+          {
+            name: 'Gear Train',
+            desc: 'Interlocking brass gears and steel pinions that transmit and step down the stored energy to drive the hands at a mathematically precise rate.'
+          },
+          {
+            name: 'Escapement',
+            desc: 'The heart of movement regulation. Controls the release of energy in discrete pulses, converting rotational force into regular, alternating ticks.'
+          },
+          {
+            name: 'Balance Wheel & Hairspring',
+            desc: 'The regulating oscillator. Under hairspring tension, the balance wheel swings back and forth at a fixed frequency (e.g. 28,800 beats/hour), establishing accuracy.'
+          }
+        ]
       },
       {
         id: 'm01-s10',
-        type: 'content',
+        type: 'table',
         tag: 'MECHANICS · MOVEMENT TYPES',
         heading: 'Manual · Automatic · Quartz',
-        body: 'Manual Wind\nAdvantages\n+ \nThinnest possible movement\n+ \nPurest horological experience\n+ \nDaily ritual of winding\nLimitations\n– \nMust be wound daily\n– \nNo rotor — quieter, thinner\nPatek 5196, Jaeger-LeCoultre Reverso, IWC Portofino Hand-Wound\nAutomatic\nAdvantages\n+ \nSelf-winding via rotor\n+ \nMost versatile — dress to sport\n+ \nWider movement ecosystem\nLimitations\n– \nHeavier (rotor adds weight)\n– \nSlightly thicker than equivalent manual\nETA 2824, Miyota 9015, Rolex 3235, Omega 8500\nQuartz\nAdvantages\n+ \nHighly accurate (±15s/yr)\n+ \nLow cost and maintenance\n+ \nThin possible profiles\nLimitations\n– \nBattery (or solar) required\n– \nNo horological cachet\n– \nNot mechanical\nETA 956, Miyota 2035, Seiko VH31, Grand Seiko 9F86',
+        rows: [
+          {
+            type: 'Manual Wind',
+            tech: 'Mechanical (Spring)',
+            advantages: '◆ Thinnest possible movement\n◆ Purest horological experience\n◆ Daily tactile winding ritual',
+            limitations: '◆ Must be wound daily\n◆ No self-winding rotor\n◆ Higher torque variations',
+            examples: 'Patek Philippe Calatrava 5196 · JLC Reverso · IWC Portofino Hand-Wound'
+          },
+          {
+            type: 'Automatic',
+            tech: 'Mechanical (Rotor)',
+            advantages: '◆ Convenient self-winding via rotor\n◆ Highly versatile — dress to sport\n◆ Massive global caliber ecosystem',
+            limitations: '◆ Heavier construction\n◆ Rotor adds 1.5–3.0mm thickness\n◆ Inefficient if unworn',
+            examples: 'Rolex Submariner (Cal. 3235) · Tudor Black Bay · Seiko 5 Sports (4R36)'
+          },
+          {
+            type: 'Quartz',
+            tech: 'Battery / Quartz',
+            advantages: '◆ Unmatched accuracy (±15s/year)\n◆ Economical & virtually maintenance-free\n◆ Ultra-thin movement profiles possible',
+            limitations: '◆ Requires periodic battery changes\n◆ Zero hand-finished craft value\n◆ Harsh stepping seconds hand',
+            examples: 'Grand Seiko 9F86 · Casio F-91W · Swatch Originals'
+          }
+        ]
       },
       {
         id: 'm01-s11',
@@ -97,10 +181,16 @@ export const modules = [
       },
       {
         id: 'm01-s12',
-        type: 'content',
+        type: 'grid',
         tag: 'MECHANICS · COMPLICATIONS',
         heading: 'Beyond the Time — Complications',
-        body: 'SIMPLE\n◆  \nDate (instantaneous or retrograde)\n◆  \nPower Reserve Indicator\n◆  \nSmall Seconds\n◆  \n24-Hour Hand\n◆  \nAlarm\nINTERMEDIATE\n◆  \nChronograph (stopwatch)\n◆  \nGMT / Dual Time Zone\n◆  \nAnnual Calendar\n◆  \nMoon Phase\n◆  \nRegulator\nGRAND COMPLICATION\n◆  \nTourbillon (counteracts gravity)\n◆  \nPerpetual Calendar (self-correcting)\n◆  \nMinute Repeater (chimes time)\n◆  \nSplit-seconds chronograph\n◆  \nEquation of Time\n⚠  Designer\'s note: Every complication requires additional apertures, subdials, or pushers — each is a design problem and a manufacturing constraint. Never specify a complication for aesthetics alone.',
+        columns: 3,
+        items: [
+          { title: 'Simple', badge: 'Apertures & Indicators', body: '◆  Date (retrograde or digital)\n◆  Power Reserve Indicator\n◆  Small Seconds subdial\n◆  Alarm function' },
+          { title: 'Intermediate', badge: 'Timing & Calendars', body: '◆  Chronograph (stopwatch)\n◆  GMT / Dual Time Zone\n◆  Annual Calendar\n◆  Moon Phase' },
+          { title: 'Grand Complications', badge: 'High Horology', body: '◆  Tourbillon (gravity escape)\n◆  Perpetual Calendar\n◆  Minute Repeater (chimes)\n◆  Equation of Time' }
+        ],
+        deliverable: 'Designer\'s note: Every complication requires additional dials or pushers — each is a primary design problem. Never specify a complication for pure aesthetics.'
       },
       {
         id: 'm01-s13',
@@ -121,34 +211,40 @@ export const modules = [
       {
         id: 'm01-s15',
         type: 'content',
-        image: '/images/generated/m01_s09_wristwatch_revolution.png',
         tag: 'HISTORY · ERAS 3 & 4',
         heading: '1850–1969 — Industry, War & the',
+        image: '/images/generated/m01_s09_wristwatch_revolution.png',
         body: 'Golden Age of the Wristwatch\n1868\nFirst wristwatch\nPatek Philippe for Countess Koscowicz\nPocket watch mechanics in bracelet form. A novelty for women, initially mocked by men.\n1904\nSantos Dumont\nCartier for aviator Alberto Santos-Dumont\nFirst men\'s wristwatch of design intention. Square case, exposed screws. Still in production today.\n1916–18\nWWI trench watches\nTiming artillery fire demanded wrist-worn\nThe wristwatch becomes a tool of war. Men adopt it. The pocket watch begins its slow death.\n1926\nRolex Oyster — first waterproof\nHans Wilsdorf, Geneva\nHermetically sealed case. The wristwatch becomes robust. Rolex\'s DNA of waterproof, dustproof reliability begins.\n1953\nThe Sports Watch Era\nRolex Submariner · Blancpain Fifty Fathoms · IWC Big Pilot\nFunction becomes the design brief. Legibility, durability, water resistance. The design language of the modern sports watch is born.\n1963\nOmega Speedmaster\nTested and adopted by NASA, 1965\nThe watch that went to the moon. Defines the chronograph category\'s aspirational peak for the next 60 years.',
       },
       {
         id: 'm01-s16',
         type: 'content',
-        image: '/images/generated/m01_s11_key_milestones.png',
         tag: 'HISTORY · THE TURNING POINT',
         heading: '1969–1983 — The Quartz Crisis',
+        image: '/images/generated/m01_s11_key_milestones.png',
         body: '1969\nSeiko Astron — first quartz watch\nAccurate to ±5 seconds/year. Revolutionary.\n~50%\nSwiss watch exports halved\nFrom 1974 peak to early 1980s. An industry near collapse.\n1,000+\nSwiss watchmakers closed\nEmployment: 90,000 (1970) → 33,000 (1984) → 28,000 (1988).\nWhat Happened\nJapanese manufacturers (Seiko, Citizen) and then Hong Kong/Taiwanese producers offered quartz watches at a fraction of the cost and vastly superior accuracy. Swiss watchmakers, who had invested centuries in mechanical expertise, had no competitive answer. The mid-tier Swiss watch industry — watches priced between $50–$500 — was essentially destroyed.\nThe irony: The CEH (Centre Electronique Horloger) in Neuchâtel, Switzerland had developed quartz watch technology in parallel with Seiko and actually showed a prototype in 1967. But Swiss industry leaders failed to commercialise it aggressively, believing mechanical watches were too culturally embedded to be displaced.\nThe Salvation: Swatch (1983)\n→  \nNicolas Hayek\'s insight: reclaim low-price quartz — but make it fashionable, Swiss, and disposable.\n→  \nSwatch used quartz to protect the Swiss industry\'s volume. Allowed Omega, Longines, IWC to reposition up the value chain.\n→  \nThe mechanical watch became luxury, not commodity. This repositioning saved the industry and defined it for the next 40 years.',
       },
       {
         id: 'm01-s17',
         type: 'content',
-        image: '/images/generated/m01_s10_evolution_of_watch_design.png',
         tag: 'HISTORY · TODAY',
         heading: '1984–Now — The Mechanical',
+        image: '/images/generated/m01_s10_evolution_of_watch_design.png',
         body: 'Renaissance & Independent Era\n1984–2000\nLuxury Repositioning\nSwiss brands abandon the mid-market. Rolex, Patek, AP become investment objects. IWC and Jaeger-LeCoultre revive heritage lines. Complications regain prestige.\n2000–2010\nBoom & Complexity\nPre-2008 boom. Ultra-complicated watches become status signifiers. Richard Mille founded 2001. Skeletonised movements, tonneau cases, avant-garde materials. The anti-dress-watch movement.\n2010–2020\nMicrobrand Revolution\nInternet lowers barriers to brand creation. Baltic, Lorier, AnOrdain, Halios, Farer emerge. Design-first brands with no Swiss heritage compete on taste, story, and value.\n2020–Now\nConsolidation & Craft\nPremium segment booms post-COVID. Watch auctions hit new records. Secondary market explodes. But: overproduction in mid-tier, China slowdown 2024. Design quality bifurcates sharply.\nYour opportunity as a designer: The microbrand category is the most open and design-forward segment of the entire watch market.',
       },
       {
         id: 'm01-s18',
-        type: 'content',
+        type: 'list',
         tag: 'MARKET LANDSCAPE',
         heading: 'The Swiss Watch Market Pyramid',
         image: '/images/generated/m01_s18_the_swiss_watch_market_pyramid.png',
-        body: 'Ultra High End / Independent\nPatek Philippe · A. Lange · F.P. Journe · Richard Mille · MB&F\nHigh End / Prestige\nRolex · Audemars Piguet · IWC · Jaeger-LeCoultre · Omega (upper)\nMid Prestige\nTAG Heuer · Longines · Tissot (upper) · Nomos · Microbrands (premium)\nAccessible / Fashion\nSeiko (upper) · Hamilton · Frederique Constant · most Microbrands\nEntry / Volume\nSwatch · Seiko (lower) · Casio · Fashion brands · Chinese OEM\nSource: Federation of the Swiss Watch Industry (FHS) Annual Export Statistics 2024 — CHF 26 billion total, 15.3 million units. Full data: fhs.swiss/eng/statistics.html',
+        rows: [
+          { year: 'ULTRA HIGH', title: 'Patek Philippe · A. Lange & Söhne · F.P. Journe · Richard Mille · MB&F', detail: 'Artisanal finishings, extreme supply control, astronomical auction values, independent haute horlogerie.' },
+          { year: 'PRESTIGE', title: 'Rolex · Audemars Piguet · Jaeger-LeCoultre · Omega · IWC', detail: 'High-end manufacture movements, high brand equity, premium materials (ceramic, gold), editorial campaigns.' },
+          { year: 'MID-PRESTIGE', title: 'TAG Heuer · Longines · Nomos Glashütte · Tudor · Oris', detail: 'Luxury entry level. Mix of high-end industrial movements and proprietary calibers, great design heritage.' },
+          { year: 'ACCESSIBLE', title: 'Seiko Prospex · Hamilton · Tissot · Baltic · Lorier', detail: 'Design-forward microbrands and major historic manufacturers using industrial calibers (Miyota, Seiko, Sellita).' },
+          { year: 'ENTRY/VOLUME', title: 'Swatch · Casio · Timex · Fashion Brands', detail: 'High volume industrial quartz, plastic or simple steel cases, entry pricing, focused on pure fashion or utility.' }
+        ]
       },
       {
         id: 'm01-s19',

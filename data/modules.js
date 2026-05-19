@@ -321,6 +321,7 @@ export const modules = [
       {
         id: 'm02-s03',
         type: 'content',
+        image: '/images/generated/m02_s03_materials_and_texture.png',
         tag: 'BRAND STRATEGY · FOUNDATIONS',
         heading: 'What a Brand Actually Is',
         body: 'A brand is NOT a logo\nA logo is a symbol. A brand is the total perception someone has when they encounter that symbol. Rolex\'s crown logo has no intrinsic value — the associations accumulated over 100 years give it value.\nA brand is NOT a product\nProducts are manufactured. Brands are felt. Two watches can share identical movements, cases, and dials — and be perceived entirely differently based on their brand context. The Omega Seamaster and a rebranded ETA 2824 watch are functionally similar. The perception gap is enormous.\nA brand is NOT advertising\nAdvertising is what you say. Brand is what people believe. Patek Philippe spends almost nothing on advertising. They spend everything on product quality, distribution control, and reputation management. The result: the most desired watch brand on earth.\n"A brand is a person\'s gut feeling about a product, service, or organisation."\n— Marty Neumeier, The Brand Gap (2003)  ·  Free PDF: martyneumeier.com/the-brand-gap\nImplication: You cannot control your brand. You can only influence it through consistent product quality, design, and communication over time.',
@@ -328,6 +329,7 @@ export const modules = [
       {
         id: 'm02-s04',
         type: 'content',
+        image: '/images/generated/m02_s04_minimalist_watch_closeup.png',
         tag: 'BRAND STRATEGY · NEUMEIER',
         heading: 'The Five Disciplines of Brand-Building',
         body: '01  Differentiate\nFind the one thing that makes your brand unique and impossible to confuse with anyone else. In watches: this might be a design language, a complication focus, a material, a heritage narrative, or a consumer segment. Without differentiation, you are competing on price.\nWatch: \nBaltic: vintage-inspired French design language at accessible price.\n02  Collaborate\nBrands are built by ecosystems. For a watch brand: your movement supplier, case manufacturer, retailer, press, and community all contribute to what your brand means. Choose collaborators who add to the brand\'s credibility.\nWatch: \nAnOrdain collaborating with Scottish craftspeople for enamel dials.\n03  Innovate\nDifferentiation must be actively maintained. As competitors catch up, you must evolve. In watches: new materials, new complications, new design directions — always in service of the core positioning.\nWatch: \nGrand Seiko\'s Spring Drive caliber: a genuine mechanical innovation.\n04  Validate\nTest your ideas with real audiences before investing in production. For watches: early renders, community engagement (Reddit, forums), collaborations with reviewers. The watch community is vocal — use this.\nWatch: \nFratello\'s \'Building a Watch Brand\' series validating VPC designs publicly.\n05  Cultivate\nBrand-building is a long-term activity. Consistency compounds. Every watch released, every Instagram post, every customer interaction is an investment — or a withdrawal — from brand equity.\nWatch: \nRolex\'s 70-year design consistency as the ultimate brand equity investment.',
@@ -335,6 +337,7 @@ export const modules = [
       {
         id: 'm02-s05',
         type: 'content',
+        image: '/images/generated/m02_s05_architectural_inspiration.png',
         tag: 'BRAND STRATEGY · DESIGN',
         heading: 'Design as Competitive Advantage',
         body: '"Form follows emotion. Function follows form. And everything follows culture."\n— Hartmut Esslinger, founder of Frog Design. Designed Apple\'s Snow White design language (1980s) that defined personal computing aesthetics for a decade.\nDesign as Differentiation\nWhen products are functionally similar, design becomes the primary basis for choice. In the CHF 500–2,000 microbrand segment, almost every watch uses similar Swiss or Japanese movements. The watch that sells is the one whose design language most precisely addresses its target consumer.\nTwo watches, both ETA 2824, both 40mm. One sells at retail. One sits in inventory. The only difference is design quality and brand consistency.\nDesign as Communication\nEvery design decision communicates a value. Polished bevels say \'craft matters.\' A matte titanium case says \'function matters.\' A guilloché dial says \'heritage matters.\' These are not arbitrary choices — they are conversations with your target consumer. Understand what they value before you design.\nAnOrdain\'s enamel dials communicate: I am made by hand, I am one-of-a-kind, I reward attention. This justifies £1,200+ from collectors.\nDesign as Protection\nStrong design creates barriers to imitation. If your watch looks like everything else, anyone can copy it. If your watch has a distinctive, coherent design language — Snowflake hands, Aquaracer-specific case proportions, AnOrdain enamel — copying it requires obvious plagiarism that damages the imitator\'s credibility.\nTudor\'s Snowflake hand is trademarked. The Grand Seiko Style is copyrighted. Design as IP protection is underexplored in the microbrand space.',
@@ -342,17 +345,23 @@ export const modules = [
       {
         id: 'm02-s06',
         type: 'content',
+        image: '/images/generated/m02_s06_macro_case_detail.png',
         tag: 'BRAND STRATEGY · CONSUMER',
         heading: 'Why People Buy Mechanical Watches',
         body: '— when a £10 quartz is more accurate\nMechanical Fascination\nThe movement is visible proof of human ingenuity — 200 components achieving one function, entirely without electronics. This appeals to a specific type of analytical mind. It is not nostalgia; it is respect for craft.\nStrong in engineering/technical professions\nStatus Signal\nA visible watch communicates wealth, taste, and belonging to a social group. Different watches signal membership in different communities (Rolex = established success; independent watches = serious collector; Grand Seiko = connoisseur).\nLuxury segment, gift market\nHeritage & Narrative\nWatches carry history in a way few objects do. The Speedmaster went to the moon. The Submariner designed for diving. The Pilot designed for cockpits. The narrative of a watch\'s origin legitimises its form and justifies its price.\nCollector market, enthusiast community\nAesthetic Pleasure\nThe watch as wearable sculpture. Collector communities genuinely treat watches as art objects — the guilloche dial, the anglage finishing, the hand-engraved balance cock. This is the collector who reads Hodinkee and attends watch fairs.\nIndependent and haute horlogerie segment\nInvestment & Store of Value\nRolex, Patek, AP: documented secondary market appreciation. The buyer who spends CHF 10,000 on a Submariner knows it can be sold for CHF 10,000 in 10 years. This converts luxury spending into perceived saving.\nUpper market; Rolex, Patek Philippe\nMilestone & Memory\nWatch purchases are disproportionately tied to major life events: graduation, promotion, retirement, inheritance. The watch becomes a physical anchor for memory. This is the most universal watch purchase motivation.\nAll price points, gift market',
       },
       {
         id: 'm02-s07',
-        type: 'content',
+        type: 'pricing-table',
         tag: 'BRAND STRATEGY · PRICING',
         heading: 'Price Psychology in the Watch Market',
-        body: '&lt; £150\nFunctional\nSeiko 5, Casio, Orient\nFirst watch, everyday utility, gift. No perceived status.\nLegibility, robustness, simple maintenance. No room for premium finishing.\n£150–500\nEnthusiast Entry\nSeiko Presage, Hamilton, Baltic, Lorier\nWatch-aware consumer. Values quality and story. First \'intentional\' purchase.\nDesign language matters. Community credibility crucial. Movement choice visible.\n£500–2,000\nConsidered Luxury\nNomos, AnOrdain, CW, Farer, Tudor (lower)\nResearch-led buyer. Reads Hodinkee. Values design over brand name.\nThis is where most microbrands compete. Design quality = primary differentiator.\n£2,000–8,000\nAspirational Luxury\nRolex (entry), Omega (upper), IWC, JLC\nInvested buyer. Considers resale value. Brand heritage matters enormously.\nIn-house credentials begin to matter. Finishing must be immaculate.\n£8,000+\nStatus & Collectible\nRolex (sport), AP, Patek, Grand Seiko premium\nLong-term collector or status buyer. Waitlists, relationships, provenance.\nDesign almost irrelevant vs. brand cachet. In-house movement = table stakes.\nPrice\nTier\nKey Brands\nConsumer Profile\nDesign Priority',
+        tiers: [
+          { name: 'Functional', price: '< £150', margins: '1.5x - 2x', finishing: 'Industrial / Matte', crystal: 'Mineral / Hardlex', movement: 'Quartz / Seiko NH35', target: 'Utility, legibility, simple maintenance' },
+          { name: 'Enthusiast Entry', price: '£150–500', margins: '2.5x - 3x', finishing: 'Brushed / Simple polished bevels', crystal: 'Flat Sapphire / AR', movement: 'Miyota 9015 / Seiko NH35', target: 'Unique design language, community credibility' },
+          { name: 'Considered Luxury', price: '£500–2,000', margins: '3x - 4x', finishing: 'Mixed finishing, sharp bevels', crystal: 'Box Sapphire / Double AR', movement: 'Sellita SW200 / Soprod', target: 'High-quality execution, design-led differentiator' }
+        ]
       },
+
       {
         id: 'm02-s08',
         type: 'content',
@@ -364,6 +373,7 @@ export const modules = [
       {
         id: 'm02-s09',
         type: 'content',
+        image: '/images/generated/m02_s09_watchmaking_tools.png',
         tag: 'BRAND STRATEGY · CONSUMER DEFINITION',
         heading: 'Defining Your Target Consumer',
         body: 'Consumer Profile Template\nAge range\nThe decade that defines their taste and references (e.g. 30–45 means they grew up with 1990s watch culture)\nProfession / income\nNot to be reductive — but this determines realistic price sensitivity and the contexts where the watch is worn\nWatch knowledge\nNovice, enthusiast, collector? A collector knows what ETA 2824 means. A novice doesn\'t — and that\'s fine\nPrimary motivation\nFrom the six motivations on the previous slide: which one resonates most strongly with this person?\nCurrent watches worn\nWhat do they already own? What gap does your watch fill? (Never compete with a watch they already own)\nWhere they discover watches\nHodinkee, Reddit, Instagram, word of mouth? This determines your communication strategy\nWhat they reject\nAs important as what they want. If they reject ostentatious logos, plain sportswatches, or cheap movements — your brief must address this\nExample: Baltic\'s Consumer\nAge\n28–40\nProfession\nCreative, architect, graphic designer\nWatch knowledge\nEnthusiast. Reads Hodinkee.\nPrimary motivation\nAesthetic pleasure + mechanical fascination\nCurrent watches\nSeiko 5, possibly a Tudor\nDiscovers via\nInstagram, Worn & Wound, Reddit\nRejects\nOvertly sports or luxury watches. Logo-heavy brands.',
@@ -371,6 +381,7 @@ export const modules = [
       {
         id: 'm02-s10',
         type: 'content',
+        image: '/images/generated/m02_s10_packaging_presentation.png',
         tag: 'CASE STUDY  ·  MICROBRAND',
         heading: 'Baltic Watches — Design-First Brand Building',
         body: 'Founded 2016 (launched April 2017)  ·  Etienne Malec  ·  Assembled in Besançon, France  ·  CHF 350–700 positioning\nThe Positioning\n◆  \nVintage-inspired design at accessible price — a clear white space in 2017\n◆  \nFrench design sensibility: restraint, proportion, typographic sophistication\n◆  \nSwiss and Japanese movements specified for quality-to-price integrity\n◆  \nNo Swiss heritage, no celebrity endorsement — design and community only\nThe Design Language\n◆  \nSpecific typography system carried across all references (Bicompax, MR01)\n◆  \nConsistent use of applied indices and Breguet-influenced hand profiles\n◆  \nDial colours drawn from a coherent palette — no arbitrary choices\n◆  \nCase finishing mix: brushed flanks + polished chamfers, always specified intentionally\nThe Go-to-Market\n◆  \nInstagram-first launch: renders before physical product drove pre-orders\n◆  \nWorn & Wound and Fratello reviews built credibility with target audience\n◆  \nNo traditional advertising — community-driven entirely\n◆  \nFirst batch sold out in days. Waiting list built before stock existed.\nLesson: Clear positioning + coherent design language + community-first launch = brand equity without heritage or advertising spend.',
@@ -386,6 +397,7 @@ export const modules = [
       {
         id: 'm02-s12',
         type: 'content',
+        image: '/images/generated/m02_s12_boutique_environment.png',
         tag: 'MARKET LANDSCAPE · DATA',
         heading: 'Reading the Market — FHS 2024 Data',
         body: 'CHF 26bn\nTotal Swiss watch exports 2024\nDown 2.8% vs 2023. First decline since COVID.\n15.3M\nUnits exported\nDown 9.4% in volume. Value held while volume fell sharply.\n&gt;80%\nOf export value: mechanical watches\nQuartz dominates volume. Mechanical watches generate the vast majority of value — exact share not published by FHS.\nCHF 1,700\nAverage export price per watch\nUp sharply from decade ago. Luxury polarisation accelerating.\nGeographic Insight\nUSA overtook China as #1 market in 2024 (CHF 4.4bn, +5%). China collapsed -25.8% due to economic slowdown. Japan surged +7.8%, driven by tourists buying duty-free. Europe stable.\nDesign implication: American market rewards heritage and legibility. Japanese market rewards craft and finishing quality. These consumer differences should inform your brand\'s design language if you\'re targeting these markets.\nPrice Polarisation\nMid-tier (CHF 200–3,000) is under structural pressure. The segment most hurt in 2024. Volume-only brands without luxury positioning are struggling.\nDesign implication: There is no safe middle. Either compete on design excellence at accessible price (Baltic model) or position clearly in the premium tier. Average design at average price is the most vulnerable position in 2025.\nFor Microbrand Designers\nThe FHS data measures Swiss industry exports. It does NOT include:\n• Japanese microbrands (Seiko, Citizen, Minase)\n• Hong Kong assembly\n• Online-first brands with Swiss components\nThe addressable market for a well-designed microbrand is larger than the FHS numbers suggest. Digital-native brands bypass the distribution challenges that constrain established Swiss brands.',
@@ -393,6 +405,7 @@ export const modules = [
       {
         id: 'm02-s13',
         type: 'content',
+        image: '/images/generated/m02_s13_dial_macro.png',
         tag: 'BRAND BRIEF · STRUCTURE',
         heading: 'Anatomy of a Watch Brand Brief',
         body: '01\nBrand Name & Origin\nName, rationale, geographical or cultural anchor. What does the name communicate? What language, tradition, or aesthetic does it invoke? Names carry brand connotations before any watch is shown.\n02\nMission Statement\nOne sentence that states what your brand does and for whom. Not aspirational fluff. Specific and exclusive: \'Watches for architects who need precision without ostentation.\'\n03\nConsumer Profile\nAge, profession, watch knowledge, primary purchase motivation, current watches owned. Use the template from Slide 9. Be specific enough to be exclusionary.\n04\nMarket Positioning\nPrice band, Swiss/Japanese/independent category, design philosophy (traditional/avant-garde), competitive landscape. Include a positioning map. Name your 5 nearest competitors.\n05\nDesign Direction\nCase shape and size range. Dial philosophy. Material and finish strategy. Movement specification. Visual references (not copies — references). The design language in words.\n06\nThree Non-Negotiables\nThe three design principles you will never violate, regardless of market pressure. For example: \'No date window. Swiss movement only. Case diameter never exceeds 39mm.\' These become your brand integrity tests.',
@@ -435,18 +448,27 @@ export const modules = [
       },
       {
         id: 'm02-s19',
-        type: 'content',
+        type: 'movement-selection',
         tag: 'BRAND BRIEF PREP · MOVEMENT CHOICE',
         heading: 'Choosing a Movement for Your Brand Brief',
-        body: 'Assignment 2 requires a movement specification. Module 3 covers movements in depth — but you need to make an initial choice here. Use this table as your starting point.\nIf: \nTime-only, slim, affordable microbrand\n→ \nMiyota 9015\nAutomatic, 3.9mm thin, reliable, widely available, Japanese. Most popular microbrand movement.\n~$15–25/unit\nIf: \nTime-only, Swiss movement claim needed\n→ \nSellita SW200\nSwiss-made ETA 2824 alternative. Compatible dimensions. Available to independents.\n~$60–100/unit\nIf: \nChronograph, affordable route\n→ \nSeagull ST1901\nHand-wound, column-wheel, Venus 175 clone. Used in Baltic Bicompax. Impressive at the price.\n~$40–80/unit\nIf: \nChronograph, Swiss movement needed\n→ \nSellita SW510-M\nBicompax layout (3/9 subdials). Swiss-made. Used in Baltic Tricompax, Nivada Grenchen.\n~$120–160/unit\nIf: \nGMT / dual-timezone complication\n→ \nMiyota 6T33\nAutomatic GMT, affordable, widely used by microbrands entering travel/aviation positioning.\n~$25–40/unit\nIf: \nDress watch, in-house feel, large case (46mm+)\n→ \nUnitas 6497\nPocket-watch-derived manual movement. Large diameter = large case. Seagull ST36 is the clone version used in Assignment 3.\n~$20–60/unit',
+        movements: [
+          { name: 'Miyota 9015', origin: 'Japan', bph: '28,800', thickness: '3.90mm', reserve: '42 hours', jewels: '24', pros: 'Slim profile, high beat, extremely reliable, low cost.', cons: 'Uni-directional winding rotor can be noisy/audible.', impact: 'Enables sub-10mm total case height. Great for dress or slim sports watches.' },
+          { name: 'Sellita SW200', origin: 'Switzerland', bph: '28,800', thickness: '4.60mm', reserve: '38 hours', jewels: '26', pros: 'Swiss-made credibility, bi-directional winding, easy to source.', cons: 'Thicker than Miyota, lower power reserve, slightly higher cost.', impact: 'Requires at least 11.5mm case height. Industry standard Swiss choice.' }
+        ]
       },
+
       {
         id: 'm02-s20',
-        type: 'content',
+        type: 'movements-grid',
         tag: 'MOVEMENT AWARENESS · BRAND BRIEF',
-        heading: 'Choosing a Movement for Your Brand Brief',
-        body: 'Assignment 2 requires a movement choice. Module 3 teaches spec sheets in depth — this gives you enough to make a defensible initial decision now.\nMiyota 9015  —  Automatic\nØ26.1mm · H3.9mm · 42hrs  \n($)\nBest default for microbrands. Thin, reliable, widely available. Baltic, Halios, many serious brands. Closed caseback typical.\nSellita SW200  —  Automatic\nØ25.6mm · H4.6mm · 38hrs  \n($$)\nSwiss-made alternative to ETA 2824. Slightly thicker than Miyota. More finishing options. Christopher Ward\'s default.\nETA 7750  —  Auto Chronograph\nØ30.0mm · H7.9mm · 42hrs  \n($$$)\nThe standard auto chrono. 7.9mm height forces 14mm+ total case height. Subdials at 3/6/9. Requires complex case design.\nSeagull ST1901  —  Manual Chronograph\nØ31.3mm · H6.25mm · 42hrs  \n($)\nHand-wound column-wheel chrono (Venus 175 clone). Used in Baltic Bicompax. More affordable, slightly thinner than 7750.\nMiyota 6T33  —  Automatic GMT\nØ27.4mm · H4.97mm · 42hrs  \n($$)\nGMT movement: extra hand shows 24-hour cycle. Case must accommodate additional complication and 24-hr disc.\nUnitas 6497 / Seagull ST36  —  Manual\nØ36.6mm · H4.5mm · 46hrs  \n($)\nPocket watch movement in wrist case. Requires 46mm+ case. Exhibition caseback standard. High visual impact, artisanal position.\nModule 3 teaches full spec sheet reading — confirm or revise your movement choice after completing it, before starting Module 4 sketching.',
+        heading: 'Sourcing Calibration Specs',
+        movements: [
+          { caliber: 'Miyota 9015', origin: 'Japan', dims: 'Ø26.1mm · H3.9mm', bph: '28,800 BPH', reserve: '42 hrs', jewels: '24 jewels', position: "3, 4, or 6 o'clock", features: "Ultra-slim profile, high-beat seconds sweep. Best entry-level caliber." },
+          { caliber: 'Sellita SW200-1', origin: 'Switzerland', dims: 'Ø25.6mm · H4.6mm', bph: '28,800 BPH', reserve: '38 hrs', jewels: '26 jewels', position: "3, 4, or 6 o'clock", features: 'Bi-directional winding rotor. Direct ETA 2824-2 drop-in replacement.' },
+          { caliber: 'Seagull ST1901', origin: 'China', dims: 'Ø31.3mm · H6.25mm', bph: '21,600 BPH', reserve: '40 hrs', jewels: '22 jewels', position: "3 o'clock (manual)", features: 'Column-wheel hand-wound chronograph. Beautiful layout for exhibition backs.' }
+        ]
       },
+
     ],
   },
         {
@@ -463,6 +485,7 @@ export const modules = [
       {
         id: 'm03-s01',
         type: 'hero',
+        image: '/images/generated/m03_s01_balance_wheel_macro.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 03',
         body: 'Mechanical Movements\n& Engineering\nHow calibers constrain and enable every dimension of watch design\n2 Sessions  ·  Advanced  ·  Reading: George Daniels Watchmaking  ·  Assignment: Movement disassembly + spec analysis',
@@ -470,41 +493,70 @@ export const modules = [
       {
         id: 'm03-s02',
         type: 'overview',
+        image: '/images/generated/m03_s02_escape_wheel_detail.png',
         tag: 'MODULE OVERVIEW',
         heading: 'Two Sessions, One Imperative',
         body: 'SESSION 3A\nMovement Architecture\n◆  \nPower flow from mainspring to seconds hand\n◆  \nKey caliber families: ETA, Miyota, Sellita\n◆  \nReading a movement spec sheet\n◆  \nHow movement height dictates case thickness\nSESSION 3B\nMovement as Design Constraint\n◆  \nDiameter → minimum case size\n◆  \nCrown position → case design\n◆  \nSubdial layouts → dial architecture\n◆  \nComplication layers → case depth\n⚠  Hands-on Assignment: Buy a Seagull ST36 movement (~£25, eBay). Disassemble and reassemble following Mark Lovick\'s video. This is mandatory.',
       },
       {
         id: 'm03-s03',
-        type: 'content',
+        type: 'movements-grid',
         tag: 'MECHANICS · CALIBER FAMILIES',
         heading: 'The Movements Behind Most Watches',
-        body: 'ETA 2824-2\nAutomatic\nØ 25.6mm  ·  H 4.6mm  ·  28,800 BPH  ·  38hrs  ·  25J\nIndustry workhorse. Used by Tissot, TAG, Breitling (lower). Robust, reliable, well-documented. Swatch Group restricts supply — availability tight for microbrands.\nMiyota 9015\nAutomatic\nØ 26.1mm  ·  H 3.9mm  ·  28,800 BPH  ·  42hrs  ·  24J\nBest movement for microbrands at this spec level. Thinner than ETA 2824. Closed caseback typical. Baltic, Halios, many serious microbrands specify this.\nSellita SW200\nAutomatic\nØ 25.6mm  ·  H 4.6mm  ·  28,800 BPH  ·  38hrs  ·  26J\nSwiss-made ETA 2824 alternative. Similar dimensions — cases are interchangeable. More widely available to independent brands. Christopher Ward default choice.\nUnitas 6497\nManual\nØ 36.6mm  ·  H 4.5mm  ·  18,000 BPH  ·  46hrs  ·  17J\nPocket watch movement in a wristwatch case. Large diameter means large case (46mm+). Highly visible, hand-wound, exhibition caseback standard. Seagull ST36 is the clone used for the assignment.\nETA 7750\nAuto Chrono\nØ 30.0mm  ·  H 7.9mm  ·  28,800 BPH  ·  42hrs  ·  25J\nThe standard automatic chronograph caliber. 7.9mm height forces a thick case (typically 14mm+). Subdials at 3, 6, 9 positions. Breitling, IWC, TAG chronographs use this or derivatives.\nMiyota 6T33\nAuto GMT\nØ 27.4mm  ·  H 4.97mm  ·  21,600 BPH  ·  42hrs  ·  21J\nGMT movement: additional hand showing 24-hour cycle. Affordable GMT for microbrands. Case must accommodate 24-hour disc or bezel — design implication significant.',
+        movements: [
+          { caliber: 'ETA 2824-2', origin: 'Switzerland', dims: 'Ø25.6mm · H4.6mm', bph: '28.8k BPH', reserve: '38h', jewels: '25j', features: 'Industry workhorse. Swatch Group restricts supply; highly limited for microbrands.' },
+          { caliber: 'Miyota 9015', origin: 'Japan', dims: 'Ø26.1mm · H3.9mm', bph: '28.8k BPH', reserve: '42h', jewels: '24j', features: 'Thinner than ETA 2824. Best choice for slim microbrands. Hand-windable.' },
+          { caliber: 'Sellita SW200', origin: 'Switzerland', dims: 'Ø25.6mm · H4.6mm', bph: '28.8k BPH', reserve: '38h', jewels: '26j', features: 'Swiss-made ETA alternative. Fully compatible dimensions. Widely available.' }
+        ]
       },
+
       {
         id: 'm03-s04',
-        type: 'content',
+        type: 'movement-specs',
         tag: 'MECHANICS · SPEC SHEETS',
         heading: 'Reading a Movement Specification',
-        body: 'Movement diameter\nSets minimum case diameter. Add ~4mm for case walls. Miyota 9015 (Ø26.1mm) → minimum ~38mm case.\nMovement height\nDirectly determines case height when added to case back depth + dial + crystal. Most mid-range watches: movement + 5–7mm overhead = total height.\nCrown stem position (12h distance)\nThe stem exits at a fixed radial and axial position. This sets the ONLY possible crown location. Case design cannot move the crown.\nStem height from caseback\nDetermines crown height on case side. If stem is 0.8mm from caseback, crown must centre at ~0.8mm from caseback face — sets the crown\'s vertical position.\nDate aperture position\nFixed by movement. If specifying a date, the date window location is determined — not chosen. Many designers specify no-date to escape this constraint.\nBeats per hour\nDetermines seconds hand sweep character. 28,800 BPH = smoother sweep. 18,000 BPH = more pronounced \'tick-tick\'. Aesthetic and mechanical choice.\nPower reserve\nAffects usage pattern. 38hrs means daily wear. 72hrs+ means weekday wear possible without winding. Brand positioning implication.\nJewel count\nQuality indicator. 17 jewels = basic. 25+ jewels = quality grade. Visible in marketing and exhibition casebacks. Signals craft tier.',
+        specs: [
+          { title: 'Movement Diameter', text: 'Sets minimum case diameter. Add ~4mm for case walls (Miyota 26.1mm → ~38mm case).' },
+          { title: 'Movement Height', text: 'Directly determines case thickness. Movement + 5-7mm overhead = total height.' },
+          { title: 'Crown Stem Position', text: 'Fixed radial & axial position. Sets the ONLY possible crown location; case cannot move it.' },
+          { title: 'Hand Fitting Height', text: 'Determines pinion clearance. Crucial for dial thickness and handset spacing.' }
+        ]
       },
+
       {
         id: 'm03-s05',
-        type: 'content',
-        tag: 'MECHANICS · CONSTRAINTS',
-        heading: 'Movement → Case: The Dimensional Chain',
-        body: 'CASEBACK  (0.6–0.8mm)\nMOVEMENT\ne.g. Miyota 9015: 3.9mm\nDIAL  (0.3–0.5mm)\nCRYSTAL  (1.0–2.5mm)\nCrystal dome\nAdds up to 2.5mm above case top. Domed sapphire adds visual height.\nDial-to-crystal gap\nMust clear hands. Min 0.4mm. Affects total height.\nMovement\nThe constraint. 3.9mm (Miyota 9015) to 7.9mm (ETA 7750).\nCaseback\nScrewdown adds 0.6–0.8mm. Exhibition back adds 1.0–1.5mm.\nTotal case height calculation: Crystal + gap + dial + movement + caseback = total  ·  Example: 1.5 + 0.4 + 0.4 + 3.9 + 0.7 = 6.9mm (very thin!)  vs  1.5 + 0.4 + 0.4 + 7.9 + 0.8 = 11.0mm (sports chrono)',
+        type: 'dimensional-stack',
+        tag: 'MECHANICS · CASE HEIGHT',
+        heading: 'Case Height Dimensional Stack',
+        stack: [
+          { component: 'Caseback thickness', value: '1.20mm', desc: 'Required for structural integrity & sealing gasket.' },
+          { component: 'Caseback clearance', value: '0.20mm', desc: 'Tolerance buffer to prevent contact with winding rotor.' },
+          { component: 'Movement thickness', value: '3.90mm', desc: 'Miyota 9015 caliber height (varies by movement model).' },
+          { component: 'Dial plate thickness', value: '0.40mm', desc: 'Standard brass dial thickness (excluding applied indices).' },
+          { component: 'Hand pinions & handset clearance', value: '1.40mm', desc: 'Clearance for hour, minute, and sweep seconds hands.' },
+          { component: 'Underside of crystal clearance', value: '0.30mm', desc: 'Prevent contact between hands and sapphire during shock.' },
+          { component: 'Sapphire Crystal thickness', value: '1.50mm', desc: 'Double-domed sapphire with anti-reflective coating.' }
+        ],
+        formula: 'Total Stack Height = 1.20 + 0.20 + 3.90 + 0.40 + 1.40 + 0.30 + 1.50 = 8.90mm Case'
       },
+
       {
         id: 'm03-s06',
-        type: 'content',
+        type: 'crown-positions',
         tag: 'MECHANICS · CROWN',
         heading: 'Crown Position — The Fixed Point',
-        body: 'The crown location is determined by the movement stem — it cannot be moved\n3 O\'Clock\nBy far the most common. Ergonomic — right hand winds while watching left wrist. The standard for almost all watches.\nBrands: \nRolex, Omega, Patek, virtually everyone\nDesign: \nOften protected by crown guards on sports watches. Integrated into lug design in integrated bracelet watches.\n4 O\'Clock\nSlightly below 3. Reduces accidental crown pushing when wearing. Seen in diving watches where crown protection is critical.\nBrands: \nTudor Pelagos, some IWC divers\nDesign: \nRequires angled stem in movement or offset case architecture. Less common, more expensive.\n12 O\'Clock\nRare. Eliminates crown from the side of the case — creates a perfectly clean case profile. Requires movement designed for this position.\nBrands: \nCartier Rotonde, some dress watches\nDesign: \nCrown pushes directly down on wrist — awkward winding. Used almost exclusively for aesthetics.\nIntegrated / Hidden\nCrown recessed deeply into case or moved to caseback winding. Maximally clean case but often sacrifices ergonomics severely.\nBrands: \nParmigiani Bugatti Type 370, some concept watches\nDesign: \nTypically requires complete custom movement or significant modification. Not viable for microbrands.',
+        positions: [
+          { hours: "3 o'clock", name: "Standard radial position", angle: '90° axial', caseback: '1.2mm center', note: 'Standard for all conventional cases. Simple stem construction.' },
+          { hours: "4 o'clock", name: "Off-axis ergonomic profile", angle: '120° axial', caseback: '1.2mm center', note: 'Prevents crown digging into wrist. Diver default (Seiko SKX).' },
+          { hours: "9 o'clock", name: "Destro (Left-hand custom)", angle: '270° axial', caseback: '1.2mm center', note: 'Requires inverted movement or left-hand specific dial printing.' },
+          { hours: "12 o'clock", name: "Bullhead vintage style", angle: '0° axial', caseback: '1.5mm pocket', note: 'Pocketwatch aesthetic. Lugs must be custom shaped around crown.' }
+        ]
       },
+
       {
         id: 'm03-s07',
         type: 'content',
+        image: '/images/generated/m03_s07_watch_crowns_array.png',
         tag: 'MECHANICS · COMPLICATIONS',
         heading: 'Complication Layouts & Dial Architecture',
         body: 'The movement determines subdial positions. The designer works within — not around — these constraints.\nETA 7750 Chronograph\nLayout: \nSubdials at 3 (30min), 6 (12hr), 9 (small seconds). Date at 4.\nChallenge: \nCreates a 3/6/9 subdial arrangement. Dial must be designed around these fixed positions. Many brands mask the 9 position.\nBrands: \nBreitling Navitimer, TAG Carrera, IWC Pilot Chronograph\nValjoux 7750 \'Tri-Compax\'\nLayout: \n3 small seconds, 6 date, 9 30min counter. Same movement, different subdial configuration option.\nChallenge: \nBrand and hand fitter can reconfigure somewhat. Still anchored to movement geometry.\nBrands: \nSome vintage Heuer, modified 7750 derivatives\nSeagull ST1901 / Bicompax layout\nLayout: \nSubdials at 3 and 9 only. Hand-wound column-wheel chronograph.\nChallenge: \nTwo-counter bicompax layout — no running seconds. Clean, balanced, visually elegant. The Baltic Bicompax uses the ST1901 (Chinese-made clone of the Swiss Venus 175 from the 1940s), not a Swiss movement. The Sellita SW510-M also creates a bicompax layout and is used in Baltic\'s Tricompax and other Swiss chronographs.\nBrands: \nBaltic Bicompax (ST1901) · Baltic Tricompax (SW510-M) · Nivada Grenchen Chronomaster (SW510-M)\nDate-only (3 o\'clock)\nLayout: \nDate aperture at 3, set by movement design.\nChallenge: \nAlmost all date movements place date at 3 or 3-4:30 position. A date at 6 or 12 requires a specifically designed movement (Rolex date at 3, Patek annual cal date at 6).\nBrands: \nNearly universal in the industry',
@@ -526,6 +578,7 @@ export const modules = [
       {
         id: 'm03-s10',
         type: 'content',
+        image: '/images/generated/m03_s10_water_resistance_demo.png',
         tag: 'MODULE 03  COMPLETE',
         heading: 'Mechanical Movements',
         body: '& Engineering\nNext: Module 4 — Concept Sketching & Ideation',
@@ -533,6 +586,7 @@ export const modules = [
       {
         id: 'm03-s11',
         type: 'content',
+        image: '/images/generated/m03_s11_chronometer_certificate.png',
         tag: 'MECHANICS · SPECIFICATIONS',
         heading: 'Water Resistance Standards',
         body: 'One of the most misunderstood specifications — and a critical brand brief decision.\n3 ATM / 30m\nSplash Resistant\nProtects against accidental splashes and rain only. Cannot be submerged. Do not wear swimming.\nDesign: \nDress watches, fashion watches. No crown guards needed. Thin case possible. Most common on ultra-thin designs.\n5 ATM / 50m\nLight Water Contact\nBrief submersion acceptable but not recommended for swimming. ISO 2281 standard.\nDesign: \nMost general-purpose watches. No screwdown crown required. Acceptable for most daily wear including washing hands.\n10 ATM / 100m\nSwimming\nSuitable for swimming and snorkelling. Not diving. ISO 2281. Most lifestyle sports watches.\nDesign: \nScrewdown crown begins to appear. Case construction more robust. Tudor, lower Rolex, most quality sports watches.\n20 ATM / 200m\nScuba Diving\nISO 6425 diving standard. Requires screwdown crown, unidirectional rotating bezel, luminous indices, anti-reflective crystal.\nDesign: \nThe functional diver spec. Submariner, Fifty Fathoms, Pelagos. Case must accommodate gasket compression under pressure.\n30 ATM / 300m+\nProfessional Diving\nSaturation diving. ISO 6425 with extended depth rating. Helium escape valve in most cases.\nDesign: \nRolex Sea-Dweller, Omega Ploprof, Seiko Marinemaster. Case walls significantly thicker. Very different design language.\n⚠  Critical: ATM ratings are static pressure tests. Dynamic wrist movement creates higher pressure — a 3 ATM watch will leak in the swimming pool. Specify WR for your brand brief\'s intended use context, not marketing aspirations.',
@@ -540,6 +594,7 @@ export const modules = [
       {
         id: 'm03-s12',
         type: 'content',
+        image: '/images/generated/m03_s12_caseback_engravings.png',
         tag: 'MECHANICS · ACCURACY',
         heading: 'Accuracy Certifications — What Claims Mean',
         body: 'COSC Chronometer\nStandard: \n-4/+6 sec/day\nTest: \n16 days, 5 positions, 3 temperatures. Movement only — not finished watch.\nThe Swiss official standard. Important distinction: COSC tests the movement, not the finished watch. A Rolex Submariner is COSC-certified, then further regulated in-house to tighter specs.\nMETAS Master Chronometer\nStandard: \n-0/+5 sec/day\nTest: \n8 tests including anti-magnetic (15,000 gauss), wrist simulation, and finished watch (not just movement).\nMore comprehensive than COSC — tests the complete watch, not just the movement. The 15,000 gauss anti-magnetic test addresses a real modern problem (smartphones). Currently unique to Omega.\nGrand Seiko Standard\nStandard: \n-3/+5 sec/day\nTest: \nInternal GS standard — more stringent than COSC in daily rate, tested as finished watch.\nGS applies the same accuracy standard across all their movement types — unusual and admirable. Their 9F quartz caliber achieves ±10 sec/year. Not internationally certified but widely respected.\nNo Certification\nStandard: \nVaries\nTest: \nWhatever the brand specifies — or does not specify.\nHonest regulation without certification is perfectly valid. What matters is the claim being accurate and verifiable. Do not claim COSC-level accuracy for an unregulated movement.',
@@ -567,6 +622,7 @@ export const modules = [
       {
         id: 'm04-s01',
         type: 'hero',
+        image: '/images/generated/m04_s01_watch_sketchbook.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 04',
         body: 'Concept Sketching\n& Ideation\nFrom brand brief to rough concept to resolved design — on paper first, always\n2 Sessions  ·  Intermediate  ·  Tools: Pencil, paper, watch underlays  ·  Assignment 4: 3 refined concept sketches',
@@ -574,6 +630,7 @@ export const modules = [
       {
         id: 'm04-s02',
         type: 'content',
+        image: '/images/generated/m04_s02_material_palette.png',
         tag: 'SKETCHING · PHILOSOPHY',
         heading: 'Why Pencil Before Screen',
         body: '01\nSpeed of exploration\nA rough sketch takes 2 minutes. A CAD model takes 2 hours. In the time it takes to model one idea badly, you can sketch 60 ideas roughly. The sketch phase is where you discover what you want to build — not where you build it.\n02\nFreedom from commitment\nA sketch is disposable. When you\'re in CAD, every decision feels permanent — so you make fewer decisions. Sketching removes the fear of the wrong choice. Bad sketches are not waste; they are elimination of bad directions.\n03\nPhysical intuition\nYour hand knows things your brain doesn\'t yet. A proportion that looks right on paper, drawn quickly, is telling you something your analytical mind hasn\'t processed. Trust the sketch. Analyse it later.\n04\nCommunication tool\nSketches communicate faster than words to collaborators, clients, and manufacturers. The Fratello \'Building a Watch Brand\' series shows design sketches published the morning they were drawn — before any 3D model existed.',
@@ -581,6 +638,7 @@ export const modules = [
       {
         id: 'm04-s03',
         type: 'content',
+        image: '/images/generated/m04_s03_dial_design_macro.png',
         tag: 'SKETCHING · SETUP',
         heading: 'Setting Up to Sketch Watches',
         body: 'TOOLS\n0.5mm mechanical pencil\nThe workhorse. Light enough to rough sketch, dark enough to read. HB or H lead.\nFine-liner pens (0.1–0.5mm)\nFor refining selected concepts. Rotring Isograph or Staedtler pigment liners.\nCopic or Prismacolor markers\nFor quick tone rendering. Two or three greys + black sufficient for watch sketching.\nWatch underlay templates\nPrint dial circles at 36, 38, 40, 42, 44mm at 1:1 scale. Draw on top. Ensures correct proportions from the start.\nA4 plain cartridge paper\nNot grid paper — it imposes structure. Plain paper gives freedom. Print 50 sheets: they will be used.\nTHE UNDERLAY — Your Most Important Setup Tool\nPrint watch dial circles at exact 1:1 scale. Place this sheet under your drawing paper and trace the circle. Now your sketches are always proportionally correct. Add crown position, lug width lines, chapter ring position. This 2-minute setup saves hours of proportion-fixing later. Download watch templates from GrabCAD or trace from a real watch.',
@@ -588,27 +646,40 @@ export const modules = [
       {
         id: 'm04-s04',
         type: 'content',
+        image: '/images/generated/m04_s04_hand_design_sketches.png',
         tag: 'SKETCHING · PROCESS',
         heading: 'The Ideation Process',
         body: 'Phase 1\nDay 1–2\nThumbnail Exploration\nSketch 20–30 thumbnails. Each one: 5 minutes maximum. Vary the case shape (round, cushion, tonneau, rectangle), the crown position, the dial layout, the lug style. Do not evaluate. Just generate. Fill the page before choosing.\nOutput: \nA page full of small rough sketches\nPhase 2\nEnd of Day 2\nSelection & Clustering\nPin all thumbnails on a wall or spread them on a table. Select 5–8 that feel most aligned with your brand brief. Group similar directions. Look for unexpected themes that emerged. Often the best ideas are not the ones you intended.\nOutput: \n3–4 concept directions, each with 1–2 rough sketches\nPhase 3\nDay 3–4\nDirection Development\nFor each selected direction, sketch 3–5 variations. Explore proportions: different case sizes, different lug lengths, different bezel widths. Add strap/bracelet to understand how the watch wears. Add side views to understand case height.\nOutput: \n12–20 developed sketches, 3–4 directions\nPhase 4\nDay 5\nRefined Concepts\nSelect the 2–3 strongest directions. Produce one refined front-view sketch per direction. Add tonal rendering (3 grey marker tones). Add dimensions. Add a brief annotation explaining the design rationale.\nOutput: \nAssignment 4: 3 refined concept sketches',
         },
       {
         id: 'm04-s05',
-        type: 'content',
-        tag: 'SKETCHING · CASE FORM',
-        heading: 'Case Form Language',
-        body: 'Round\nMost common. Optimally strong pressure vessel for water resistance. All Rolex sports models.\nMost versatile. Neutral. Can be dressed up or down. Safe choice for first project.\nCushion\nPopular 1970s–1980s, revived 2010s–present. IWC Ingenieur SL, Tudor Black Bay 54, some AP.\nSofter than round, more masculine than rectangle. Good for vintage-inspired or field watch references.\nTonneau\nBarrel-shaped. Long history in dress watches. Cartier Tonneau, Rolex Prince, Piaget.\nElegant, unusual. Can feel dated if proportions are off. Suits dress-sport positioning.\nRectangle\nCartier Santos, Tank — the original rectangular watch. IWC Portofino. Rolex Cellini.\nFormal, distinctive, not for sports. Strong brand statement. Proportions are everything.\nOctagonal\nGenta\'s Royal Oak (1972). The shape that defined sports luxury.\nRequires integration of bezel screws as design elements. Very strong historical reference — handle carefully.\nAsymmetric\nRare. Zenith El Primero A3818, some avant-garde pieces. Not typical.\nHigh risk, high reward. Only works if the asymmetry is functional or deeply intentional. Otherwise reads as arbitrary.',
-        },
+        type: 'case-shapes',
+        tag: 'CASE DESIGN · FORM',
+        heading: 'Case Form — The Geometric Archetypes',
+        shapes: [
+          { name: 'Classic Round', feature: 'Universal Default', desc: 'Standard circular profile. Easiest to manufacture, seal, and polish. Calatrava style.' },
+          { name: 'Cushion', feature: 'Sport Ergonomics', desc: 'Square outline with rounded corners. Wears larger than diameter suggests (Panerai, Seiko Turtle).' },
+          { name: 'Tonneau', feature: 'Art Deco / Avant-Garde', desc: 'Barrel-shaped curved profile. Highly elegant but requires custom gaskets and movement spacers.' }
+        ]
+      },
+
       {
         id: 'm04-s06',
-        type: 'content',
-        tag: 'SKETCHING · DIAL',
-        heading: 'Sketching Dial Architecture',
-        body: 'Every dial has four zones. Sketch each zone deliberately — do not leave any element to chance or convention.\nZone 1: Chapter Ring\nThe outermost ring. Contains minute track, hour markers, tachymeter, dive scale. Its width relative to the dial diameter is a major proportion decision. Wide chapter rings (AP Royal Oak) feel sporty. Narrow or absent (dress watches) feel formal.\n→  \nRule: The chapter ring controls how the dial \'reads\' from a distance. Make this decision first.\nZone 2: Hour Marker Field\nWhere hour indices or numerals sit. The interplay between index style (applied vs printed, shape), size, lume allocation, and spacing around the chapter ring. This is your typography zone.\n→  \nRule: Indices must be legible at arm\'s length in low light. If in doubt, make them larger.\nZone 3: Central Field\nThe main visible area. Dial colour, texture (sunburst, guilloché, matte), any text (brand name, model, \'Swiss Made\'). Also contains subdials if complications are present.\n→  \nRule: Brand name position affects perceived formality. 12 o\'clock = formal. 6 o\'clock = modern. Between 5–7 = contemporary.\nZone 4: Central Hub\nThe area around the movement stem where hands attach. Often the most overlooked zone. Too much whitespace here creates a \'lost\' look. Too crowded creates confusion.\n→  \nRule: The visual weight of hands must be calibrated to the dial\'s overall density.',
-        },
+        type: 'dial-zones',
+        tag: 'DIAL DESIGN · ZONES',
+        heading: 'Dial Architecture — The Four Zones',
+        zones: [
+          { zone: 'Outer Ring', purpose: 'Seconds track or bezel', rule: 'Often printed or sloped rehaut. Dictates outer readability.' },
+          { zone: 'Index Zone', purpose: 'Hours markers', rule: 'Must align precisely with key movement pinions and hands.' },
+          { zone: 'Center Medallion', purpose: 'Complications & Branding', rule: 'Usually has text, sub-dials, or logo.' },
+          { zone: 'Subdials', purpose: 'Chronograph / Power indicators', rule: 'Their placement is strictly fixed by the movement caliber geometry.' }
+        ]
+      },
+
       {
         id: 'm04-s07',
         type: 'content',
+        image: '/images/generated/m04_s07_hand_assembly_process.png',
         tag: 'SKETCHING · STRAPS & BRACELETS',
         heading: 'The Connection — Strap & Bracelet Sketching',
         body: 'Simple Strap (Leather or Rubber)\nLug: \n18–22mm\nThe default. Allows the case to breathe visually. Leather strap: dress or casual. Rubber: sport. The strap taper (lug width to buckle end) is a significant design element — too fast a taper = cheap. Too little = chunky.\nNATO / Zulu\nLug: \n18–22mm\nFlat nylon passing through lugs. Casual, easy to change. Baltic made this a signature. The hardware (keeper rings, buckle) is part of the design. Usually 22mm on sports watches.\nIntegrated Bracelet\nLug: \nN/A\nThe highest design challenge. Bezel, lug, and first bracelet link must flow as one form. Genta\'s Royal Oak is the apex of this. Requires very high manufacturing tolerance. Not advisable for first microbrand launch.\nOyster/Jubilee Bracelet\nLug: \n19–21mm\nThree-link (Oyster) or five-link (Jubilee) metal bracelet. The link geometry — flat vs curved, brushed vs polished — defines the visual weight. Bracelet must taper to a comfortable width at the clasp.\nMesh/Milanese\nLug: \n18–22mm\nWoven metal mesh. Elegant and versatile. Seiko, Hamilton (Khaki Field Murph), many mid-tier brands. The density of the weave affects how formal it reads.\nGenta\'s Trilogy: Royal Oak, Nautilus, Ingenieur — all integrated bracelets. Study how lug and bracelet meet at a single radius. This is the highest technical challenge in case design.',
@@ -623,6 +694,7 @@ export const modules = [
       {
         id: 'm04-s09',
         type: 'content',
+        image: '/images/generated/m04_s09_case_blueprint.png',
         tag: 'MODULE 04  COMPLETE',
         heading: 'Concept Sketching',
         body: '& Ideation\nNext: Module 5 — 2D Rendering & Technical Drawing',
@@ -630,6 +702,7 @@ export const modules = [
       {
         id: 'm04-s10',
         type: 'content',
+        image: '/images/generated/m04_s10_cad_watch_render.png',
         tag: 'SKETCHING · ERGONOMICS',
         heading: 'Designing for the Wrist — Ergonomics',
         body: 'A watch that looks elegant on a flat surface can sit uncomfortably on an actual wrist. Sketch and evaluate on wrist templates, not just dial-up views.\nLug Curvature\nThe wrist is curved (radius ~35mm). Straight lugs on a flat caseback will create a bridge — only touching at the case edges. Lugs must curve downward to follow the wrist. The tighter the curve, the more intimately the watch sits. No curve: the watch rocks uncomfortably.\nSketch tip: \nIn your side-view sketch, draw the wrist profile as a gentle curve. The lug tips should meet the wrist, not float above it.\nLug-to-Lug vs Wrist Width\nA lug-to-lug measurement exceeding the wearer\'s wrist width creates visual overhang on both sides. This reads as clunky even when the case diameter is appropriate. Typical wrist widths: 16–20cm circumference (male). Lug-to-lug ideally under 47mm for most wrists.\nSketch tip: \nWhen sketching, add the wrist silhouette in your front view. The lugs should not extend significantly beyond the wrist edges.\nCase Back Curvature\nA flat case back on a round case sits on its edge — uncomfortably high. A curved or shaped caseback follows the wrist contour and lowers the effective wearing height by 0.5–2mm. This is why Grand Seiko cases feel lower than their spec height suggests.\nSketch tip: \nIn the side-view cross-section sketch, curve the caseback profile inward. Note that exhibition casebacks make curvature harder — flat glass requires a flat seating surface.\nCrown Clearance\nThe crown protrudes from the 3 o\'clock position. On a right-wrist wearer, this digs into the hand between thumb and forefinger. Crown guards (extensions of the case protecting the crown) prevent this. A screwdown crown sits lower and is less obtrusive.\nSketch tip: \nIn the side view, draw the crown and check its clearance relationship with the simulated hand position. This is why diving watches have crown guards.',
@@ -637,6 +710,7 @@ export const modules = [
       {
         id: 'm04-s11',
         type: 'content',
+        image: '/images/generated/m04_s11_case_machining_process.png',
         tag: 'SKETCHING · CRITIQUE',
         heading: 'Self-Critique Checklist for Assignment 4',
         body: 'In a studio programme, instructors give design critiques throughout the process. In self-study, you give them yourself. Use this framework.\nBrief Alignment\n□  \nDoes this design look like it belongs to the brand I described?\n□  \nWould my target consumer (from Assignment 2) recognise this as designed for them?\n□  \nDoes the case shape serve the brief\'s positioning — or is it just a shape I like?\nTechnical Accuracy\n□  \nIs the case diameter consistent with my movement choice?\n□  \nIs the crown in the position my movement spec dictates?\n□  \nHave I respected all four dial zones deliberately?\n□  \nDoes the lug-to-lug look wearable on an actual wrist?\nDesign Direction Diversity\n□  \nAre my 3 concepts genuinely different — different case shapes, different dial approaches, different finishing philosophies?\n□  \nIf I covered the annotations, could someone identify 3 distinct design directions — or do they blend together?\n□  \nHave I explored both safe and risky directions?\nAnnotation Quality\n□  \nCan I articulate in 2 sentences why each design decision serves the brief?\n□  \nAm I able to say \'I chose X because Y\' for: case shape, dial treatment, hands style, strap choice?\n□  \nIf the annotation says \'because I liked it\' rather than \'because it serves the brief\' — is that honest?',
@@ -657,6 +731,7 @@ export const modules = [
       {
         id: 'm05-s01',
         type: 'hero',
+        image: '/images/generated/m05_s01_finished_chronograph.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 05',
         body: '2D Rendering &\nTechnical Drawing\nFrom refined sketch to precise vector artwork and orthographic specification\n2 Sessions  ·  Intermediate  ·  Tools: Adobe Illustrator  ·  Assignment 5: Full 2D orthographic render',
@@ -664,20 +739,28 @@ export const modules = [
       {
         id: 'm05-s02',
         type: 'content',
+        image: '/images/generated/m05_s02_chronograph_sketching.png',
         tag: 'PREREQUISITE — COMPLETE BEFORE SESSION 5A',
         heading: 'Illustrator Foundations — Required',
         body: 'This is not optional. Module 5 is tool-intensive. If you have never used Illustrator (or Inkscape), this preparation prevents falling behind.\nAdobe Illustrator (subscription, ~£26/month)\nComplete: \nComplete all 5 beginner chapters of Adobe Illustrator Foundations\nURL: \nhelpx.adobe.com/illustrator/tutorials.html\nTime: \n~4–6 hours\nPen Tool, Shape Builder, Type Tool, Gradients, Pathfinder. These are the 5 sessions you need before Module 5.\nInkscape (free, open source)\nComplete: \nComplete the official Inkscape beginner tutorials + Basic Objects tutorial\nURL: \ninkscape.org/learn/\nTime: \n~3–4 hours\nBezier Tool (= Pen Tool), Boolean operations (= Pathfinder), Gradients. All Module 5 techniques have direct Inkscape equivalents.\nDigital alternative: Procreate (iPad) can be used for the rendered front view only. For the orthographic technical drawing, vector software (Illustrator or Inkscape) is required.',
         },
       {
         id: 'm05-s03',
-        type: 'content',
-        tag: 'ILLUSTRATOR · FUNDAMENTALS',
-        heading: 'The Five Tools You Actually Need',
-        body: 'Illustrator is deep. For watch design rendering, you need five tools well.\nPen Tool (P)\nDrawing any curve or shape with anchor points. Master this before anything else. Every case edge is a bezier curve.\nKey tip: \nHold Alt to convert between corner and smooth points. Use as few points as possible — clean curves.\nEllipse Tool (E)\nDrawing perfect circles and ovals. Essential — the watch face, the crown, the indices.\nKey tip: \nHold Shift for perfect circles. Option+drag from centre. Every dial starts as an ellipse.\nPathfinder\nCombining and subtracting shapes. Add, subtract, intersect, exclude. All case construction uses these operations.\nKey tip: \nWindow → Pathfinder. \'Minus Front\' for cutting apertures in dials. \'Add\' for unifying case shapes.\nGradient Tool (G)\nCreating the illusion of depth, shine, and surface finishing on flat vector shapes.\nKey tip: \nLinear gradients for brushed surfaces. Radial for dials. Use 3–4 stops maximum for watch surfaces.\nAppearance Panel\nStacking multiple fills and strokes on one object. Allows complex rendering effects without layer confusion.\nKey tip: \nWindow → Appearance. Add a fill, set blending mode to Overlay for subtle shine effects.',
-        },
+        type: 'illustrator-tools',
+        tag: 'ILLUSTRATOR · VECTOR TOOLS',
+        heading: 'Illustrator Vector Tools Cheat Sheet',
+        tools: [
+          { name: 'Pen Tool', key: 'P', purpose: 'Precise path creation for lug outlines and dial tracks.', tip: 'Use few anchor points for ultra-smooth Bezier curves.' },
+          { name: 'Direct Selection', key: 'A', purpose: 'Fine-tune specific anchor points and bezier handles.', tip: 'Hold Shift to constrain dragging to 45° and 90° axes.' },
+          { name: 'Scale Tool', key: 'S', purpose: 'Uniform enlargement or shrinking of concentric dial scales.', tip: 'Double click to scale stroke weights and corner radius proportionately.' },
+          { name: 'Rotate Tool', key: 'R', purpose: 'Distribute dial hour markers around center point.', tip: 'Alt-click center marker and enter 30° (360/12) for perfect placement.' }
+        ]
+      },
+
       {
         id: 'm05-s04',
         type: 'content',
+        image: '/images/generated/m05_s04_case_profile_macro.png',
         tag: 'ILLUSTRATOR · CASE',
         heading: 'Building a Watch Case in Vector',
         body: '01\nStart with circles\nDraw the outer case circle and inner bezel circle using the Ellipse tool. Set them concentric using Align panel. These establish case diameter and bezel width.\n02\nConstruct lugs with Pen tool\nDraw one lug shape carefully using bezier curves. Reflect vertically and horizontally to create all four matching lugs. Use Object → Transform → Reflect.\n03\nDial circle and chapter ring\nDraw the dial circle inside the bezel. Draw the chapter ring as a slightly smaller concentric circle. Use Pathfinder Minus Front to create the chapter ring as a stroked ring.\n04\nHour markers\nCreate one index shape. Use Effect → Distort → Transform → Rotate with Copies to distribute all 12 markers at 30° intervals around the centre.\n05\nHands\nDraw the hour and minute hand along the 12 o\'clock axis. Group them separately. The minute hand tip should reach the inner edge of the chapter ring precisely.\n06\nCrown\nDraw the crown on the right side. Even in 2D front view, suggest the crown\'s cylindrical form with gradients.',
@@ -685,6 +768,7 @@ export const modules = [
       {
         id: 'm05-s05',
         type: 'content',
+        image: '/images/generated/m05_s05_dial_family_variants.png',
         tag: 'ILLUSTRATOR · DIAL',
         heading: 'Dial Design & Typography',
         body: 'The dial is typography. Treat every text element as a design decision.\nBrand name typeface\nMust align with brand DNA. Serif (traditional, luxury). Sans-serif (modern, technical). Never use decorative or display fonts — they read as amateur. Suggested starting points: Garamond, Optima, Futura, Helvetica Neue.\nSize hierarchy\nBrand name should be the largest text on the dial. Model name (if present) 50–70% of brand name height. \'Swiss Made\' at the bottom: 40–50% of brand name. \'Automatic\' text: same size as Swiss Made. Never make these elements compete.\nSpacing and positioning\nBrand name at 12 o\'clock: very formal. At 6 o\'clock: modern. Between 5–7: contemporary. Whatever you choose, maintain the same position across all models. Test legibility at watch scale (print 1:1).\nIndex typography\nIf using Arabic numerals: choose one typeface and stick to it. Lining figures (equal height numbers) read better at small sizes. Old-style figures (ascending/descending) feel classical. 12, 3, 6, 9 should visually anchor the dial.\n\'Swiss Made\' requirement\nFor watches manufactured in Switzerland: legally required on the dial. For microbrands using Swiss movements but assembled elsewhere: do not falsely claim this. \'Swiss movement\' is different from \'Swiss Made\' — know the difference.',
@@ -692,6 +776,7 @@ export const modules = [
       {
         id: 'm05-s06',
         type: 'content',
+        image: '/images/generated/m05_s06_hand_design_variants.png',
         tag: 'TECHNICAL DRAWING',
         heading: 'Orthographic Technical Drawing',
         body: 'The orthographic set is the manufacturing-ready document. It is not a render — it is a specification.\nFront View (12 o\'clock top)\nThe primary view. Shows the full dial, indices, hands, and bezel profile. Must include: crown, lug profile as seen from front, case diameter dimension.\n→  \nRequired dimensions: case diameter, lug-to-lug, bezel width, crown diameter\nSide View (3 o\'clock position)\nShows the case height, crystal dome height, bezel height, case back, crown height and depth from case side. Critical for manufacturing — this is where all height specifications are set.\n→  \nRequired dimensions: total height, crystal height, movement height zone, case back thickness\nTop View\nShows the case shape from directly above. Reveals lug taper, crown position, strap width at lug. Important for understanding how the watch sits on the wrist.\n→  \nRequired dimensions: lug width at attachment, lug width at tip, strap/bracelet width\nBack View\nShows the case back design (exhibition glass or solid), caseback engravings, water resistance markings. Less critical but required for a complete specification set.\n→  \nOptional for assignment — include if your brand brief specifies exhibition caseback',
@@ -726,20 +811,27 @@ export const modules = [
       {
         id: 'm06-s01',
         type: 'hero',
+        image: '/images/generated/m06_s01_watch_dimension_blueprint.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 06',
         body: '3D CAD\nModelling\nTranslating 2D precision into three-dimensional geometry\n2 Sessions of instruction  ·  Allow 15–25hrs for Assignment 6  ·  Fusion 360 (free)  ·  Assignment 6: 3D geometry completion',
         },
       {
         id: 'm06-s02',
-        type: 'content',
-        tag: 'PLANNING · READ BEFORE STARTING',
-        heading: 'Module 6 Time Plan — 15 to 25 Hours',
-        body: 'CAD modelling a watch case is a multi-session project. Students who treat this as a single sitting will produce inadequate results.\nBefore starting\n2–4 hrs\nComplete Lars Christensen Fusion 360 beginner series. Understand: Sketch, Extrude, Revolve, Loft, Fillet. Do not skip this.\nSession 1\n3–4 hrs\nImport 2D orthographic as reference. Model case body (extrude from profile). Cut movement cavity to correct depth and diameter from spec sheet.\nSession 2\n3–4 hrs\nModel the bezel. Attempt first lug pair using Loft between two profiles. This will likely take multiple attempts — this is normal.\nSession 3\n4–6 hrs\nComplete both lug pairs. Resolve lug geometry until smooth and consistent with 2D side profile. This is the hardest stage.\nSession 4\n2–3 hrs\nCrown hole at correct stem position. Model crown as revolved profile. Apply fillets to all edges. QA against spec sheet dimensions.\nSession 5\n2–4 hrs\nCorrection and refinement. Every CAD model needs a second pass. Export .step file. Take 4 screenshots (top, front, 3/4, back).\nIf you have been working on a stage for more than 3× the estimated time without progress: stop, watch a tutorial video, and restart that stage. Persistence without direction compounds the problem.',
-        },
+        type: 'cad-timeline',
+        tag: 'CAD · PRODUCTION SCHEDULE',
+        heading: 'CAD Case Modeling Phases',
+        timeline: [
+          { hours: 'Day 1–3', phase: 'Caliber Layout', task: 'Import 3D step file of movement caliber.', details: 'Position main center pinion and stem axis. Establish fixed case interior dimensions.' },
+          { hours: 'Day 4–6', phase: 'Profile & Lugs', task: 'Milling outer case profile and drawing lug geometry.', details: 'Develop profile line, bevel angles, and draw spring bar alignment pockets.' },
+          { hours: 'Day 7–9', phase: 'Tolerances', task: 'Draft caseback threads, crystal gaskets, and crown tube seat.', details: 'Build in 0.15mm tolerances to guarantee parts assembly during physical CNC fabrication.' }
+        ]
+      },
+
       {
         id: 'm06-s03',
         type: 'content',
+        image: '/images/generated/m06_s03_wireframe_case_model.png',
         tag: 'CAD · FUNDAMENTALS',
         heading: 'Fusion 360 for Watch Designers',
         body: 'The four operations you need to master before modelling a watch case.\nSketch + Extrude\nDraw a 2D profile (your case outline) and push it into the third dimension. This is how every case body starts. The sketch is your precise 2D drawing brought into Fusion.\nTip: \nSet your sketch plane to top view. Sketch the case profile exactly matching your 2D orthographic.\nRevolve\nRotate a profile around an axis. Used for rotationally symmetric elements: the crown, round case bodies, watch glass profiles.\nTip: \nA round case body can be modelled as a revolved profile — faster and more dimensionally accurate than a sketch+extrude approach.\nLoft\nCreate a smooth transition between two different profiles. Essential for lug geometry — the lug cross-section at the case is different from the lug tip.\nTip: \nCreate two sketch profiles (at case attachment and at lug tip) and loft between them. Control the transition with guide rails for smooth curves.\nFillet\nRound sharp edges. Apply last — after all primary geometry is complete. The fillet radius is a major design element: large fillets feel soft/approachable, small fillets feel crisp/technical.\nTip: \nNever apply fillets during early modelling — they prevent later modifications. Build sharp geometry first, fillet in the final pass.',
@@ -747,6 +839,7 @@ export const modules = [
       {
         id: 'm06-s04',
         type: 'content',
+        image: '/images/generated/m06_s04_exploded_case_assembly.png',
         tag: 'CAD · WORKFLOW',
         heading: 'The Case Modelling Sequence',
         body: '1\nImport 2D orthographic as reference\nFile → Insert → Insert SVG or Sketch. Import your front view and side view as canvas backgrounds. Lock them. All geometry must align with these references.\n2\nModel the case body\nSketch the side profile of the case (top-view silhouette). Extrude or Revolve to the case height dimension. Result: a simple cylindrical or shaped case disc.\n3\nCut the movement cavity\nSketch the movement cavity diameter and depth on the back face. Extrude-cut to the correct depth (movement height + 0.2mm clearance). This is the most dimensionally critical step.\n4\nModel the bezel\nThe bezel sits on top of the case body. For a round watch: offset the top face outward by bezel thickness. For sapphire crystal: model the crystal channel (a 0.5mm shelf inside the bezel).\n5\nModel the lugs\nThis is the hardest step. Create the lug cross-section as two sketches (at case end and at lug tip). Loft between them. Use a guide rail that follows your 2D side-view lug profile.\n6\nCrown hole and crown\nPlace the crown stem hole at the exact stem position from your spec sheet. Model the crown separately as a revolved profile. This tests whether your crown position was correctly specified.',
@@ -760,14 +853,20 @@ export const modules = [
         },
       {
         id: 'm06-s06',
-        type: 'content',
-        tag: 'CAD · COMMON ERRORS',
-        heading: 'The Five Errors That Stop Students Cold',
-        body: 'Encountering these is normal. Recognising them quickly is the skill.\n01\nUnconstrained sketch geometry (blue lines)\nSymptom: \nLines and circles shown in blue in Fusion 360 are not fully constrained — they can move. When you extrude from an unconstrained sketch, your case body has no reliable dimensions.\nFix: \nAdd dimensions to everything. Every circle needs a diameter constraint. Every line needs a length or position constraint. A fully constrained sketch shows entirely in black. Blue = problem.\n02\nMovement cavity too deep or too shallow\nSymptom: \nThe movement falls through the case, or there isn\'t enough depth to seat the movement. A movement cavity that is wrong by 1mm makes the watch impossible to assemble.\nFix: \nMovement height (from spec sheet) + 0.2mm clearance = cavity depth. For Miyota 9015: 3.9mm + 0.2mm = 4.1mm deep. Measure from the caseback face inward. Do not guess.\n03\nLugs extruded rather than lofted\nSymptom: \nLugs that look like rectangular blocks attached to the case. Extrusion creates flat, geometric lugs that bear no resemblance to any real watch. The result reads immediately as student work.\nFix: \nCreate two sketch profiles: one at the case attachment (the lug cross-section where it meets the case) and one at the lug tip (narrower, differently shaped). Use Loft between them with a guide rail taken from your 2D side-view lug profile.\n04\nSymmetry achieved by copy-paste, not Mirror\nSymptom: \nLugs that are nearly but not exactly symmetric. Even a 0.01mm offset between corresponding lugs is visible in KeyShot renders as an asymmetric shadow.\nFix: \nDesign one lug. Then use Modify → Mirror. Mirror uses a plane of symmetry to create a mathematically identical counterpart. Never copy and move manually.\n05\nFillets applied during modelling rather than at the end\nSymptom: \nCannot modify the case body geometry because fillets are creating conflicts. Fusion 360 frequently fails to rebuild fillets after upstream changes.\nFix: \nModel all primary geometry sharp-edged. Apply fillets in a single pass at the very end, after all case body, cavity, and lug geometry is complete and correct. Create a Fillet timeline checkpoint and name it \'Final fillets\'.',
-        },
+        type: 'cad-errors',
+        tag: 'CAD · QUALITY CHECKS',
+        heading: 'Five CAD Design Errors & Debugger',
+        errors: [
+          { num: '1', title: 'Zero-Tolerance Fits', symptom: 'Perfect mating surfaces in CAD lock up in physical assembly.', fix: 'Provide 0.15mm gap around bezel insert and crystal pockets.' },
+          { num: '2', title: 'Thin Lug Walls', symptom: 'Lugs buckle under spring bar pressure.', fix: 'Ensure lug wall thickness at spring bar hole is at least 1.20mm.' },
+          { num: '3', title: 'Short Stem Pocket', symptom: "Crown won't seat flush or snaps movement pillar.", fix: 'Verify 0.20mm clearance at bottom of winding stem sleeve.' }
+        ]
+      },
+
       {
         id: 'm06-s07',
         type: 'content',
+        image: '/images/generated/m06_s07_internal_case_structure.png',
         tag: 'CAD · PRE-SUBMISSION',
         heading: 'Assignment 6 Quality Checklist',
         body: 'Complete this before exporting. Every unchecked item is a revisions request.\nDimensions\n☐  \nCase diameter matches movement diameter + minimum 4mm walls (from Assignment 3A)\n☐  \nTotal case height matches your target specification from the brand brief\n☐  \nMovement cavity depth = movement height + 0.2mm clearance exactly\n☐  \nCrown hole centre positioned at the exact stem height from the movement spec sheet\nGeometry quality\n☐  \nAll lugs are lofted (not extruded) — no rectangular cross-sections\n☐  \nBoth lug pairs are symmetric (Mirror tool used, not manual copy)\n☐  \nNo blue lines in any sketch when model is rebuilt (fully constrained)\n☐  \nFillet pass applied last — all edges resolved without Fusion errors\nCompleteness\n☐  \nCase body ✔ · Movement cavity ✔ · Bezel ✔ · Lugs (all 4) ✔ · Crown hole ✔ · Crown body ✔\n☐  \nRun Inspect → Interference to confirm cavity does not intersect case wall\n☐  \nExport .step or .f3d file — opens and re-imports without errors\n☐  \n4 screenshots taken: front view, top view, 3/4 perspective, back view',
@@ -801,11 +900,16 @@ export const modules = [
         },
       {
         id: 'm07-s02',
-        type: 'content',
+        type: 'case-materials',
         tag: 'MATERIALS · CASE',
-        heading: 'Case Materials',
-        body: 'MATERIALS · CASE\nCase Materials — Properties & Brand Signals\n316L Stainless Steel\n$ · \nPolished, brushed, PVD\n→ \nStandard. Neutral. Versatile. The baseline for any serious watch at any price. Most microbrands use this.\n✓ \nCost-effective, excellent finishing properties, corrosion resistant, widely machinable.\n✗ \nHeavy. Scratches visibly. \'Standard\' perception at luxury tier.\n904L Stainless Steel\n$$ · \nHigher gloss polish\n→ \nIndustry-grade steel used exclusively by Rolex in watchmaking. More corrosion resistant and harder than 316L. Rolex calls it Oystersteel — the grade itself is not proprietary, but no other watch brand uses it.\n✓ \nSuperior corrosion resistance, takes a higher mirror polish. Brand prestige through association.\n✗ \nHarder to machine — increases cost. The quality benefit is real but imperceptible without laboratory testing.\nGrade 5 Titanium\n$$ · \nBrushed, sandblasted, limited polish\n→ \nLightweight, technical, active. IWC Pilot, Tudor Pelagos, Grand Seiko SLGA. Hypoallergenic.\n✓ \n40% lighter than steel. Extremely strong. Skin-friendly. Distinct grey aesthetic.\n✗ \nVery difficult to polish to a mirror. Scratches easily. Higher machining cost than steel.\nBronze\n$-$$ · \nPatinated, brushed, polished early life\n→ \nVintage, artisanal, unique. Every owner\'s watch develops a different patina over time. Very high emotional engagement.\n✓ \nDevelops unique personalised patina. Strong collector appeal. \'Living material\' narrative.\n✗ \nRequires maintenance to control patina. Cannot achieve the same finish precision as steel.\nSolid Gold (18ct)\n$$$$ · \nPolished, brushed, guilloché\n→ \nThe ultimate luxury material. Patek, Rolex Day-Date, AP Royal Oak Frosted Gold.\n✓ \nTimeless luxury signal. Can be recycled and revalued. Extremely precise finishing.\n✗ \nVery soft — scratches easily. Extremely expensive. Only viable above CHF 10,000.\nCeramic\n$$$ · \nMatte or highly polished\n→ \nScratch-proof luxury. AP Royal Oak Offshore ceramic. Chanel J12. Rado.\n✓ \nExtremely scratch resistant. Lightweight. Hypoallergenic. Distinctive aesthetic.\n✗ \nBrittle — can shatter on impact. Expensive to produce. Cannot be repaired.',
-        },
+        heading: 'Case Materials Sourcing Matrix',
+        materials: [
+          { name: '316L Stainless Steel', cost: '$', finishes: 'Brushed, mirror-polished, bead-blasted', pros: 'Low cost, highly corrosion resistant, easy to machine and finish.', cons: 'Heavy, prone to hairline scratches over time.' },
+          { name: 'Grade 2 Titanium', cost: '$$', finishes: 'Bead-blasted, dark satin brushed', pros: 'Extremely lightweight, hypoallergenic, unique warm grey aesthetic.', cons: 'Difficult to mirror-polish; lower scratch resistance than steel.' },
+          { name: 'Grade 5 Titanium', cost: '$$$', finishes: 'Mirror-polished, crisp brushed bevels', pros: 'Extremely strong, can be mirror-polished, lightweight.', cons: 'High raw material cost; rapidly wears out CNC milling tools.' }
+        ]
+      },
+
       {
         id: 'm07-s03',
         type: 'content',
@@ -822,11 +926,21 @@ export const modules = [
         },
       {
         id: 'm07-s05',
-        type: 'content',
-        tag: 'MATERIALS · LUME & COLOUR',
-        heading: 'Luminous Materials & Colour Harmony',
-        body: 'LUMINOUS MATERIALS\nSuper-LumiNova C1\nGlow: Warm white\nStandard grade. 60–90 min charge needed. Common on mid-tier. Yellows slightly over years.\nSuper-LumiNova C3\nGlow: Yellow-green\nBrighter and longer than C1. The most common high-performance grade. Visible for 6–8+ hrs.\nSuper-LumiNova BGW9\nGlow: Blue-white\nCool blue-white glow. Dive watch standard — high contrast underwater. Tudor, Seiko SKX.\nTritium (Trigalight)\nGlow: Always-on green\nRadioactive gas tubes — glow without any charging. 12yr half-life. Ball Watch, Luminox. Different design treatment.\nWATCH COLOUR HARMONY SYSTEM\nCase Metal\nSets the base tone. Steel = cool silver-grey. Bronze = warm amber. Gold = warm yellow. Titanium = cool neutral grey. All other colours must harmonise with this.\nDial Colour\nMust relate to case metal warmth/coolness. Warm dials (cream, sand, brown) → warm case (bronze, gold, rose gold). Cool dials (blue, grey, white) → steel or titanium.\nIndices & Hands\nTraditionally: gold indices on steel case; steel indices on gold case. This cross-metal rule prevents flatness. Applied indices are always more visually rich than printed.\nLume Colour\nBGW9 (blue-white) on a warm cream dial can feel dissonant in darkness. Match lume warmth to dial: C1 on cream dials; BGW9 on white or cool dials.\nStrap / Bracelet\nThe strap is 40–50% of the visual mass. Tan leather → warm dials. Black rubber → sport character. Oystersteel bracelet → formal versatility. Always sketch the watch with the strap included.',
-        },
+        type: 'lume-harmony',
+        tag: 'MATERIALS · LUMINOUS HARMONY',
+        heading: 'Luminous Materials & Color Harmony',
+        lumes: [
+          { grade: 'Super-LumiNova C3', color: 'Green Glow', daylight: 'Off-White / Pale Yellow', performance: '100% (Industry brightness benchmark)' },
+          { grade: 'Super-LumiNova BGW9', color: 'Blue Glow', daylight: 'Pure Crisp White', performance: '95% (Clean modern aesthetic)' },
+          { grade: 'Old Radium (Faux-Tina)', color: 'Yellow/Green', daylight: 'Warm Aged Amber', performance: '75% (Vintage aesthetic)' }
+        ],
+        rules: [
+          { title: 'Daylight Contrast', desc: 'Ensure white or pale yellow lume has a dark dial background for fast daylight reading.' },
+          { title: 'Hand Matching', desc: 'Hour/minute lume must exactly match index lume grade. Seconds tip can use accent colors.' },
+          { title: 'Bezel Cohesion', desc: 'Diver pip lume grade must match dial BGW9/C3 to prevent mixed colors in dark.' }
+        ]
+      },
+
       {
         id: 'm07-s06',
         type: 'content',
@@ -877,11 +991,15 @@ export const modules = [
         },
       {
         id: 'm08-s02',
-        type: 'content',
-        tag: 'RENDERING · THEORY',
-        heading: 'Understanding Light on Metal',
-        body: 'RENDERING · THEORY\nHow Light Behaves on Watch Surfaces\nSpecular (mirror-like)\nMaterials: \nPolished metal, crystal, lacquered dial\nReflects light at exactly the same angle it arrives. The reflection is sharp and image-like — you see other objects in it. Polished case flanks work this way.\nKeyShot: \nKeyShot metal material: set roughness to 0. Use HDRI editor to place key light for the catch light.\nDiffuse (scatter)\nMaterials: \nMatte surfaces, sandblasted cases, canvas straps\nScatters light in all directions equally. No sharp reflections. The surface appears to \'glow\' with light rather than reflect it. Easier to render because less sensitive to light position.\nKeyShot: \nKeyShot plastic material with high diffuse value. Or metal with high roughness (0.4+).\nGlossy Metallic (brushed)\nMaterials: \nBrushed steel or titanium\nAnisotropic — reflects differently along the brush direction than across it. Creates the distinctive \'streaked\' appearance of brushed metal. The most challenging to render accurately.\nKeyShot: \nKeyShot brushed metal material. Set \'anisotropy\' and \'rotation\' to match your actual brush direction from the spec sheet.\nTransparent (refractive)\nMaterials: \nSapphire crystal, glass dial elements\nLight bends as it enters and exits the material (refraction). The angle of bending is set by the material\'s IOR (Index of Refraction). Sapphire: IOR 1.77. Creates complex internal reflections.\nKeyShot: \nKeyShot glass material, IOR 1.77 for sapphire. Ensure crystal has small physical thickness in the model for proper refraction.',
-        },
+        type: 'light-physics',
+        tag: 'RENDERING · PHYSICS OF LIGHT',
+        heading: 'Physics of Light on Horological Surfaces',
+        physics: [
+          { type: 'Specular Reflection', materials: 'Polished steel hands, indices, bezel bevels', behavior: 'Perfect mirror reflection. Rays bounce at exact mirror angle.', keyshot: 'Use HDR environment with high-contrast light bands to draw sharp geometric highlights.' },
+          { type: 'Anisotropic Reflection', materials: 'Sunburst dials, circular brushed casebacks', behavior: 'Light spreads into a radial cone perpendicular to micro-scratches.', keyshot: 'Use radial brushed roughness maps; align center precisely with dial pinion axis.' }
+        ]
+      },
+
       {
         id: 'm08-s03',
         type: 'content',
@@ -925,11 +1043,16 @@ export const modules = [
         },
       {
         id: 'm09-s02',
-        type: 'content',
-        tag: 'TRENDS · LANDSCAPE',
-        heading: 'Current Design Trends & Macro Forces',
-        body: 'TRENDS · LANDSCAPE\nWhere Watch Design Is Moving (2025–2028)\nAccelerating\nSmaller Cases\nThe 42–44mm wave of the 2000s–2010s is receding. Sub-40mm is now the credible choice for serious collectors. Tudor Black Bay 54 (37mm) and the \'redial\' culture are driving this. Design implication: lug design and proportion become more critical at smaller sizes.\nPeak → Maturing\nFumé / Gradient Dials\nThe graduated dial trend (Baltic, H. Moser Cie., AnOrdain) is at peak saturation. Brands are already differentiating from it. Understand the trend well enough to use it judiciously — or consciously avoid it.\nSustained\nIntegrated Bracelets\nPost-Royal Oak 50th anniversary (2022) celebration cemented integrated bracelets as the defining aesthetic of luxury sports watches. The challenge: most microbrands cannot afford the manufacturing cost. Consider carefully.\nAccelerating\nCraft & Provenance\nThe collector community\'s appetite for \'made by identifiable people in a specific place\' is growing — evidenced by sustained demand for brands like AnOrdain (Glasgow), Voutilainen (Finland), and independent Swiss ateliers. Opportunity exists for brands with genuine, verifiable craft stories.\nSustained / Competitive\nVintage-Inspired\nThe vintage reference market (Rolex Steve McQueen Explorer, Heuer Monaco, Patek ref 2499) drives enormous secondary market activity. Microbrand designs referencing vintage DNA are crowded but proven. Differentiation within the space is crucial.\nEarly Emergence\nSector Dials & Guilloché Revival\nAfter years of minimalism, decorated dials are returning — guilloché, printed sectors, sector dials. This is a craft-intensive direction that microbrands with the right partners can execute credibly. Watch the independent watchmakers.',
-        },
+        type: 'trend-compass',
+        tag: 'TREND COMPASS · MACRO DIRECTION',
+        heading: 'Horological Design Trend Compass',
+        trends: [
+          { name: 'Neo-Vintage Dress', vector: 'Sustained Growth', impact: 'High', description: 'Under-38mm sizes, sector dials, textured finishes, manual wind profiles.' },
+          { name: 'Integrated Bracelet Sport', vector: 'Maturing / Plateaud', impact: 'Medium', description: 'Saturated segment. Hard to differentiate without unique heritage story.' },
+          { name: 'Ergonomic Titanium Divers', vector: 'Accelerating', impact: 'High', description: 'Bead-blasted grey metal, BGW9 lume, sub-12mm thick profile.' }
+        ]
+      },
+
       {
         id: 'm09-s03',
         type: 'content',
@@ -953,11 +1076,16 @@ export const modules = [
         },
       {
         id: 'm09-s06',
-        type: 'content',
-        tag: 'PITCH DECK · MARKET & PRICING',
-        heading: 'Unit Economics — Building a Believable Price',
-        body: 'Your pitch deck pricing slide must show a price that is both credible to the market and viable as a business. This requires basic unit economics.\nComponent\nLow (CHN)\nMid\nHigh (Swiss)\nNote\nMovement (e.g. Miyota 9015)\n£18\n£28\n£45\nLower at higher quantities. Swiss movements 2–5×.\nCase (316L steel, CNC machined)\n£25\n£50\n£120\nChinese manufacture lower; Swiss higher. 200 unit MOQ typical.\nDial (printed, standard spec)\n£12\n£25\n£60\nEnamel dials: £80–200+. Fumé or special finish: premium.\nHands\n£5\n£12\n£30\nApplied indices additional. Custom hand design adds tooling cost.\nCrystal (sapphire, double AR)\n£8\n£15\n£25\nFlat standard. Domed or box crystal: premium.\nStrap / bracelet\n£8\n£20\n£60\nLeather standard. Metal bracelet significantly more.\nPackaging, springbars, warranty card\n£5\n£10\n£20\nAssembly + QC\n£8\n£15\n£30\nFrench or Swiss assembly significantly more.\nImport duty + shipping\n£8\n£15\n£25\n~15–20% of component cost for UK/EU import.\nTypical COGS total (200 units):\n£97–195\nDirect sale price = COGS × 2.5–3.0  ·  Retail/wholesale price = COGS × 4.0–5.0',
-        },
+        type: 'pricing-calc',
+        tag: 'UNIT ECONOMICS · PRICING SPREADSHEET',
+        heading: 'Pricing Calculator — Sourced Components',
+        rows: [
+          { component: 'Movement (Miyota 9015)', low: '15', mid: '22', high: '28', note: 'Bulk purchasing tier discounts.' },
+          { component: 'Case CNC Assembly', low: '18', mid: '35', high: '65', note: 'Standard steel vs. titanium grade 5 CNC.' },
+          { component: 'Double-Domed Sapphire', low: '6', mid: '12', high: '18', note: 'Double-sided anti-reflective coating.' }
+        ]
+      },
+
       {
         id: 'm09-s07',
         type: 'content',
@@ -967,11 +1095,16 @@ export const modules = [
         },
       {
         id: 'm09-s08',
-        type: 'content',
-        tag: 'PITCH DECK · PRICING',
-        heading: 'Unit Economics — Pricing Your Watch',
-        body: 'The pitch deck market slide requires a real price. This is how you calculate one.\nComponent\nCN Mfg\nJP Mfg\nCH Mfg\nNotes\nMovement (ex-works)\n£15–30\n£20–40\n£60–120\nSeagull / Miyota / Sellita. Volume discount at 100+ units.\nCase (CNC steel, polished)\n£20–50\nN/A\n£80–200\nPer unit at 200 minimum order. Higher complexity = higher cost.\nDial (printed)\n£5–15\n£10–25\n£20–60\nPrinted dial. Enamel dial: £150–400+ per unit.\nHands\n£5–12\n£8–18\n£15–45\nSteel with lume application. Applied gold: significantly higher.\nCrystal (sapphire, AR coated)\n£8–15\n£10–20\n£15–35\nDouble-sided AR coating adds ~£5–10 over single.\nCrown + tube\n£3–8\n£4–10\n£8–20\nScrewdown crowns add complexity and cost.\nStrap/bracelet (leather strap)\n£4–12\n£8–18\n£15–40\nDecent Italian leather. Mesh bracelet: £15–35. OysterStyle bracelet: £40–100+.\nAssembly + QC\n£5–15\n£10–25\n£25–80\nIn-country assembly. Swiss assembly commands premium and Swiss Made eligibility.\nPackaging + shipping\n£8–20\n£10–25\n£15–30\nBox, cushion, cards, hang tag, protective film. Air freight to UK.\nCost of Goods (sum above) × 2.5 = Direct-to-consumer price.  Cost of Goods × 4.5–5 = Wholesale / retail stocking price.\nExample: CN components, decent quality. Cost of goods ~£75–120. Direct price: £190–300. Retail: £340–600. Example: Swiss movement + Swiss case. COG ~£350–600. Direct: £875–1,500. Retail: £1,575–3,000.',
-        },
+        type: 'pricing-calc',
+        tag: 'ECONOMICS · SOURCING MATRIX',
+        heading: 'Pricing Calculator — Manufacturing Origin',
+        rows: [
+          { component: 'Movement (Japan vs Swiss)', low: '18', mid: '30', high: '90', note: 'Seiko NH35 vs Miyota 9015 vs Swiss SW200.' },
+          { component: 'Case Milling & Finishing', low: '20', mid: '40', high: '130', note: 'Guangdong tooling vs Switzerland bespoke CNC.' },
+          { component: 'Dial Printing & Indices', low: '5', mid: '18', high: '40', note: 'Applied indices and multi-pass paint printing.' }
+        ]
+      },
+
       {
         id: 'm09-s09',
         type: 'content',
@@ -1036,11 +1169,20 @@ export const modules = [
         },
       {
         id: 'm10-s06',
-        type: 'content',
-        tag: 'ADVANCED · LAUNCH TIMELINE',
-        heading: 'Year One — From Completed Curriculum to First Batch',
-        body: 'Realistic timeline assuming design work complete (Modules 1–9 done). All timings approximate and highly dependent on manufacturing partner response times.\nMonth 1–2\nManufacturer Sourcing: \nRequest quotes from 3–5 case manufacturers (Hong Kong, Guangdong, Swiss). Send .step file + materials callout. Expect 2–3 weeks per quote. Request dial manufacturer quotes in parallel. Source movement from Miyota (miyotamovement.com) or intermediary.\n⚠ \nDo not commit to a manufacturer based on the first quote. Get at least 3 case quotes. Price variance can be 50–100% for the same specification.\nMonth 2–3\nPrototype Order: \nOrder 1–3 CNC prototype cases (unfinished). Cost: £500–2,000 each. Order first dial proofs (2–5 units). Order movement(s) for test assembly. The prototype will reveal fit issues that cannot be caught in CAD.\n⚠ \nBudget for at least 2 rounds of prototype revision. First prototypes almost always reveal problems with crown stem fit, lug geometry, or dial aperture alignment.\nMonth 3–4\nPrototype Review & Revision: \nAssemble the prototype. Photograph every issue. Revise .step file accordingly. Test water resistance with prototype (don\'t use your only unit). Send revised file for second prototype if significant changes made.\n⚠ \nThis is where most microbrand timelines slip. Do not rush to production because you are impatient. A production run with a case defect costs 5× more to fix than a second prototype.\nMonth 4–5\nWebsite & Community Build: \nLaunch website (Shopify or Squarespace). Begin posting design process content to Instagram — sketches, prototype photographs, movement detail shots. Build email list. Approach 1–2 watch media outlets with the story (Worn & Wound, Fratello). No press releases — emails only, with prototype photographs.\n⚠ \nThe community you build before launch is your first batch customers. Baltic sold out before physical stock because of community trust built on renders. You have prototype photos — use them.\nMonth 5–6\nProduction Run Commitment: \nConfirm final specifications in writing with manufacturer. Pay deposit (typically 30%). Set production timeline in writing. Order final movement batch. Confirm straps/bracelets. Confirm packaging.\n⚠ \nGet everything confirmed in writing before paying deposit. Payment schedules, delivery date, quality rejection criteria, and what happens if batch fails QC. The Fratello \'Building a Watch Brand\' series covers this in specific detail.\nMonth 7–11\nProduction & Quality Control: \nProduction: 6–8 weeks typical for a first run. Request QC photographs at each stage (case finished, dial applied, movement fitted, caseback closed). QC every unit against a written checklist before shipping. Reject anything not meeting standard.\n⚠ \nYour QC standard is what defines your brand\'s quality reputation. Be rigorous on the first batch even if it means delays. Returns and refunds on a first run cause disproportionate reputational damage.\nMonth 11–12\nLaunch & Fulfilment: \nFulfil to customers. Respond to every customer message. Document feedback. Ship with a personal card. Post customer photographs on Instagram. Approach Hodinkee and the major press with the launch story and customer reaction.\n⚠ \nLaunch is not the end — it is the beginning of the feedback loop that defines the second watch. Document everything your customers tell you about the first one.',
-        },
+        type: 'startup-roadmap',
+        tag: 'ADVANCED · TIMELINE',
+        heading: 'Year One — From Design to Launch Batch',
+        milestones: [
+          { months: 'M1–M2', title: 'Manufacturer Sourcing', task: 'Get 3+ quotes for cases/dials. Source movements.', warning: 'Price variance can be 50-100% between partners.' },
+          { months: 'M2–M3', title: 'Prototype Order', task: 'Fabricate 1-3 CNC prototype cases, dials, and test calibers.', warning: 'Expect to do at least 2 prototype rounds to resolve fitment.' },
+          { months: 'M3–M4', title: 'Review & Tolerance Tweak', task: 'Assemble watch, check stem alignment, run WR testing.', warning: 'Never skip strict fit checking; minor errors ruin production.' },
+          { months: 'M4–M5', title: 'Community & Waitlist Build', task: 'Setup site. Post design stories on Instagram. Email list.', warning: 'Your waitlist represents your initial batch backing.' },
+          { months: 'M5–M6', title: 'Production Deposit', task: 'Confirm specs in writing and transfer 30% deposit.', warning: 'Agree on QC guidelines and delivery dates upfront.' },
+          { months: 'M7–M11', title: 'Production & Cleanroom QC', task: '6-8 week case milling and dial printing. QC audit.', warning: 'Rigorous inspection ensures high initial brand equity.' },
+          { months: 'M11–M12', title: 'Launch & Fulfillment', task: 'Ship to customers. Gather direct feedback and start next model.', warning: 'Personalize packing and gather feedback for Model 2.' }
+        ]
+      },
+
       {
         id: 'm10-s07',
         type: 'endcard',

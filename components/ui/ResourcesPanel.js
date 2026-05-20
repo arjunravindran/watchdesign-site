@@ -30,21 +30,22 @@ function ResourceItem({ resource, onVideoClick }) {
     </>
   )
 
+  const className = "flex gap-2 w-full"
   return (
     <div className="pb-2.5 border-b border-rule last:border-b-0 last:pb-0">
-      <div className="flex gap-2">
-        {resource.url ? (
-          <a
-            href={videoId ? undefined : resource.url}
-            target={videoId ? undefined : '_blank'}
-            rel="noopener noreferrer"
-            onClick={videoId ? (e) => { e.preventDefault(); onVideoClick(videoId) } : undefined}
-            className="flex gap-2 w-full hover:text-gold transition-colors cursor-pointer"
-          >
-            {inner}
-          </a>
-        ) : inner}
-      </div>
+      {resource.url ? (
+        <a
+          href={videoId ? undefined : resource.url}
+          target={videoId ? undefined : '_blank'}
+          rel="noopener noreferrer"
+          onClick={videoId ? (e) => { e.preventDefault(); onVideoClick(videoId) } : undefined}
+          className={`${className} hover:text-gold transition-colors cursor-pointer`}
+        >
+          {inner}
+        </a>
+      ) : (
+        <div className={className}>{inner}</div>
+      )}
     </div>
   )
 }

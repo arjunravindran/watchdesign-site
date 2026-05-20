@@ -10,6 +10,7 @@ export default function SlideDeck({ slides }) {
   const visible = useMemo(() => slides.filter(s => !SKIP_TYPES.has(s.type)), [slides])
   const { markSeen } = useProgress()
   const markSeenRef = useRef(markSeen)
+  const timers = useRef({})
   markSeenRef.current = markSeen
 
   useEffect(() => {
@@ -39,8 +40,6 @@ export default function SlideDeck({ slides }) {
       timers.current = {}
     }
   }, [visible])
-
-  const timers = useRef({})
 
   if (visible.length === 0) return null
 

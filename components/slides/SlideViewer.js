@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const EDITORIAL_TYPES = new Set(['content', 'overview', 'summary', 'resources'])
 
@@ -15,8 +15,8 @@ export default function SlideViewer({ slide }) {
         )}
         {slide.type === 'content'   && <SlideContent   s={strippedSlide} />}
         {slide.type === 'overview'  && <SlideOverview  s={strippedSlide} />}
-        {slide.type === 'summary'   && <SlideSummary   s={strippedSlide} editorial />}
-        {slide.type === 'resources' && <SlideResources s={strippedSlide} editorial />}
+        {slide.type === 'summary'   && <SlideSummary   s={strippedSlide} />}
+        {slide.type === 'resources' && <SlideResources s={strippedSlide} />}
       </section>
     )
   }
@@ -30,7 +30,7 @@ export default function SlideViewer({ slide }) {
     }`}>
       {slide.tag && !isAssignment && (
         <div className="px-6 pt-5 pb-0">
-          <span className="eyebrow text-[9px] tracking-widest2 font-semibold text-gold">{slide.tag}</span>
+          <span className="eyebrow text-[9px] tracking-widest font-semibold text-gold">{slide.tag}</span>
         </div>
       )}
       <div className="p-6 pt-4">
@@ -372,41 +372,21 @@ function SlideContent({ s }) {
   )
 }
 
-function SlideSummary({ s, editorial = false }) {
-  const body = (
-    <div className="space-y-3">
-      {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
-    </div>
-  )
-
-  if (editorial) return <SlideLayout s={s}>{body}</SlideLayout>
-
+function SlideSummary({ s }) {
   return (
     <SlideLayout s={s}>
-      <div className="border-t-2 border-gold-dim pt-5">
-        <div className="eyebrow mb-2 font-bold text-gold">Summary</div>
-        <Heading text={s.heading} />
-        <div className="mt-5">{body}</div>
+      <div className="space-y-3">
+        {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
       </div>
     </SlideLayout>
   )
 }
 
-function SlideResources({ s, editorial = false }) {
-  const body = (
-    <div className="space-y-2">
-      {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
-    </div>
-  )
-
-  if (editorial) return <SlideLayout s={s}>{body}</SlideLayout>
-
+function SlideResources({ s }) {
   return (
     <SlideLayout s={s}>
-      <div className="border-t-2 border-gold-dim pt-5">
-        <div className="eyebrow mb-2 font-bold text-gold">Further Study</div>
-        <Heading text={s.heading} />
-        <div className="mt-5">{body}</div>
+      <div className="space-y-2">
+        {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
       </div>
     </SlideLayout>
   )

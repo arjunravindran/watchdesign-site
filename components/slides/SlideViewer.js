@@ -328,6 +328,17 @@ function SlideOverview({ s }) {
     )
   }
 
+  if (Array.isArray(s.body)) {
+    return (
+      <SlideLayout s={s}>
+        <Heading text={s.heading} />
+        <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
+          {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+        </div>
+      </SlideLayout>
+    )
+  }
+
   // Parse body into sessions automatically
   const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
   return (
@@ -390,6 +401,16 @@ function SlideEndcard({ s }) {
 
 // Generic content slide — handles most slides from PPTX import
 function SlideContent({ s }) {
+  if (Array.isArray(s.body)) {
+    return (
+      <SlideLayout s={s}>
+        <Heading text={s.heading} />
+        <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
+          {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+        </div>
+      </SlideLayout>
+    )
+  }
   const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
   return (
     <SlideLayout s={s}>
@@ -442,9 +463,9 @@ function SlideContent({ s }) {
   )
 }
 
-function SlideSummary({ s, editorial = false }) {
-  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
-  const bodyContent = (
+function SlideSummaryBody({ body }) {
+  const bodyLines = (body || '').split('\n').filter(line => line.trim())
+  return (
     <div className="space-y-3">
       {bodyLines.map((line, i) => {
         const trimmed = line.trim()
@@ -465,6 +486,16 @@ function SlideSummary({ s, editorial = false }) {
       })}
     </div>
   )
+}
+
+function SlideSummary({ s, editorial = false }) {
+  const bodyContent = Array.isArray(s.body) ? (
+    <div className="space-y-3">
+      {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+    </div>
+  ) : (
+    <SlideSummaryBody body={s.body} />
+  )
 
   if (editorial) {
     return <SlideLayout s={s}>{bodyContent}</SlideLayout>
@@ -481,9 +512,9 @@ function SlideSummary({ s, editorial = false }) {
   )
 }
 
-function SlideResources({ s, editorial = false }) {
-  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
-  const bodyContent = (
+function SlideResourcesBody({ body }) {
+  const bodyLines = (body || '').split('\n').filter(line => line.trim())
+  return (
     <div className="space-y-2">
       {bodyLines.map((line, i) => {
         const trimmed = line.trim()
@@ -504,6 +535,16 @@ function SlideResources({ s, editorial = false }) {
         )
       })}
     </div>
+  )
+}
+
+function SlideResources({ s, editorial = false }) {
+  const bodyContent = Array.isArray(s.body) ? (
+    <div className="space-y-2">
+      {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+    </div>
+  ) : (
+    <SlideResourcesBody body={s.body} />
   )
 
   if (editorial) {
@@ -542,6 +583,47 @@ function Heading({ text }) {
       {text}
     </h2>
   )
+}
+
+function BodyBlock({ block }) {
+  switch (block.type) {
+    case 'label':
+      return (
+        <h3 className="text-gold text-xs font-bold tracking-widest mt-6 mb-2 first:mt-0 uppercase border-b border-rule/20 pb-1">
+          {block.text}
+        </h3>
+      )
+    case 'number':
+      return (
+        <div className="text-gold-dim text-xs font-mono mt-4 mb-1 border-b border-rule/40 pb-1 w-fit tracking-widest uppercase">
+          {block.text}
+        </div>
+      )
+    case 'bullet':
+      return (
+        <div className="text-mist text-sm font-semibold tracking-wide mb-1 font-serif">
+          {block.text}
+        </div>
+      )
+    case 'para':
+      return (
+        <p className="text-grey text-sm leading-relaxed mb-1 font-sans">
+          {block.text}
+        </p>
+      )
+    case 'note':
+      return (
+        <p className="text-grey text-sm leading-relaxed mb-1 font-sans italic border-l-2 border-rule pl-4">
+          {block.text}
+        </p>
+      )
+    default:
+      return (
+        <p className="text-grey text-sm leading-relaxed">
+          {block.text}
+        </p>
+      )
+  }
 }
 
 function SlideHandsGrid({ s }) {

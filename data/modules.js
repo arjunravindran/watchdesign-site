@@ -894,6 +894,7 @@ export const modules = [
       {
         id: 'm07-s01',
         type: 'hero',
+        image: '/images/generated/m07_s01_movement_assembly.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 07',
         body: 'Materials, Finishes\n& Manufacturing\nFrom raw metal to finished surface — every material decision is a brand decision\n2 Sessions  ·  Intermediate  ·  Reading: Lefteri Making It  ·  Assignment 7: Materials callout sheet',
@@ -913,6 +914,7 @@ export const modules = [
       {
         id: 'm07-s03',
         type: 'content',
+        image: '/images/generated/m07_s03_hand_and_component_selection.png',
         tag: 'MATERIALS · FINISHING',
         heading: 'Surface Finishing — The Designer\'s Vocabulary',
         body: 'Mirror Polish\nFlat, highly reflective surface produced by progressively finer abrasives. The hallmark of Swiss finishing. Visible quality signal — any deviation shows. Requires perfectly flat surfaces (Zaratsu/Sallaz technique for distortion-free result).\n→  \nRolex case flanks, dress watch bezels, applied hour markers\nBrushed / Satin\nDirectional parallel scratches create a matte-directional surface. Less expensive than mirror polish. Can be applied in different directions on different case surfaces to create contrast.\n→  \nStandard sports watch case surfaces, titanium watches, field watches\nSandblasted / Bead-blasted\nUniform matte surface from abrasive media. No directional character. Clean, modern, technical. Popular in military-inspired and field watches. Very forgiving to produce.\n→  \nTudor Black Bay Bronze caseback area, many field watches\nCôtes de Genève (Geneva Stripes)\nParallel wave pattern applied to movement plates and bridges (and occasionally dial). Not a case finishing — a movement finishing. Signals quality when visible through exhibition caseback.\n→  \nVirtually all Swiss movement finishing, Grand Seiko movement plates\nPerlage\nCircular scratch pattern (like fish scales) applied to movement parts not visible in use. Part of haute horlogerie finishing standard even for invisible surfaces.\n→  \nTraditional Swiss finishing — Patek, AP, FP Journe movement components\nPVD / DLC Coating\nPhysical Vapour Deposition. Deposits a very hard layer (black, gold, bronze colour) onto the case. Highly scratch resistant but uniform — loses the polish/brushed contrast that makes uncoated cases beautiful.\n→  \nBlack case sports watches, tactical watches. AP Royal Oak Offshore black.',
@@ -944,6 +946,7 @@ export const modules = [
       {
         id: 'm07-s06',
         type: 'content',
+        image: '/images/generated/m07_s06_accuracy_testing_machine.png',
         tag: 'MATERIALS · LEGAL & CRYSTAL',
         heading: 'Swissness Act & Crystal Specification',
         body: 'The Swissness Act (in force 2017)\nWhat it controls\nWho may legally use \'Swiss Made\' on a watch dial\n60% rule\nAt least 60% of the total value of the watch\'s components must be of Swiss origin\nMovement requirement\nMovement must be Swiss: assembled and inspected in Switzerland with Swiss components\nDevelopment in CH\nTechnical development of the watch must have occurred in Switzerland\n\'Swiss Movement\'\nA weaker claim — means only the movement is Swiss; the watch case may be from anywhere\nPenalties\nUsing \'Swiss Made\' without qualifying: criminal offence under Swiss law, EU unfair competition\nCrystal Specification\nSapphire (single AR)\nOne layer anti-reflective coating. Standard for most mid-tier watches. Significantly reduces glare vs uncoated.\nSapphire (double AR)\nBoth internal and external surfaces coated. Best clarity. Standard for serious watches CHF 500+. Specify this.\nDomed vs flat\nDomed sapphire (box crystal): vintage aesthetic, distortion at edges, dramatic in person. Flat: modern, cleaner renders.\nHesalite (acrylic)\nBaltic\'s signature crystal choice. Lighter, softer, but polishes out scratches. Creates warm vintage haze. Intentional choice.\nMineral glass\nHarder than acrylic, cheaper than sapphire. Mid-tier budget option. Not appropriate above ~CHF 400 positioning.',
@@ -951,6 +954,7 @@ export const modules = [
       {
         id: 'm07-s07',
         type: 'content',
+        image: '/images/generated/m07_s07_water_resistance_test.png',
         tag: 'MATERIALS · CRYSTAL',
         heading: 'Crystal Types & Anti-Reflective Coatings',
         body: 'Acrylic / Hesalite\nHardness: \nMohs ~3\n✓ \nScratches but polishes. Warm optical quality. Domes beautifully. Vintage aesthetic — Baltic Bicompax, vintage Speedmaster.\n✗ \nScratches on contact with most hard objects. Not for active sports. Limited WR pressure rating.\nMineral Glass\nHardness: \nMohs ~5\n✓ \nHarder than acrylic. Standard on entry watches. AR coating possible.\n✗ \nCannot be polished once scratched. More brittle than sapphire.\nSapphire Crystal\nHardness: \nMohs 9\n✓ \nExtremely scratch resistant. Highest clarity. Standard above CHF 500. Double-dome is premium option.\n✗ \nBrittle on sharp impact. Expensive. Uncoated sapphire: highly reflective.\nAnti-Reflective (AR) Coatings — Specify in Every Brand Brief Above CHF 500\n→  \nApplied as thin layer (magnesium fluoride / silicon dioxide) to crystal surfaces. Reduces reflections from ~8% per surface (uncoated) to &lt;0.5% per surface.\n→  \nDouble-sided AR (inner + outer) is the quality standard. Single-sided (inner only) is a cost reduction used in mid-tier.\n→  \nIn KeyShot rendering: simulate AR coating by reducing the Fresnel/reflectance value on the glass material and adding a slight blue-green tint. Uncoated sapphire will reflect so strongly it obscures the dial.\n→  \nAssignment 7 specification: state \'Sapphire, double-sided AR\' or \'Sapphire, inner AR only\' — not just \'sapphire crystal\'.',
@@ -958,6 +962,7 @@ export const modules = [
       {
         id: 'm07-s08',
         type: 'content',
+        image: '/images/generated/m07_s08_precision_adjustment.png',
         tag: 'MATERIALS · COLOUR',
         heading: 'The Watch as a Colour System',
         body: 'Dial colour is one element. Every layer of the watch participates in a colour conversation.\nCase Metal\nSets the tonal key: silver (steel/titanium), warm grey (bronze), gold (yellow/rose/white). Everything else responds to this.\n→  \nWarm case → warm dial. Cool case → cool or neutral dial.\nDial Colour\nPrimary visual statement. Interacts with case metal through the apertures, indices, and any cutaway elements.\n→  \nTest at multiple light temperatures — sunburst dials shift most dramatically.\nIndex Metal\nApplied gold on steel: cross-metal contrast, formal. Steel on steel: monochromatic, modern. Gold on gold: tonal.\n→  \nIndex metal often inverts case metal. Both approaches are valid if intentional.\nLume Grade\nBGW9 (blue-white) on warm dial: deliberate tension. C3 (yellow-green) on black: maximum legibility. C1 (cream) on champagne: tonal harmony.\n→  \nLume colour is part of the system — specify it as such.\nStrap/Bracelet\n~50% of visible surface area. Leather grain and colour, rubber tone, bracelet metal and finish — all extend the colour language onto the wrist.\n→  \nComplete the system, don\'t compete with it. Specify multiple options — buyers choose.',
@@ -985,6 +990,7 @@ export const modules = [
       {
         id: 'm08-s01',
         type: 'hero',
+        image: '/images/generated/m08_s01_brand_identity.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 08',
         body: 'Rendering &\nVisualisation\nFrom 3D geometry to hero images — the product presentation that sells a design\n2 Sessions  ·  Intermediate  ·  Tools: KeyShot (trial) or Blender  ·  Assignment 8: Hero renders + spec page',
@@ -1003,6 +1009,7 @@ export const modules = [
       {
         id: 'm08-s03',
         type: 'content',
+        image: '/images/generated/m08_s03_brand_manifesto.png',
         tag: 'RENDERING · KEYSHOT',
         heading: 'KeyShot Workflow for Watches',
         body: '01\nImport from Fusion 360\nFile → Import. KeyShot accepts .step, .iges, .obj, .fbx. The .step from Fusion 360 imports best — preserves material groups if set up correctly in Fusion. Each component imports as a separate material group.\n02\nSet up HDRI environment\nEnvironment tab. Start with a studio HDRI (neutral grey walls, soft diffused light). For watch renders specifically: start with \'Product Lighting\' presets. Rotate the HDRI to find the best default light angle.\n03\nAssign materials from callout sheet\nDrag materials from the library onto each part. Your Assignment 7 callout sheet is your guide. Polished metal goes on polished parts. Brushed metal on brushed surfaces. Pay attention to anisotropy direction on brushed parts.\n04\nHDRI pin editing (the key skill)\nOpen HDRI editor. Place a bright \'key\' pin to create the main catch light on polished surfaces. Place a large soft fill pin opposite. For watches: the catch light on the dial and bezel is the most important element to nail.\n05\nCamera setup\nDistance: 100–200mm focal length equivalent. This reduces distortion. Angle: 3/4 view at 45° above horizontal for most hero shots. Avoid straight-on front view for hero renders — it flattens the watch.\n06\nRender settings\nFor final renders: 300+ samples, max 3840×2160 (4K). For test renders: 50 samples, 1920×1080. Background: white (80% grey, not pure white) for portfolio. Black for editorial. Transparent for mockups.',
@@ -1010,6 +1017,7 @@ export const modules = [
       {
         id: 'm08-s04',
         type: 'content',
+        image: '/images/generated/m08_s04_movement_story_macro.png',
         tag: 'RENDERING · SPEC PAGE',
         heading: 'Hero Renders + Spec Page Layout',
         body: 'ASSIGNMENT 8\nHero Renders & Specification Page\nRender Deliverables\n1.  \nHero 3/4 view (front-right-above 45°) — white studio background\n2.  \nFront view — pure white background — for technical reference\n3.  \nSide/profile view — showing case height and crown\n4.  \nDetail close-up — dial or case finishing feature that best shows design quality\n5.  \nWrist context shot — place on a hand template or use a lifestyle background\n6.  \nCaseback render — exhibition or solid, with brand engraving\nSpec Page (in Illustrator)\n→  \nCase diameter, lug-to-lug, case height\n→  \nCase material and finish\n→  \nCrystal specification\n→  \nMovement reference and power reserve\n→  \nWater resistance\n→  \nStrap/bracelet specification\n→  \nPrice point (target)\n→  \nBrand name and tagline\nThese deliverables complete your product visualisation — they form the core of your Module 9 pitch deck.',
@@ -1037,6 +1045,7 @@ export const modules = [
       {
         id: 'm09-s01',
         type: 'hero',
+        image: '/images/generated/m09_s01_launch_event_stage.png',
         tag: 'WATCH DESIGN SELF-STUDY PROGRAMME',
         heading: 'MODULE 09',
         body: 'Trends, Portfolio\n& Career\nFrom student project to industry-ready presentation — and what comes next\n2 Sessions  ·  Intermediate  ·  Final Assignment: Complete Watch Design Pitch Deck',
@@ -1056,6 +1065,7 @@ export const modules = [
       {
         id: 'm09-s03',
         type: 'content',
+        image: '/images/generated/m09_s03_retail_boutique.png',
         tag: 'PORTFOLIO · STRUCTURE',
         heading: 'Building Your Portfolio Presentation',
         body: 'The portfolio case study is how designers get work. It must tell a story, not just show results.\n01\nThe Problem / Opportunity\nWhat gap in the market or consumer need motivated this brand? Why does this watch need to exist? This is the strategic frame that makes everything that follows make sense.\n02\nThe Consumer\nWho is the target buyer? What motivates their purchase? Show that you understand people, not just products. One slide, one person, described specifically.\n03\nDesign Process\nShow the journey: brand brief → positioning map → concept sketches → 2D render evolution → 3D modelling → final renders. Process communicates design thinking — more valuable than results alone.\n04\nDesign Rationale\nFor each major design decision (case shape, dial, finishing), one clear statement of why: \'The cushion case was chosen because... The fumé dial was avoided because...\' Rationale is what separates design from decoration.\n05\nThe Final Object\nHero renders. Maximum 4–6. Let the renders breathe. White space is not wasted space. One great render is more powerful than 12 average ones.\n06\nTechnical Specification\nThe spec page. Demonstrates that this is a buildable product, not just a concept. Communicates professionalism and manufacturing awareness.',
@@ -1063,6 +1073,7 @@ export const modules = [
       {
         id: 'm09-s04',
         type: 'content',
+        image: '/images/generated/m09_s04_business_handshake.png',
         tag: 'CAREER · PATHWAYS',
         heading: 'Career Pathways in Watch Design',
         body: 'CAREER · PATHWAYS\nFour Pathways into Watch Design\nIn-House Brand Designer\nEntry: \nIndustrial design degree. Strong portfolio including watch design. These roles are rare — most major brands have very small design teams (2–8 people).\nReality: \nHigh stability. Limited creative freedom. Design decisions go through multiple approval layers. The watch you design may take 3 years to reach market.\nIndependent/Freelance Designer\nEntry: \nPortfolio of self-initiated work (exactly what this curriculum produces). Max Resnick model — build a portfolio, establish credibility through press and community.\nReality: \nHigh creative freedom. Variable income. Client acquisition requires networking. The most available pathway for self-taught designers.\nMicrobrand Founder\nEntry: \nThis curriculum provides the design foundation. Additional requirements: business model, manufacturer relationships, capital (~£30,000+ for first run), community building.\nReality: \nHighest risk, highest creative ownership. 500+ active microbrands — differentiation is survival. 90% fail within 5 years. Fratello\'s \'Building a Watch Brand\' series is essential reading.\nWatchmaking School → Design\nEntry: \nFormal watchmaking training gives mechanical credibility that no design course can replace. Some watch designers (e.g. Kari Voutilainen) are trained watchmakers first.\nReality: \nThe most rigorous pathway. 2–4 years of intensive training. Produces designers who understand movements at a physical level that completely changes design decision-making.',
@@ -1089,6 +1100,7 @@ export const modules = [
       {
         id: 'm09-s07',
         type: 'content',
+        image: '/images/generated/m09_s07_global_distribution_map.png',
         tag: 'MODULE 09  COMPLETE',
         heading: 'Trends, Portfolio',
         body: '& Career\nNext: Module 10 — Advanced & Specialist Topics',
@@ -1108,6 +1120,7 @@ export const modules = [
       {
         id: 'm09-s09',
         type: 'content',
+        image: '/images/generated/m09_s09_ecommerce_storefront.png',
         tag: 'BRAND LAUNCH · LEGAL',
         heading: 'Intellectual Property — What You Can and Cannot Own',
         body: 'Designers navigate IP constantly. Knowing the basics prevents expensive mistakes — and teaches you to create designs worth protecting.\nTrademark\nBrand name, logo, distinctive phrases, sometimes colour (Tiffany blue). Registered per class and territory.\nWatch context: \nYour brand name and logo should be trademarked. In the UK: UKIPO (£170 per class). In EU: EUIPO (€850 for one class). Search before naming — watch companies aggressively protect marks.\n✓ Register your brand name and logo. ✗ Cannot trademark a generic case shape or a colour alone without extensive use.\nRegistered Design\nThe specific visual appearance of a product — its shape, configuration, surface ornamentation. Registered nationally or via Hague System.\nWatch context: \nA distinctive case profile, bezel shape, or bracelet link design can be registered. Costs: ~£50–200 per design in the UK. Protects for up to 25 years.\n✓ Register distinctive case and dial designs before launch. ✗ Cannot register a functional feature (e.g. a screwdown crown — that is a mechanism, not a design).\nCopyright\nAutomatically applies to original creative works — dial artwork, hand designs, case drawings. No registration required in the UK/EU.\nWatch context: \nYour sketches, renders, and technical drawings are automatically copyrighted from the moment of creation. Keep dated files. This prevents wholesale copying of your visual work.\n✓ Automatic — but document your work with dated files. ✗ Cannot copyright a functional watch component or a design idea, only its specific expression.\nPatent\nProtects novel mechanical inventions. Expensive (~£5,000–20,000+ per territory) and requires genuine novelty.\nWatch context: \nOnly relevant if you have developed a genuinely new mechanism, movement component, or case feature. Not relevant for most microbrands — and attempting to patent existing mechanisms is invalid.\n✗ Most microbrand designs do not meet the novelty threshold. Focus on trademark and registered design instead.',
@@ -1115,6 +1128,7 @@ export const modules = [
       {
         id: 'm09-s10',
         type: 'content',
+        image: '/images/generated/m09_s10_order_confirmation_mobile.png',
         tag: 'LAUNCH SKILLS · PHOTOGRAPHY',
         heading: 'Watch Photography — Documenting Your Work',
         body: 'Renders are for concepts. Photographs of prototypes build trust. Basic photography skills are a practical launch requirement.\nStudio White — Editorial\nGear: \nLight tent (£25–40, Amazon) + white card background + natural daylight or two softboxes. Smartphone camera sufficient.\nTechnique: \nDiffused light from two sides eliminates hot spots. Watch at slight angle (15–20°) to avoid flat reflection. Clean background: white card slightly off-pure-white.\nUse: \nPress releases, Hodinkee submissions, retail listings.\nWrist Context — Social\nGear: \nClean wrist, natural daylight (golden hour or overcast — avoid direct sun). Portrait mode on any recent iPhone/Android.\nTechnique: \nWatch at 10:10 position. Wrist resting on surface, not raised. Background: minimal, complementary to watch colour. Avoid busy backgrounds.\nUse: \nInstagram, community posts, crowdfunding campaign imagery.\nDetail / Macro — Collector\nGear: \nMacro lens attachment for phone (£15–30) or 100mm macro lens on DSLR. Light from single side to reveal surface texture.\nTechnique: \nSingle directional light at 30° reveals brushed and polished surface contrast. Sapphire crystal: light the dial, not the crystal. Manual focus essential at this scale.\nUse: \nClose-up shots for collector press (Hodinkee, Fratello), demonstrating finishing quality.\nProcess Documentation — Trust\nGear: \nAny camera. Consistent lighting. Clean surfaces.\nTechnique: \nPhotograph every stage: movement, caseback off, dial off, assembled. These images demonstrate manufacturing knowledge and build community trust.\nUse: \nBehind-the-scenes content, Kickstarter campaign, brand blog.',

@@ -328,49 +328,11 @@ function SlideOverview({ s }) {
     )
   }
 
-  if (Array.isArray(s.body)) {
-    return (
-      <SlideLayout s={s}>
-        <Heading text={s.heading} />
-        <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
-          {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
-        </div>
-      </SlideLayout>
-    )
-  }
-
-  // Parse body into sessions automatically
-  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
   return (
     <SlideLayout s={s}>
       <Heading text={s.heading} />
       <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
-        {bodyLines.map((line, i) => {
-          const trimmed = line.trim()
-          if (trimmed === '◆' || trimmed === '→') return null
-          const isSession = /^SESSION\s+\d/i.test(trimmed)
-          const isLabel = /^[A-Z][A-Z\s&·]{2,40}$/.test(trimmed) && trimmed.length < 50
-          if (isSession || isLabel) {
-            return (
-              <h3 key={i} className="text-gold text-xs font-bold tracking-widest mt-5 mb-2 first:mt-0 uppercase border-b border-rule/20 pb-1">
-                {trimmed}
-              </h3>
-            )
-          }
-          if (trimmed.length > 80) {
-            return (
-              <p key={i} className="text-grey text-sm leading-relaxed border-l-2 border-gold-dim pl-4 italic my-3 bg-rule/10 py-2.5 pr-4 rounded-sm font-sans">
-                {trimmed}
-              </p>
-            )
-          }
-          return (
-            <div key={i} className="flex gap-2 text-xs text-grey leading-relaxed font-sans">
-              <span className="text-gold-dim shrink-0">◆</span>
-              <span>{trimmed}</span>
-            </div>
-          )
-        })}
+        {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
       </div>
     </SlideLayout>
   )
@@ -399,164 +361,52 @@ function SlideEndcard({ s }) {
   )
 }
 
-// Generic content slide — handles most slides from PPTX import
 function SlideContent({ s }) {
-  if (Array.isArray(s.body)) {
-    return (
-      <SlideLayout s={s}>
-        <Heading text={s.heading} />
-        <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
-          {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
-        </div>
-      </SlideLayout>
-    )
-  }
-  const bodyLines = (s.body || '').split('\n').filter(line => line.trim())
   return (
     <SlideLayout s={s}>
       <Heading text={s.heading} />
       <div className={`${s.heading ? 'mt-5' : ''} space-y-3`}>
-        {bodyLines.map((line, i) => {
-          const trimmed = line.trim()
-          // Detect section labels (all caps, short)
-          const isLabel = /^[A-Z][A-Z\s·&\-\/]{2,40}$/.test(trimmed) && trimmed.length < 50
-          // Detect bullet markers
-          const isBullet = /^[◆→•\-+–]\s*$/.test(trimmed) || trimmed === '◆' || trimmed === '→'
-          // Detect numbered items
-          const isNumber = /^\d{1,2}$/.test(trimmed) || /^0\d$/.test(trimmed)
-          // Detect years/dates
-          const isYear = /^(c\.)?\d{4}/.test(trimmed) && trimmed.length < 30
-
-          if (isBullet) return null
-
-          if (isLabel) {
-            return (
-              <h3 key={i} className="text-gold text-xs font-bold tracking-widest mt-6 mb-2 first:mt-0 uppercase border-b border-rule/20 pb-1">
-                {trimmed}
-              </h3>
-            )
-          }
-          if (isNumber || isYear) {
-            return (
-              <div key={i} className="text-gold-dim text-xs font-mono mt-4 mb-1 border-b border-rule/40 pb-1 w-fit tracking-widest uppercase">
-                {trimmed}
-              </div>
-            )
-          }
-          // Long descriptive paragraph
-          if (trimmed.length > 80) {
-            return (
-              <p key={i} className="text-grey text-sm leading-relaxed mb-1 font-sans">
-                {trimmed}
-              </p>
-            )
-          }
-          // Short heading/title-like text
-          return (
-            <div key={i} className="text-mist text-sm font-semibold tracking-wide mb-1 font-serif">
-              {trimmed}
-            </div>
-          )
-        })}
+        {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
       </div>
     </SlideLayout>
   )
 }
 
-function SlideSummaryBody({ body }) {
-  const bodyLines = (body || '').split('\n').filter(line => line.trim())
-  return (
-    <div className="space-y-3">
-      {bodyLines.map((line, i) => {
-        const trimmed = line.trim()
-        const isNumber = /^\d{1,2}$/.test(trimmed) || /^0\d$/.test(trimmed)
-        if (isNumber) {
-          return (
-            <div key={i} className="text-gold text-xs font-mono mt-4 tracking-widest">{trimmed}</div>
-          )
-        }
-        if (trimmed.length < 30 && trimmed === trimmed.replace(/[a-z]/g, '').trim() + trimmed.match(/[a-z]+/)?.[0] || trimmed.length < 40) {
-          return (
-            <div key={i} className="text-mist text-sm font-semibold tracking-wide mt-1">{trimmed}</div>
-          )
-        }
-        return (
-          <p key={i} className="text-grey text-sm leading-relaxed font-sans">{trimmed}</p>
-        )
-      })}
-    </div>
-  )
-}
-
 function SlideSummary({ s, editorial = false }) {
-  const bodyContent = Array.isArray(s.body) ? (
+  const body = (
     <div className="space-y-3">
-      {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+      {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
     </div>
-  ) : (
-    <SlideSummaryBody body={s.body} />
   )
 
-  if (editorial) {
-    return <SlideLayout s={s}>{bodyContent}</SlideLayout>
-  }
+  if (editorial) return <SlideLayout s={s}>{body}</SlideLayout>
 
   return (
     <SlideLayout s={s}>
       <div className="border-t-2 border-gold-dim pt-5">
         <div className="eyebrow mb-2 font-bold text-gold">Summary</div>
         <Heading text={s.heading} />
-        <div className="mt-5">{bodyContent}</div>
+        <div className="mt-5">{body}</div>
       </div>
     </SlideLayout>
   )
 }
 
-function SlideResourcesBody({ body }) {
-  const bodyLines = (body || '').split('\n').filter(line => line.trim())
-  return (
-    <div className="space-y-2">
-      {bodyLines.map((line, i) => {
-        const trimmed = line.trim()
-        const isLabel = /^[A-Z][A-Z\s&·]{2,40}$/.test(trimmed)
-        if (trimmed === '◆' || trimmed === '→') return null
-        if (isLabel) {
-          return (
-            <h4 key={i} className="text-gold text-xs font-bold tracking-widest mt-5 mb-2 uppercase">
-              {trimmed}
-            </h4>
-          )
-        }
-        return (
-          <div key={i} className="flex gap-2 text-xs text-grey leading-relaxed font-sans">
-            <span className="text-gold-dim shrink-0">◆</span>
-            <span className="leading-relaxed">{trimmed}</span>
-          </div>
-        )
-      })}
-    </div>
-  )
-}
-
 function SlideResources({ s, editorial = false }) {
-  const bodyContent = Array.isArray(s.body) ? (
+  const body = (
     <div className="space-y-2">
-      {s.body.map((block, i) => <BodyBlock key={i} block={block} />)}
+      {(s.body || []).map((block, i) => <BodyBlock key={i} block={block} />)}
     </div>
-  ) : (
-    <SlideResourcesBody body={s.body} />
   )
 
-  if (editorial) {
-    return <SlideLayout s={s}>{bodyContent}</SlideLayout>
-  }
+  if (editorial) return <SlideLayout s={s}>{body}</SlideLayout>
 
   return (
     <SlideLayout s={s}>
       <div className="border-t-2 border-gold-dim pt-5">
         <div className="eyebrow mb-2 font-bold text-gold">Further Study</div>
         <Heading text={s.heading} />
-        <div className="mt-5">{bodyContent}</div>
+        <div className="mt-5">{body}</div>
       </div>
     </SlideLayout>
   )

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem C:\\\\Users\\\\arjun\\\\watchdesign-site\\\\app -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object FullName | Format-Table -AutoSize)",
+      "Bash(find /c/Users/arjun/watchdesign-site/public -type f | sort)",
+      "Bash(find /c/Users/arjun/watchdesign-site -name \"*.png\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.webp\" | sort)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}

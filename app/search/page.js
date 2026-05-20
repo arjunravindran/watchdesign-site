@@ -1,29 +1,10 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
-import Fuse from 'fuse.js'
-import { buildSearchIndex } from '../../data/modules'
+import { getSearchFuse } from '../../lib/search'
 import SearchBar from '../../components/ui/SearchBar'
 import Link from 'next/link'
 import { Suspense } from 'react'
-
-// Fuse instance (created once)
-let fuse = null
-function getFuse() {
-  if (!fuse) {
-    fuse = new Fuse(buildSearchIndex(), {
-      keys: [
-        { name: 'title', weight: 0.4 },
-        { name: 'tag', weight: 0.2 },
-        { name: 'body', weight: 0.4 },
-      ],
-      threshold: 0.35,
-      includeScore: true,
-      minMatchCharLength: 2,
-    })
-  }
-  return fuse
-}
 
 function SearchResults() {
   const params = useSearchParams()
@@ -33,7 +14,7 @@ function SearchResults() {
 
   useEffect(() => {
     if (initialQ) {
-      setResults(getFuse().search(initialQ, { limit: 30 }))
+      setResults(getSearchFuse().search(initialQ, { limit: 30 }))
     }
   }, [initialQ])
 

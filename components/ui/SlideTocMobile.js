@@ -1,33 +1,13 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useProgress } from '../../hooks/useProgress'
+import { useTocActive } from '../../hooks/useTocActive'
 
 export default function SlideTocMobile({ slides }) {
-  const [activeId, setActiveId] = useState(slides[0]?.id || null)
+  const activeId = useTocActive(slides)
   const [expanded, setExpanded] = useState(false)
   const { isSeen } = useProgress()
-
-  useEffect(() => {
-    const els = slides.map(s => document.getElementById(s.id)).filter(Boolean)
-    if (els.length === 0) return
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.filter(e => e.isIntersecting)
-        if (visible.length > 0) setActiveId(visible[0].target.id)
-      },
-      { rootMargin: '-10% 0% -80% 0%', threshold: 0 }
-    )
-
-    els.forEach(el => observer.observe(el))
-    return () => observer.disconnect()
-  }, [slides])
-
-  // Close when user taps a link
-  function handleLinkClick() {
-    setExpanded(false)
-  }
 
   const activeSlide = slides.find(s => s.id === activeId)
   const activeLabel = activeSlide?.heading || activeSlide?.tag || '—'
@@ -35,7 +15,6 @@ export default function SlideTocMobile({ slides }) {
 
   return (
     <div className="lg:hidden sticky top-14 z-30 mb-6">
-      {/* Collapsed bar */}
       <button
         onClick={() => setExpanded(e => !e)}
         className="w-full flex items-center gap-3 bg-card border border-rule px-4 py-2.5 text-left transition-colors hover:border-gold-dim"
@@ -54,7 +33,6 @@ export default function SlideTocMobile({ slides }) {
         )}
       </button>
 
-      {/* Expanded list */}
       {expanded && (
         <div className="bg-card border border-t-0 border-rule max-h-[60vh] overflow-y-auto shadow-xl shadow-black/40">
           <nav className="p-2 space-y-0.5">
@@ -66,7 +44,7 @@ export default function SlideTocMobile({ slides }) {
                 <a
                   key={slide.id}
                   href={`#${slide.id}`}
-                  onClick={handleLinkClick}
+                  onClick={() => setExpanded(false)}
                   className={`flex items-start gap-2 px-3 py-2 rounded-sm text-xs transition-colors ${
                     isActive
                       ? 'text-gold bg-gold/5 border-l border-gold'

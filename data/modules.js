@@ -2373,7 +2373,10 @@ export function buildSearchIndex() {
       url: `/modules/${mod.slug}/`,
     })
     for (const slide of mod.slides) {
-      const text = [slide.tag, slide.heading, slide.body].filter(Boolean).join(' ')
+      const bodyText = Array.isArray(slide.body)
+        ? slide.body.map(b => b.text).join(' ')
+        : (slide.body || '')
+      const text = [slide.tag, slide.heading, bodyText].filter(Boolean).join(' ')
       items.push({
         id: slide.id,
         type: 'slide',

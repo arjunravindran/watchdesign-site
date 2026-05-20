@@ -2,25 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import Fuse from 'fuse.js'
-import { buildSearchIndex } from '../../data/modules'
-
-let fuse = null
-function getFuse() {
-  if (!fuse) {
-    fuse = new Fuse(buildSearchIndex(), {
-      keys: [
-        { name: 'title', weight: 0.4 },
-        { name: 'tag',   weight: 0.2 },
-        { name: 'body',  weight: 0.4 },
-      ],
-      threshold: 0.35,
-      includeScore: true,
-      minMatchCharLength: 2,
-    })
-  }
-  return fuse
-}
+import { getSearchFuse } from '../../lib/search'
 
 export default function CommandPalette({ open, onClose }) {
   const [query, setQuery] = useState('')
@@ -47,7 +29,7 @@ export default function CommandPalette({ open, onClose }) {
     const q = e.target.value
     setQuery(q)
     if (q.trim().length < 2) { setResults([]); return }
-    setResults(getFuse().search(q, { limit: 12 }))
+    setResults(getSearchFuse().search(q, { limit: 12 }))
   }
 
   function handleKeyDown(e) {

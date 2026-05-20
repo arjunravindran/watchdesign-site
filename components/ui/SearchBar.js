@@ -1,27 +1,8 @@
 'use client'
+
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import Fuse from 'fuse.js'
-import { buildSearchIndex } from '../../data/modules'
-import clsx from 'clsx'
-
-// Build index once at module load time
-let fuse = null
-function getFuse() {
-  if (!fuse) {
-    fuse = new Fuse(buildSearchIndex(), {
-      keys: [
-        { name: 'title', weight: 0.4 },
-        { name: 'tag', weight: 0.2 },
-        { name: 'body', weight: 0.4 },
-      ],
-      threshold: 0.35,
-      includeScore: true,
-      minMatchCharLength: 2,
-    })
-  }
-  return fuse
-}
+import { getSearchFuse } from '../../lib/search'
 
 export default function SearchBar({ compact = false, autoFocus = false, initialQuery = '' }) {
   const [query, setQuery] = useState(initialQuery)
@@ -31,12 +12,10 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
   const inputRef = useRef(null)
   const dropdownRef = useRef(null)
 
-  // Auto-focus on full search page
   useEffect(() => {
     if (autoFocus && inputRef.current) inputRef.current.focus()
   }, [autoFocus])
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handleClick(e) {
       if (!dropdownRef.current?.contains(e.target) && !inputRef.current?.contains(e.target)) {
@@ -50,12 +29,8 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
   function handleInput(e) {
     const q = e.target.value
     setQuery(q)
-    if (q.trim().length < 2) {
-      setResults([])
-      setOpen(false)
-      return
-    }
-    const r = getFuse().search(q, { limit: 6 })
+    if (q.trim().length < 2) { setResults([]); setOpen(false); return }
+    const r = getSearchFuse().search(q, { limit: 6 })
     setResults(r)
     setOpen(r.length > 0)
   }
@@ -76,11 +51,7 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
 
   return (
     <div className="relative w-full">
-      {/* Input */}
-      <div className={clsx(
-        'flex items-center gap-2 bg-card border border-rule rounded-sm px-3',
-        compact ? 'h-8' : 'h-11',
-      )}>
+      <div className={`flex items-center gap-2 bg-card border border-rule rounded-sm px-3 ${compact ? 'h-8' : 'h-11'}`}>
         <svg className="text-gold-dim shrink-0" width="14" height="14" viewBox="0 0 16 16" fill="none">
           <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5"/>
           <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
@@ -92,10 +63,7 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
           onKeyDown={handleKeyDown}
           onFocus={() => results.length > 0 && setOpen(true)}
           placeholder="Search modules, slides, topics…"
-          className={clsx(
-            'flex-1 bg-transparent text-mist placeholder-grey outline-none font-sans',
-            compact ? 'text-xs' : 'text-sm',
-          )}
+          className={`flex-1 bg-transparent text-mist placeholder-grey outline-none font-sans ${compact ? 'text-xs' : 'text-sm'}`}
         />
         {query && (
           <button onClick={() => { setQuery(''); setResults([]); setOpen(false) }}
@@ -103,7 +71,6 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
         )}
       </div>
 
-      {/* Dropdown */}
       {open && (
         <div ref={dropdownRef} className="absolute top-full left-0 right-0 mt-1 bg-card border border-rule rounded-sm shadow-2xl z-50 overflow-hidden">
           {results.map(({ item }) => (
@@ -114,7 +81,7 @@ export default function SearchBar({ compact = false, autoFocus = false, initialQ
             >
               <div className="flex items-start gap-2">
                 <span className="text-gold-dim text-[10px] tracking-wider font-sans mt-0.5 shrink-0">
-                  {item.type === 'module' ? `M${item.module}` : `M${item.module}`}
+                  M{item.module}
                 </span>
                 <div className="min-w-0">
                   <div className="text-xs text-mist truncate group-hover:text-gold transition-colors">

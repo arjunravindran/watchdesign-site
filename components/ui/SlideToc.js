@@ -1,27 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
 import { useProgress } from '../../hooks/useProgress'
+import { useTocActive } from '../../hooks/useTocActive'
 
 export default function SlideToc({ slides }) {
-  const [activeId, setActiveId] = useState(slides[0]?.id || null)
+  const activeId = useTocActive(slides)
   const { isSeen, markUnseen } = useProgress()
-
-  useEffect(() => {
-    const els = slides.map(s => document.getElementById(s.id)).filter(Boolean)
-    if (els.length === 0) return
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.filter(e => e.isIntersecting)
-        if (visible.length > 0) setActiveId(visible[0].target.id)
-      },
-      { rootMargin: '-10% 0% -80% 0%', threshold: 0 }
-    )
-
-    els.forEach(el => observer.observe(el))
-    return () => observer.disconnect()
-  }, [slides])
 
   if (slides.length === 0) return null
 
@@ -48,8 +32,6 @@ export default function SlideToc({ slides }) {
               )}
               <span className="line-clamp-2 leading-snug min-w-0">{label}</span>
             </a>
-
-            {/* Seen checkmark — click to unmark */}
             {seen && (
               <button
                 onClick={() => markUnseen(slide.id)}

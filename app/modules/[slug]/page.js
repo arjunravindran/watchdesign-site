@@ -11,8 +11,9 @@ export function generateStaticParams() {
   return modules.map((m) => ({ slug: m.slug }))
 }
 
-export function generateMetadata({ params }) {
-  const mod = modules.find(m => m.slug === params.slug)
+export async function generateMetadata({ params }) {
+  const { slug } = await params
+  const mod = modules.find(m => m.slug === slug)
   if (!mod) return {}
   return {
     title: `Module ${mod.number}: ${mod.title} — Watch Design Programme`,
@@ -20,11 +21,12 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function ModulePage({ params }) {
-  const mod = modules.find(m => m.slug === params.slug)
+export default async function ModulePage({ params }) {
+  const { slug } = await params
+  const mod = modules.find(m => m.slug === slug)
   if (!mod) notFound()
 
-  const idx = modules.findIndex(m => m.slug === params.slug)
+  const idx = modules.findIndex(m => m.slug === slug)
   const prev = modules[idx - 1] || null
   const next = modules[idx + 1] || null
 

@@ -1,10 +1,10 @@
 import { modules } from '../../../data/modules'
 import SlideDeck from '../../../components/slides/SlideDeck'
+import SlideToc from '../../../components/ui/SlideToc'
 import ResourcesPanel from '../../../components/ui/ResourcesPanel'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
-// Tell Next.js which slugs to pre-render at build time
 export function generateStaticParams() {
   return modules.map((m) => ({ slug: m.slug }))
 }
@@ -26,48 +26,68 @@ export default function ModulePage({ params }) {
   const prev = modules[idx - 1] || null
   const next = modules[idx + 1] || null
 
-  const hasSlides = mod.slides.length > 0
+  const heroSlide = mod.slides.find(s => s.type === 'hero')
+  const tocSlides = mod.slides.filter(s => s.type !== 'hero' && s.type !== 'endcard')
+  const hasSlides = tocSlides.length > 0
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
 
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-xs text-grey mb-8">
+      <nav className="flex items-center gap-2 text-xs text-grey mb-10">
         <Link href="/" className="hover:text-gold transition-colors">Curriculum</Link>
         <span>›</span>
         <span className="text-mist">Module {mod.number}</span>
       </nav>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
+      {/* ── Masthead ──────────────────────────────────────────── */}
+      <div className="mb-12 pb-10 border-b border-rule">
+        <div className="w-10 h-px bg-gold mb-6" />
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 items-start">
+          <div>
+            <p className="eyebrow mb-3">Module {mod.number}</p>
+            <h1 className="font-serif text-4xl sm:text-5xl text-mist leading-tight mb-3 font-light tracking-tight">
+              {mod.title}
+            </h1>
+            {mod.subtitle && (
+              <p className="font-serif text-gold-dim italic text-lg sm:text-xl mb-5 font-light leading-snug">
+                {mod.subtitle}
+              </p>
+            )}
+            <p className="text-grey text-sm leading-relaxed max-w-prose mb-6">
+              {mod.description}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                mod.level,
+                mod.sessions ? `${mod.sessions} Session${mod.sessions > 1 ? 's' : ''}` : 'Self-paced',
+                mod.assignment,
+              ].filter(Boolean).map((tag, i) => (
+                <span key={i} className="text-[10px] text-grey bg-card border border-rule rounded-sm px-2.5 py-1 tracking-wide">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {heroSlide?.image && (
+            <div className="w-56 shrink-0 hidden lg:block">
+              <div className="rounded-sm overflow-hidden border border-rule/60 bg-card p-1 shadow-2xl shadow-gold/5">
+                <img
+                  src={heroSlide.image}
+                  alt={mod.title}
+                  className="w-full h-48 object-cover rounded-sm"
+                />
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_260px] gap-10">
 
         {/* ── Main content ─────────────────────────────────── */}
         <div>
-          {/* Module header */}
-          <div className="mb-8 border-l-2 border-gold pl-5">
-            <div className="eyebrow mb-2">Module {mod.number}</div>
-            <h1 className="font-serif text-3xl text-mist leading-tight mb-2">{mod.title}</h1>
-            <p className="text-grey text-sm italic">{mod.subtitle}</p>
-          </div>
-
-          {/* Meta pills */}
-          <div className="flex flex-wrap gap-2 mb-8">
-            {[
-              mod.level,
-              mod.sessions ? `${mod.sessions} Session${mod.sessions > 1 ? 's' : ''}` : 'Self-paced',
-              mod.assignment,
-            ].map((tag, i) => tag && (
-              <span key={i} className="text-[10px] text-grey bg-card border border-rule rounded-sm px-2 py-0.5 tracking-wide">
-                {tag}
-              </span>
-            ))}
-          </div>
-
-          {/* Description */}
-          <p className="text-grey text-sm leading-relaxed mb-10 max-w-prose border-l border-rule pl-4">
-            {mod.description}
-          </p>
-
-          {/* Slides */}
           {hasSlides ? (
             <SlideDeck slides={mod.slides} />
           ) : (
@@ -76,14 +96,7 @@ export default function ModulePage({ params }) {
               <h2 className="font-serif text-mist text-lg mb-2">Slides Coming Soon</h2>
               <p className="text-grey text-sm">
                 The full slide content for Module {mod.number} will be added here shortly.
-                In the meantime, download the PPTX file to access the complete module.
               </p>
-              <a
-                href={`/downloads/Module${mod.number.padStart(2, '0')}_${mod.title.replace(/[^a-zA-Z]/g, '')}.pptx`}
-                className="inline-flex items-center gap-2 mt-4 text-xs text-gold border border-gold-dim rounded-sm px-4 py-2 hover:bg-gold-dim/20 transition-colors"
-              >
-                ↓ Download Module {mod.number} PPTX
-              </a>
             </div>
           )}
         </div>
@@ -91,31 +104,16 @@ export default function ModulePage({ params }) {
         {/* ── Sidebar ──────────────────────────────────────── */}
         <div className="space-y-4">
 
+          {/* Table of contents */}
+          {tocSlides.length > 0 && (
+            <div className="slide-card p-4 sticky top-20">
+              <h3 className="eyebrow mb-4">In This Module</h3>
+              <SlideToc slides={tocSlides} />
+            </div>
+          )}
+
           {/* Resources Panel */}
           <ResourcesPanel moduleNumber={mod.number} />
-
-          {/* Module navigation */}
-          <div className="slide-card p-4 sticky top-20">
-            <h3 className="eyebrow mb-3">All Modules</h3>
-            <nav className="space-y-0.5">
-              {modules.map((m) => (
-                <Link
-                  key={m.slug}
-                  href={`/modules/${m.slug}/`}
-                  className={`flex items-center gap-2 px-2 py-1.5 rounded-sm text-xs transition-colors ${
-                    m.slug === mod.slug
-                      ? 'bg-gold/10 text-gold border-l border-gold'
-                      : 'text-grey hover:text-mist hover:bg-rule'
-                  }`}
-                >
-                  <span className="text-[10px] text-gold-dim w-8 shrink-0">
-                    {m.number}
-                  </span>
-                  <span className="leading-tight line-clamp-2">{m.title}</span>
-                </Link>
-              ))}
-            </nav>
-          </div>
 
         </div>
       </div>

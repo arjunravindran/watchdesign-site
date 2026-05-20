@@ -1,6 +1,7 @@
 import { modules } from '../../../data/modules'
 import SlideDeck from '../../../components/slides/SlideDeck'
 import SlideToc from '../../../components/ui/SlideToc'
+import SlideTocMobile from '../../../components/ui/SlideTocMobile'
 import ModuleProgress from '../../../components/ui/ModuleProgress'
 import ResourcesPanel from '../../../components/ui/ResourcesPanel'
 import Link from 'next/link'
@@ -91,6 +92,8 @@ export default function ModulePage({ params }) {
 
         {/* ── Main content ─────────────────────────────────── */}
         <div>
+          {tocSlides.length > 0 && <SlideTocMobile slides={tocSlides} />}
+
           {hasSlides ? (
             <SlideDeck slides={mod.slides} />
           ) : (
@@ -107,9 +110,9 @@ export default function ModulePage({ params }) {
         {/* ── Sidebar ──────────────────────────────────────── */}
         <div className="space-y-4">
 
-          {/* Table of contents */}
+          {/* Table of contents — desktop only */}
           {tocSlides.length > 0 && (
-            <div className="slide-card p-4 sticky top-20">
+            <div className="hidden lg:block slide-card p-4 sticky top-20">
               <h3 className="eyebrow mb-4">In This Module</h3>
               <SlideToc slides={tocSlides} />
             </div>

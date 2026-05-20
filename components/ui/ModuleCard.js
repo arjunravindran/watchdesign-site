@@ -1,8 +1,15 @@
+'use client'
+
 import Link from 'next/link'
+import { useProgress } from '../../hooks/useProgress'
 
 export default function ModuleCard({ mod }) {
   const isSpecial = mod.number === '09.5'
   const heroImage = mod.slides?.find(s => s.type === 'hero')?.image || null
+  const { moduleCompletion } = useProgress()
+
+  const trackedSlides = mod.slides?.filter(s => s.type !== 'hero' && s.type !== 'endcard') || []
+  const { pct } = moduleCompletion(trackedSlides)
 
   return (
     <Link href={`/modules/${mod.slug}/`} className="module-card block group overflow-hidden">
@@ -48,6 +55,13 @@ export default function ModuleCard({ mod }) {
           </span>
         </div>
       </div>
+
+      {/* Progress bar — only visible once started */}
+      {pct > 0 && (
+        <div className="h-0.5 bg-rule">
+          <div className="h-full bg-gold transition-all duration-500" style={{ width: `${pct}%` }} />
+        </div>
+      )}
     </Link>
   )
 }

@@ -1,6 +1,7 @@
 import { modules } from '../../../data/modules'
 import SlideDeck from '../../../components/slides/SlideDeck'
 import SlideToc from '../../../components/ui/SlideToc'
+import ModuleProgress from '../../../components/ui/ModuleProgress'
 import ResourcesPanel from '../../../components/ui/ResourcesPanel'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -68,6 +69,8 @@ export default function ModulePage({ params }) {
                 </span>
               ))}
             </div>
+
+            <ModuleProgress slides={tocSlides} />
           </div>
 
           {heroSlide?.image && (

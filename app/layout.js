@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata = {
   title: 'Watch Design Self-Study Programme',
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )

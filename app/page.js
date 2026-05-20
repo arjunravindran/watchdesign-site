@@ -35,7 +35,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
           <div className="flex flex-wrap gap-6 sm:gap-12 text-xs text-grey">
             {[
-              ['11', 'Modules'],
+              ['10', 'Modules'],
               ['115+', 'Slides'],
               ['9', 'Assignments'],
               ['100+', 'Curated resources'],

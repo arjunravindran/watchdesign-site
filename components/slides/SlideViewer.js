@@ -21,9 +21,14 @@ export default function SlideViewer({ slide }) {
     )
   }
 
+  const isAssignment = slide.type === 'assignment'
   return (
-    <div id={slide.id} className="slide-card overflow-hidden mb-6 bg-card border border-rule/80 rounded-sm shadow-xl shadow-black/40 hover:border-rule transition-all duration-300">
-      {slide.tag && (
+    <div id={slide.id} className={`slide-card overflow-hidden mb-6 rounded-sm shadow-xl shadow-black/40 transition-all duration-300 ${
+      isAssignment
+        ? 'bg-card border border-gold-dim/40 hover:border-gold-dim'
+        : 'bg-card border border-rule/80 hover:border-rule'
+    }`}>
+      {slide.tag && !isAssignment && (
         <div className="px-6 pt-5 pb-0">
           <span className="eyebrow text-[9px] tracking-widest2 font-semibold text-gold">{slide.tag}</span>
         </div>
@@ -236,16 +241,23 @@ function SlideSequence({ s }) {
 function SlideAssignment({ s }) {
   const bodyLines = (s.body || s.brief || '').split('\n').filter(line => line.trim())
   return (
-    <SlideLayout s={s}>
-      <div className="border-t-2 border-gold pt-5">
-        <div className="eyebrow mb-2 font-bold text-gold">Assignment</div>
-        <Heading text={s.heading} />
+    <>
+      {/* Full-bleed gold header band — negative margins cancel the p-6 pt-4 from SlideViewer */}
+      <div className="-mx-6 -mt-4 mb-6 px-6 py-4 bg-gold/10 border-b border-gold/20 flex items-baseline justify-between">
+        <span className="eyebrow font-bold text-gold">Assignment</span>
+        {s.tag && <span className="text-[10px] text-gold-dim font-mono tracking-widest">{s.tag}</span>}
+      </div>
+
+      <SlideLayout s={s}>
+        <h2 className="font-serif text-mist text-2xl sm:text-3xl leading-snug font-light tracking-wide pb-4 mb-5 border-b border-rule/30">
+          {s.heading}
+        </h2>
         {s.warning && (
-          <div className="mt-4 bg-rust/10 border border-rust/30 rounded-sm px-5 py-3 text-xs text-ivory/90 leading-relaxed font-sans">
+          <div className="mb-4 bg-rust/10 border border-rust/30 rounded-sm px-5 py-3 text-xs text-ivory/90 leading-relaxed font-sans">
             ⚠  {s.warning}
           </div>
         )}
-        <div className="mt-5 bg-rule/20 rounded-sm p-5 border border-rule/50 shadow-inner">
+        <div className="bg-rule/20 rounded-sm p-5 border border-rule/50 shadow-inner">
           {s.brief ? (
             <p className="text-grey text-xs leading-relaxed whitespace-pre-line font-sans">{s.brief}</p>
           ) : (
@@ -285,8 +297,8 @@ function SlideAssignment({ s }) {
             Deliverable: {s.deliverable}
           </div>
         )}
-      </div>
-    </SlideLayout>
+      </SlideLayout>
+    </>
   )
 }
 

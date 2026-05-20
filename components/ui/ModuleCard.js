@@ -7,17 +7,19 @@ export default function ModuleCard({ mod }) {
   return (
     <Link href={`/modules/${mod.slug}/`} className="module-card block group overflow-hidden">
       {heroImage ? (
-        <div className="relative h-32 overflow-hidden">
+        <div className="relative h-36 overflow-hidden">
           <img
             src={heroImage}
             alt={mod.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-transparent" />
         </div>
       ) : (
-        <div className="px-5 pt-5">
-          <div className="w-8 h-px bg-gold-dim group-hover:bg-gold group-hover:w-12 transition-all duration-300" />
+        <div className="h-36 flex items-center justify-center bg-rule/10 border-b border-rule/30">
+          <span className="font-serif text-gold/20 text-5xl font-light select-none">
+            {mod.number}
+          </span>
         </div>
       )}
 
